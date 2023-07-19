@@ -51,8 +51,13 @@ public class GstoreController {
         String database = (String) map.getOrDefault("database", "KQAPro");
         String sparQL = (String) map.getOrDefault("sparql", "select * where {?s ?p ?o} limit 10");
         log.info("此次查询: database: {}, sparql: {}", database, sparQL);
+
         GstoreResult res = gstoreService.query(database, sparQL);
         log.info("此次查询结果: {}", res);
+
+        if (res == null) {
+            return R.error("数据库连接错误");
+        }
         if (res.getStatusCode() == 0) {
             if (res.getAnsNum() == 0) {
                 R<GstoreResult> r = new R<>(1001, "未查询到结果", res);
