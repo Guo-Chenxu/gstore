@@ -1,0 +1,6 @@
+server:
+  port: 12300
+
+spring:
+  application:
+    name: gstore
