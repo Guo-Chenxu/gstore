@@ -4,6 +4,7 @@ import com.alibaba.fastjson2.JSON;
 import com.guochenxu.gstore.entity.GstoreResult;
 import com.guochenxu.gstore.jgsc.GstoreConnector;
 import com.guochenxu.gstore.service.GstoreService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,6 +19,7 @@ import java.util.concurrent.*;
  **/
 
 @Service
+@Slf4j
 public class GstoreServiceImpl implements GstoreService {
 
     @Autowired
@@ -25,7 +27,11 @@ public class GstoreServiceImpl implements GstoreService {
 
     @Override
     public GstoreResult query(String database, String sparQL) {
-        String load = gc.load(database, "");
+        String load = gc.load(database, "0");
+        log.info("数据库加载结果: {}", load);
+        if (load == null || "".equals(load)) {
+            return null;
+        }
         char c = load.charAt(load.indexOf("StatusCode") + 12);
         if (c != '0') {
             return null;
