@@ -20,27 +20,9 @@ public class GstoreResult {
         private List<String> vars;
     }
 
-    /**
-     * 具体的查询结果
-     */
-    @Data
-    public class SOP {
-        String type;
-        String dataType;
-        String value;
-    }
-
-    @Data
-    public class Bindings {
-        /**
-         * 具体的查询结果, map 中的键是 head.var 里面的值, map 中的值是具体的查询结果
-         */
-        private Map<String, SOP> map;
-    }
-
     @Data
     public class Results {
-        private List<String> bindings;
+        private List<Map<String, Map<String, String>>> bindings;
     }
 
     private Head head;
