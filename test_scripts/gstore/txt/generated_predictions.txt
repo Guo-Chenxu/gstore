@@ -1,0 +1,1292 @@
+{"predict": "select?x where { <凉宫村日> <所属社团>?x. }"}
+{"predict": "select?y where { <无间道_（刘若英主演电影）> <主演>?x.?x <职业> <歌手_（职业名称）>.?x <代表作品> <无间道_（刘若英主演电影）>. }"}
+{"predict": "select?y where {?x <子女> <诸邑公主>.?x <父亲>?y.?y <庙号>?x }"}
+{"predict": "select?x where {?x <国籍> <英国_（大不列颠及北爱尔兰联合王国）>.?x <出生日期> \"1776-08-02\". }"}
+{"predict": "select?x where {?y <中文名> \"莉薇娅·杜路莎·奥古斯塔\".?y <主要民族>?z.?z <主要宗教>?x. }"}
+{"predict": "select?x where { <原子弹_（核武器）> <重要材料>?y.?y <发现时间>?x. }"}
+{"predict": "select?x where {?y <主要性能> \"世界第一台电子多用途计算机\".?y <重量>?x. }"}
+{"predict": "select?x where {?y <信仰>?x.?y <代表食物> <烤包子>. }"}
+{"predict": "select?x where {?x <主要成就> \"6次总冠军\".?x <主要成就> \"招牌动作-后仰跳投\". }"}
+{"predict": "select?y where { <中国人民大学> <城市>?x.?x <总人口>?y. }"}
+{"predict": "select?x where { <沙丘战役> <地点>?y.?y <气候条件>?x. }"}
+{"predict": "select?x where {?y <主要奖项> \"金曲奖\".?y <身高>?x. }"}
+{"predict": "select?y where { <狭义相对论> <提出人>?x.?x <出生日期>?y. }"}
+{"predict": "select?y where { <莫言_（中国诺贝尔文学奖获得者）> <影响人物>?x.?x <代表作品>?y. }"}
+{"predict": "select?x where { <波兰_（波兰共和国）> <首都>?y.?y <面积>?x. }"}
+{"predict": "select?x where { <史塔克_（美国动漫及电影钢铁侠中的人物）> <主演>?x. }"}
+{"predict": "select?x where { <北京大学> <学术传统>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"迁都\". }"}
+{"predict": "select?x where {?x <主要成就> \"现代通话之父\". }"}
+{"predict": "select?x where { <渡江战役> <参战兵力>?x. }"}
+{"predict": "select?x where { <太平洋> <平均盐度>?x. }"}
+{"predict": "select?x where { <任天堂> <主要游戏系列>?x. }"}
+{"predict": "select?x where { <神秘海域_（神秘海域系列游戏）> <游戏平台>?y.?y <生产商>?x. }"}
+{"predict": "select?x where { <方正集团> <公司口号>?x. }"}
+{"predict": "select?x where { <iPhone> <操作系统>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"第一个进入太空的地球人\". }"}
+{"predict": "select?x where { <十月革命_（1917年10月25日在彼得格勒发生的政变）> <发生地点>?x. }"}
+{"predict": "select?x where { <南水北调工程> <涉及地区>?x. }"}
+{"predict": "select?x where { <Android_（Android operating system）> <发行商>?x. }"}
+{"predict": "select?x where { <华为技术有限公司> <总裁>?y.?y <出生地>?x. }"}
+{"predict": "select?x where { <刺客信条系列_（育碧刺客信条系列游戏）> <开发公司>?x. }"}
+{"predict": "select?x where {?x <主要人物> <塞尔达传说·荒野之息>. }"}
+{"predict": "select?x where { {0} < <系列的最新作>?x. }"}
+{"predict": "select?x where {?x <开发公司> <微软>.?x <开发公司> <343_（总部位于美国西雅图）>. }"}
+{"predict": "select?x where {?x <开发商> <Valve>.?x <类型> <fps_（电子游戏分类）>. }"}
+{"predict": "select?y where { <彩虹六号：围攻_（XCOM）> <作者>?x.?y <作者>?x.?y <主题> <末日_（词语概念）>. }"}
+{"predict": "select?x where { <战舰世界_（Wargaming.net开发的Wargaming.net战锤40k系列游戏）> <开发商>?y.?y <成立时间>?x. }"}
+{"predict": "select?x where {?x <设备> <PS4_（PlayStation4）>.?x <类型> <文字冒险>. }"}
+{"predict": "select?y where { <初音未来_（Crypton Future Media公司开发的游戏人物）> <登场作品>?x.?x <开发者>?y. }"}
+{"predict": "select?x where { <黑魂_（魂系游戏）> <发行商>?x. }"}
+{"predict": "select?y where {?x <别名> \"第六天魔王\".?x <成就>?y. }"}
+{"predict": "select?x where { <伊达政宗> <生卒时间>?y.?y <开始时间>?x. }"}
+{"predict": "select?x where { <川端康成> <代表作品>?x.?x <主要角色> <岛村>. }"}
+{"predict": "select?x where {?x <作者> <宫泽贤治>. }"}
+{"predict": "select?x where { <船中八策> <提出者>?y.?y <主要成就> \"提出船中八策\".?y <主要成就>?x. }"}
+{"predict": "select?x where { <日本战国三英杰> <三人称>?y.?y <别称> <猴子_（汉语词语）>.?y <墓志铭>?x. }"}
+{"predict": "select?x where { <大正浪漫> <提出者>?y.?y <逝世日期>?x. }"}
+{"predict": "select?x where { <逆转裁判_（青山伸昭创作的推理游戏）> <游戏平台> <3DS>. <逆转裁判_（青山伸昭创作的推理游戏）> <作品>?x. }"}
+{"predict": "select?x where {?y <作者> <三岛由纪夫>.?y <长篇小说>?x. }"}
+{"predict": "select?x where { <镰仓幕府_（日本幕府统治机构）> <灭亡>?x. }"}
+{"predict": "select?x where {?x <职业> <动画监督>.?x <职业> <演出人_（表演艺术家）>. }"}
+{"predict": "select?x where { <生化危机_（ capcom 开发并发行的恐怖游戏）> <主要角色>?x. }"}
+{"predict": "select?x where { <T病毒> <别称>?x. }"}
+{"predict": "select?x where { <命运石之门_（日本轻小说、动画、漫画作品）> <游戏平台>?x. }"}
+{"predict": "select?x where {?x <出生地> <东京_（日本首都）>.?x <身高> <152>. }"}
+{"predict": "select?x where { <水濑祈> <别名>?x. }"}
+{"predict": "select?x where { <天元突破（EXECUTIVE CUT）> <导演>?x. }"}
+{"predict": "select?y where {?x <职业> <士官长>.?x <所属地区>?y. }"}
+{"predict": "select?x where { <3ds> <特色>?x. }"}
+{"predict": "select?x where { <街机版偶像大师> <发行时间>?x. }"}
+{"predict": "select?x where { <四松堂集> <收藏>?x. }"}
+{"predict": "select?x where { <北京大学图书馆> <建馆时间>?x. }"}
+{"predict": "select?x where { <新西兰> <所属洲>?x. }"}
+{"predict": "select?a where{?x <中文名> \"新西兰\".?x <主要宗教>?a. } "}
+{"predict": "select?x where { <马里诺维奇> <所属运动队>?x. }"}
+{"predict": "select?x where { <足球> <最高赛事>?x. }"}
+{"predict": "select?x where { <金垃圾奖> <领域>?x. }"}
+{"predict": "SELECT?x WHERE { <意大利_（意大利共和国）> <国土面积>?x. } "}
+{"predict": "select?x where { <天主教> <创始地点>?x. }"}
+{"predict": "select?x where { <天主教_（基督教宗教团体）> <信仰禁忌>?x. }"}
+{"predict": "select?x where { <新之助_（日本漫画《蜡笔小新》作者）> <出生地>?y.?y <出版年>?x. }"}
+{"predict": "select?x where { <新番猎人> <集数>?x. }"}
+{"predict": "select?x where { <小山义崇> <登场作品>?x. }"}
+{"predict": "select?x where { <鲁迅_（文学家、思想家）> <主要成就>?x. }"}
+{"predict": "select?x where { <希望_（鲁迅散文诗）> <作品集>?x. }"}
+{"predict": "select?y where { <鼠标> <发明人>?x.?x <毕业院校>?y. }"}
+{"predict": "select?x where {?y <国籍> <日本_（日本国）>.?y <职业> <指挥家>.?y <别名>?x. } "}
+{"predict": "select?y where {?x <别名> \"中国硅谷\".?x <位置>?y. }"}
+{"predict": "select?x where { <极简主义> <理念>?y.?y <位置>?x. }"}
+{"predict": "select?x where {?x <竣工时间> \"1421\".?x <属于> <历史博物馆_（公共建筑）>. }"}
+{"predict": "select?x where {?x <作者> <张择端>.?x <又称> \"中国十大传世名画之一\". }"}
+{"predict": "select?y where { <朱棣_（明成祖）> <年号>?x.?x <前任>?y. }"}
+{"predict": "select?x where {?y <尊称> <玉奴>.?y <本名>?x. }"}
+{"predict": "select?x where {?x <作者> <司马迁>.?x <主要作品> \"列传乐毅\". }"}
+{"predict": "select?y where { <无颜见江东父老> <作品原出处>?x.?x <文学体裁>?y. }"}
+{"predict": "select?y where { <项羽本纪> <文学体裁>?x.?x <特点>?y. }"}
+{"predict": "select?x where {?y <作品名称> <宋微子世家>.?y <文学体裁>?x.?y <作者> <曹相国世家_（汉朝王叔文故事）>.?y <文学体裁>?x. }"}
+{"predict": "select?x where { <瓮牖绳枢之子> <作者>?x. }"}
+{"predict": "select?y where { <心学四诀> <作者>?x.?x <别名>?y. } "}
+{"predict": "select?x where {?x <主要成就> \"阳明心学\".?x <主要成就> \"剿灭南赣盗贼\". }"}
+{"predict": "select?x where {?y <电话区号> \"5910599\".?y <省会是>?x. }"}
+{"predict": "select?x where { <信用媒介论> <代表人物>?x. }"}
+{"predict": "select?x where {?x <导演> <圆谷英二>.?x <类型> <特摄>. }"}
+{"predict": "select?x where {?x <主演> <郭富城>.?x <主演> <郑伊健>.?x <导演> <刘伟强_（香港导演）>. } "}
+{"predict": "select?x where {?y <主要成就>?x.?y <国籍> <战国_（历史时期）>.?y <主要成就>?x. }"}
+{"predict": "select?x where { <天主教> <教义>?x. }"}
+{"predict": "select?x where {?y <毕业院校>?x.?y <场上位置> <控球后卫（足球位置）>. }"}
+{"predict": "select?x where { <H1N1猪流感> <症状>?x. }"}
+{"predict": "select?x where { <南阳三大宝> <另外两个>?x. }"}
+{"predict": "select?z where {?x <代表作品> <我们的答案>.?x <经纪公司>?y.?y <经营范围>?z. }"}
+{"predict": "select?x where {?y <民族> <姬世晓>.?y <官方语言>?x. }"}
+{"predict": "select?y where { <红楼梦_（2008年王迎风、胡文阁等编写的古典名著）> <作者>?x.?x <职业> <歌手_（职业名称）>.?x <出生地>?y. }"}
+{"predict": "select?x where { <粤台经贸合作试验区> <车牌号>?x. }"}
+{"predict": "select?x where {?y <主要成就> \"中国之父\".?y <出生日期>?x. }"}
+{"predict": "select?x where { <湖南_（中国湖南省）> <方言>?x. }"}
+{"predict": "select?y where {?x <别称> <荧惑>.?x <直径>?y. }"}
+{"predict": "select?y where {?x <创始人> <何大仁>.?x <创办时间>?y. }"}
+{"predict": "select?x where { <漳州> <所属地区>?y.?x <所属地区>?y. }"}
+{"predict": "select?x where {?y <主要食材> <枸杞>.?y <主要食材> <雏鸽>.?y <口味>?x. }"}
+{"predict": "select?x where { <追梦赤子心_（郑智化演唱歌曲）> <歌曲原唱>?x. }"}
+{"predict": "select?x where { <阿里音乐> <音乐人>?x. }"}
+{"predict": "select?x where { <李渊_（唐朝开国皇帝）> <主要成就>?x. }"}
+{"predict": "select?x where { <晋阳起兵> <发生时间>?x. }"}
+{"predict": "select?x where { <意见派> <别名>?x. }"}
+{"predict": "select?y where { <福尔摩斯_（英国作家阿瑟·柯南·道尔创作人物）> <作者>?x.?x <民族>?y. }"}
+{"predict": "select?x where {?x <语言> <意大利语>.?x <货币> <欧元_（欧洲共同货币）>. }"}
+{"predict": "select?x where { <中华人民共和国> <首都>?y.?y <邮政区码>?x. }"}
+{"predict": "select?y where { <文化苦旅> <作者>?x.?x <毕业院校>?y. }"}
+{"predict": "select?y where {?x <创始人> <马化腾>.?x <创始人> <陈一丹>.?x <员工数>?y. }"}
+{"predict": "select?x where { <北京大学> <学术传统>?x. }"}
+{"predict": "select?x where { <白居易> <诞辰>?x. }"}
+{"predict": "select?x where { <白氏长庆集> <卷数>?x. }"}
+{"predict": "select?x where { <貘屏赞> <集数>?x. }"}
+{"predict": "select?x where { <忆江南三首> <时代>?x. }"}
+{"predict": "select?x where { <苏轼_（北宋文学家）> <谥号>?x. }"}
+{"predict": "select?x where {?x <别名> \"苏仙\". }"}
+{"predict": "select?x where { <掷凫猎兔> <作者>?x. }"}
+{"predict": "select?x where { <送欧阳推官赴华州监酒> <体裁>?x. }"}
+{"predict": "select?x where { <豪放派> <代表人物>?x. }"}
+{"predict": "select?x where { <陈思成> <毕业院校>?x. }"}
+{"predict": "select?x where { <陈思成> <粉丝>?y.?y <别名>?x. }"}
+{"predict": "select?x where { <陈思成> <配偶>?x. }"}
+{"predict": "select?x where { <珠落玉盘_（成语）> <作者>?x. }"}
+{"predict": "select?x where { <白居易_（唐代著名诗人）> <写作>?x. }"}
+{"predict": "select?x where { <醉中留别杨六兄弟> <集数>?x.?x <七言绝句>?x. }"}
+{"predict": "select?x where { <唐代_（中国历史朝代）> <著名诗人>?x. }"}
+{"predict": "select?x where {?x <地位> \"唐宋八大家\".?x <谥号> \"文忠\". }"}
+{"predict": "select?y where { <醉饱高眠> <作者>?x.?x <出生日期>?y. }"}
+{"predict": "select?x where {?x <主要成就> \"唐宋八大家\".?x <主要成就> \"宋四家\". }"}
+{"predict": "select?y where { <北京爱情故事吧> <导演>?x.?x <星座>?y. }"}
+{"predict": "select?x where {?x <代表作品> <山花情>.?x <代表作品> <愤怒的机枪>. }"}
+{"predict": "select?x where {?x <出生地> <沈阳>.?x <代表作品> <碧海雄心_（2004年陈应松主演40集电视剧）>. }"}
+{"predict": "select?x where {?x <主演> <陈思成_（中国内地男演员、导演、编剧）>.?x <导演> <陈思成_（中国内地男演员、导演、编剧）>. }"}
+{"predict": "select?x where {?x <主演> <陈思成_（中国内地男演员）>.?x <主演> <刘涛>. }"}
+{"predict": "select?x where {?x <主演> <陈思成_（中国内地男演员、导演、编剧）>.?x <类型> <剧情>. }"}
+{"predict": "select?x where {?x <主要成就> \"最具演技女演员奖\".?x <主要成就> \"十大正能量女性\". }"}
+{"predict": "select?x where {?y <主要作品> <欢乐颂_（以关爱华语电视剧欢乐颂为名称的电视剧系列）>.?y <配偶>?x.?y <主要作品> <芈月传_（电视剧《芈月传》）>.?y <配偶>?x. }"}
+{"predict": "select?x where {?x <主演> <梁咏琪>.?x <主演> <金城武>. }"}
+{"predict": "select?x where {?x <黄金一代> \"96黄金一代\".?x <后卫>?x. }"}
+{"predict": "select?x where { <波士顿凯尔特人队> <主场馆>?x. }"}
+{"predict": "select?x where { <瑞典> <汽车品牌>?x. }"}
+{"predict": "select?x where { <刺史制度> <创制者>?x. }"}
+{"predict": "select?x where { <沉默的大多数> <作者>?y.?y <配偶>?x. }"}
+{"predict": "select?x where {?x <地位> \"冠军侯\".?x <职业> <军事将领>. }"}
+{"predict": "select?x where { <伯克希尔·哈撒韦> < CEO>?y.?y <出生地>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"改良蒸汽机\". }"}
+{"predict": "select?y where {?x <主要成就> \"隋朝开国皇帝\".?x <妻子>?y.?y <民族>?y. }"}
+{"predict": "select?x where {?x <出生地> <维也纳>. }"}
+{"predict": "select?x where { <上海三大亨> <成员>?x. }"}
+{"predict": "select?y where {?x <代表作品> <忏悔录_（卢梭作品《忏悔录》）>.?x <出生地>?y. }"}
+{"predict": "select?x where {?y <登场作品> <七龙珠_（漫画《龙珠》改编制作动画）>.?y <妻子>?x. }"}
+{"predict": "select?x where { <卡拉比猜想> <证明人>?x. }"}
+{"predict": "select?x where { <天水围的日与夜> <导演>?y.?y <毕业院校>?x. } "}
+{"predict": "select?x where { <文艺复兴> <起源>?x. }"}
+{"predict": "select?x where {?x <国籍> <塞尔维亚>.?x <运动项目> <网球_（运动）>. }"}
+{"predict": "select?y where { <赤木晴子> <哥哥>?x.?x <球技>?y. }"}
+{"predict": "select?y where { <开往中国的慢船> <作者>?x.?x <国籍>?y. }"}
+{"predict": "select?x where { <死海_（亚洲湖泊）> <首都>?x. }"}
+{"predict": "select?x where { <利昂·图雷_（非洲足球传奇）> <身上纹>?x. <利昂·图雷_（足球运动员）> <名字>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"公牛王朝\". }"}
+{"predict": "select?x where {?x <位置> <右脚>.?x <俱乐部> <曼联_（英格兰曼彻斯特联足球俱乐部）>. }"}
+{"predict": "select?x where { <新闻联播_（中央电视台新闻节目）> <主持人>?y.?y <民族>?x. }"}
+{"predict": "select?x where { <韩国_（大韩民国）> <演员>?x.?x <代表作品> <一代宗师_（2013年王家卫执导电影）>. }"}
+{"predict": "select?x where {?y <国籍> <台湾>.?y <代表歌曲>?x. } "}
+{"predict": "select?y where { <好望角_（非洲西南部地区）> <城市>?y. }"}
+{"predict": "select?x where { <拉美文学> <代表作品>?x.?x <文学流派> <魔幻现实主义>. }"}
+{"predict": "select?x where { <天龙八部_（金庸创作小说）> <日月神教教主>?y.?y <绝招>?x. }"}
+{"predict": "select?x where {?x <职业> <科学家_（从事科学研究的人群）>.?x <毕业院校> <合肥工业大学>. }"}
+{"predict": "select?x where { <湖南大学> <现任校长>?x. }"}
+{"predict": "select?y where { <成败一知己，生死两妇人> <主要人物>?x.?x <主要成就>?y. }"}
+{"predict": "select?x where { <贞观之治> <相关人物>?x. }"}
+{"predict": "select?y where { <贾环> <父亲>?x.?x <人物原型>?y. } "}
+{"predict": "select?x where { <窦娥冤_（元代戏曲家关汉卿代表作）> <作品作者>?x. }"}
+{"predict": "select?y where {?x <配偶>?y. <孔丘_（孔丘战役指挥者）> <配偶>?y. }"}
+{"predict": "select?x where { <黄河_（中国第二长河）> <主要支流>?x. }"}
+{"predict": "select?y where {?x <丈夫> <贾琏_（小说《红楼梦》人物）>.?x <性格>?y. }"}
+{"predict": "select?x where { <杨振宁> <毕业院校>?x. }"}
+{"predict": "select?y where {?x <妹妹> <薛宝钗>.?x <结拜兄弟>?y. }"}
+{"predict": "select?x where { <苏秦_（战国时期战略家）> <师承>?x. }"}
+{"predict": "select?x where { <韩世忠> <谥号>?x. }"}
+{"predict": "select?x where { <三圣母_（动漫《圣斗士星界》中角色）> <扮演者>?x. }"}
+{"predict": "select?x where { <李隆基_（唐朝第六位皇帝）> <年号>?x. }"}
+{"predict": "select?y where { <严嵩> <儿子>?x.?x <出生地>?y. }"}
+{"predict": "select?x where { <唐僧_（西游记中的唐僧）> <父亲>?x. }"}
+{"predict": "select?x where { <飞机_（交通工具）> <发明者>?x. }"}
+{"predict": "select?x where { <千金要方> <作者>?y.?y <所处时代>?x. }"}
+{"predict": "select?x where { <巴黎圣母院_（法国巴黎教堂）> <建筑风格>?x. }"}
+{"predict": "select?x where { <关羽_（三国时期蜀汉将领）> <字号>?x. }"}
+{"predict": "select?x where { <清明上河图_（北宋张择端风俗画）> <作者>?x. }"}
+{"predict": "select?x where { <杜甫_（唐朝诗人）> <主要作品>?x. }"}
+{"predict": "select?x where {?y <别名> \"杨戬、哮天犬\".?y <兵器>?x. }"}
+{"predict": "select?x where { <紫鹃_（小说《红楼梦》人物）> <主>?y.?y <住处>?x. }"}
+{"predict": "select?x where { <SARS> <主要病症>?x. }"}
+{"predict": "select?y where { <香蕉_（芭蕉科芭蕉属植物）> <分布>?x.?x <主要>?y. }"}
+{"predict": "select?x where {?x  <作者> <村上春树_（日本著名作家）>.?x <出版时间> \"2007-07-01\". } "}
+{"predict": "select?x where { <村上春树_（日本著名作家）> <国籍>?x. }"}
+{"predict": "select?x where { <周杰伦> <外文名>?x.  }"}
+{"predict": "select?x where { <腾讯> <法定代表人>?y.?y <毕业院校>?x. } "}
+{"predict": "select?x where {?y <主要奖项> \"NBA最有价值球员奖（2008）\".?y <出生日期>?x. } "}
+{"predict": "select?x where { <科比·布莱恩特> <父亲>?y.?y <国籍>?x. }"}
+{"predict": "select?x where { <权力的游戏_（美国HBO电视台制作的电视剧）第五季> <集数>?x. }"}
+{"predict": "select?x where { <斯大林> <逝世日期>?x. }"}
+{"predict": "select?x where { <黄蓉_（金庸武侠小说《射雕英雄传》女主角）> <丈夫>?y.?y <出生地>?x. }"}
+{"predict": "select?x where {?x <主演> <张智霖>. ?x <主演> <朱茵_（中国香港女演员）>. }"}
+{"predict": "select?x where {?x <主演> <张卫健>.?x <导演> <冯柏源>.?x <首播时间> \"2002\". }"}
+{"predict": "select?x where {?x <主演> <朱茵_（中国香港女演员）>.?x <主演> <唐嫣>. }"}
+{"predict": "select?x where { <杜兰特_（美国篮球运动员）> <球衣号码>?x. }"}
+{"predict": "SELECT?x WHERE { <意大利_（意大利共和国）> <国土面积>?x. } "}
+{"predict": "select?x where { <意大利_（意大利共和国）> <所属洲>?x. }"}
+{"predict": "select?x where { <德国_（德意志联邦共和国）> <首都>?x. }"}
+{"predict": "select?y where { <张敬轩> <经纪公司>?x.?x <董事长>?y. }"}
+{"predict": "select?x where { <王菲_（华语女歌手、演员）> <宗教>?x. }"}
+{"predict": "select?y where { <红豆_（红豆乐队演唱歌曲）> <填词>?x.?x <中文名>?y. }"}
+{"predict": "select?x where {?y <中文名称> \"唱游\".?y <专辑数量>?x. }"}
+{"predict": "select?x where {?x <歌曲原唱> <李荣浩_（中国加拿大男歌手、音乐人、演员）>.?x <填词> <黄伟文_（香港流行歌手）>. }"}
+{"predict": "select?x where { <李白_（唐朝著名诗人）> <祖籍>?y.?y <电话区号>?x. }"}
+{"predict": "select?x where { <送崔十二游天竺寺> <作者>?y.?y <国籍>?x. }"}
+{"predict": "select?x where { <李白_（唐朝著名诗人）> <墓葬地>?x. }"}
+{"predict": "select?x where { <帝京篇_（李世民作唐诗）> <作者> ?y.?y <庙号>?x. } "}
+{"predict": "select?x where { <9·11事件> <袭击形式>?x. }"}
+{"predict": "select?x where { <本·拉登> <主要罪行>?y. ?y <受伤>?x. }"}
+{"predict": "select?x where { <赵雷_（民谣歌手、音乐人）> <音乐风格>?x.?y <出版时间> \"2011-08-07\". }"}
+{"predict": "select?x where { <易烊千玺> <代表作品>?x. }"}
+{"predict": "select?x where {?y <登场作品> <海贼王_（尾田荣一郎创作的漫画作品）>.?y <船长>?x. }"}
+{"predict": "select?y where { <陈凯歌_（中国内地导演）> <儿子>?x.?x <代表作品>?y. }"}
+{"predict": "select?x where { <进击的巨人_（日本改编漫画）> <主要人物>?y.?y <身高>?x. }"}
+{"predict": "select?x where {?y <官方语言> <拉丁语>.?y <所属洲>?x. }"}
+{"predict": "select?x where { <南派三叔> <代表作品>?x. }"}
+{"predict": "select?x where { <澳大利亚> <首都>?y.?y <气候>?x. }"}
+{"predict": "select?x where { <白胡子_（日本漫画《海贼王》中人物）> <武器>?x. }"}
+{"predict": "select?x where { <郭麒麟> <父亲>?y.?y <职业>?x. }"}
+{"predict": "select?x where { <法家_（思想家李洪志创作的流派）> <代表人物>?x. }"}
+{"predict": "select?x where { <大连理工大学> <学校地址>?x. }"}
+{"predict": "select?x where {?x <主演> <倪妮>.?x <导演> <张艺谋>. }"}
+{"predict": "select?x where { <红高粱_（茅盾篇小说）> <作者>?y.?y <毕业院校>?x. }"}
+{"predict": "select?x where { <Cola_（可乐类饮料）> <配料>?x. }"}
+{"predict": "select?x where { <腾讯> <法人>?y.?y <毕业院校>?x. }"}
+{"predict": "select?x where {?x <籍贯> <河南_（中国中部地区省份）>.?x <职业> <演员_（职业）>. }"}
+{"predict": "select?x where {?x <民族> <维吾尔族>.?x <职业> <演员_（职业）>. }"}
+{"predict": "select?x where {?x <主演> <杨幂_（中国内地女演员、歌手）>.?x <主演> <迪丽热巴>. }"}
+{"predict": "select?x where { <北京大学东门站> <所在<地铁线路>?x. }"}
+{"predict": "select?x where {?y <登场作品> <火影忍者_（岸本齐史创作的漫画）>.?y <配音>?x. }"}
+{"predict": "select?x where { <月光·莫利亚_（动漫《海贼王》中角色）> <能力>?x. }"}
+{"predict": "select?x where {?y <别名> \"Laughing gas；dinitrogen oxide\".?y <化学式>?x. }"}
+{"predict": "select?x where {?x <导演> <沈腾_（中国内地男演员、导演、编剧）>. }"}
+{"predict": "select?x where { <华为技术有限公司> <官网>?x. }"}
+{"predict": "select?x where { <白羊座> <守护神>?x. }"}
+{"predict": "select?y where {?x <别名> \"黑曼巴\".?x <球衣号码>?y. }"}
+{"predict": "select?x where { <玉米_（一种粮食作物）> <别名>?x. }"}
+{"predict": "select?x where {?x <洲际指数> \"亚洲\".?x <参与战争> <二战_（世界第二次法西斯战争）>. }"}
+{"predict": "select?x where { <日本_（日本国）> <国歌>?x. }"}
+{"predict": "select?x where { <台湾省> <方言>?x. }"}
+{"predict": "select?x where { <深圳> <火车站>?x. }"}
+{"predict": "select?x where { <美国_（美利坚合众国）> <英文名称>?x. }"}
+{"predict": "select?x where { <芝加哥_（美国伊利诺伊州最大的城市）> <别名>?x. }"}
+{"predict": "select?x where { <旧金山_（美国太平洋沿岸城市）> <气候条件>?x. }"}
+{"predict": "select?x where { <谷歌_（Google）> <子公司>?y.?y <公司口号>?x. }"}
+{"predict": "select?x where { <索尼> <创始人>?x. }"}
+{"predict": "select?x where { <清华大学> <校训>?x. }"}
+{"predict": "select?x where { <水> <沸点>?x. }"}
+{"predict": "select?x where { <曹县> <外文名称>?x. }"}
+{"predict": "select?x where { <龟虽寿_（汉乐府诗）> <作者>?x. }"}
+{"predict": "select?x where { <苏炳添> <主要荣誉>?x. }"}
+{"predict": "select?x where { <约塞米蒂国家公园> <植被类型>?x. }"}
+{"predict": "select?x where { <死海_（世界陆地表面最低点）> <所属地区>?x. }"}
+{"predict": "select?x where { <乞力马扎罗山脉> <主峰>?x. }"}
+{"predict": "select?x where { <塔希提岛> <主要宗教>?x. }"}
+{"predict": "select?x where {?x <经纪公司> <索尼音乐>.?x <国籍> <美国_（美利坚合众国）>. }"}
+{"predict": "select?y where { <渔人码头> <城市>?x.?x <机场>?y. }"}
+{"predict": "select?x where { <Android> <开发商>?y.?y <成立时间>?x. }"}
+{"predict": "select?x where { <老炮_（电影《老炮儿》）> <方言>?x. }"}
+{"predict": "select?y where { <大堡礁> <其中生物>?y. }"}
+{"predict": "select?x where {?x <国籍> <法国_（法兰西共和国）>.?x <职业> <天体力学>.?x <国籍> <中华人民共和国_. }"}
+{"predict": "SELECT?y WHERE { <法国_（法兰西共和国）> <首都>?x.?x<雅称>?y. } "}
+{"predict": "select?y where {?x <邮政区码> \"200000\".?x <市花>?y. }"}
+{"predict": "select?y where { <黑脸琵鹭> <属>?x.?y <属>?x. }"}
+{"predict": "select?x where { <北京大学> <学校地址>?x. }"}
+{"predict": "select?x where { <贝多芬_（德国作曲家）> <早期教育>?x. ?x <出生地> <萨尔茨堡_（奥地利州）>. }"}
+{"predict": "select?y where {?x <主要成就> \"近代物理学之父\".?x <毕业院校>?y. }"}
+{"predict": "select?y where { <埃菲尔铁塔_（巴黎城市地标之一）> <设计者>?x.?x <国籍>?y. }"}
+{"predict": "select?x where {?x <主要成就> \"杠杆原理\". }"}
+{"predict": "select?x where {?x <所属洲> <南美洲_（洲级分区）>.?x <官方语言> <葡萄牙语_（一种西语言）>. }"}
+{"predict": "select?x where { <新子憧憬_（日本女演员）> <主要成就>?y.?y <上映时间>?x. }"}
+{"predict": "select?x where {?x <主要配音> <绫澄花>.?x <主要配音> <西明日香>. }"}
+{"predict": "select?x where {?x <制作公司> <P.A.WORKS>. }"}
+{"predict": "select?x where { <芜罗亭魔梨威> <登场作品>?y.?y <作者>?x. }"}
+{"predict": "select?x where { <京都动画> <员工数>?x. }"}
+{"predict": "select?x where {?y <职业> <动画师_（职业）>.?y <毕业院校> <京都动画>.?y <代表作品>?x. } "}
+{"predict": "select?x where { <任天堂> <主要家用机>?x. }"}
+{"predict": "select?y where {?y <职业> <声优_（汉语兼英语配音演员）>.?y <出道时间> \"2007\". }"}
+{"predict": "select?x where { <大和号战列舰> <服役时间>?x. }"}
+{"predict": "select?y where { <星间飞行_（李健演唱歌曲）> <歌曲原唱>?x.?x <出生地>?y. }"}
+{"predict": "select?x where { <ps4_（索尼第四代游戏主机）> <中文名>?x. }"}
+{"predict": "select?x where {?y <中文名> \"滨崎步\".?y <代表作品>?x.?y <发行时间> \"2001-09-27\". }"}
+{"predict": "select?x where { <舰桥> <作用>?x. }"}
+{"predict": "select?x where {?x <出生地> <德岛_（日本岛级县）>.?x <职业> <声优_（汉语词语）>. }"}
+{"predict": "select?x where { <马里奥_（任天堂著名游戏角色）>?x <路易基_（游戏中文名）>. }"}
+{"predict": "select?y where {?x <别名> \"超级马里奥之父\".?x <代表作品>?y. }"}
+{"predict": "select?x where {?x <主要成就> \"提出 大正浪漫\". }"}
+{"predict": "select?x where {?x <信仰> <佛教>.?x <职业> <教育家_（职业名称）>. }"}
+{"predict": "select?y where {?x <主要成就> \"1968年获诺贝尔文学奖\".?x <毕业院校>?y. }"}
+{"predict": "select?x where { <百年孤独_（拉丁美洲魔幻小说）> <作者>?x. }"}
+{"predict": "select?x where {?x <职业> <偶像歌手_（偶像崇拜的追随者群体）>.?x <国籍> <日本_（日本国）>. }"}
+{"predict": "select?x where {?y <中文名>?x.?y <原唱> <卡啦夫利>. }"}
+{"predict": "select?y where { <爱情公寓_（青春爱情剧）> <导演>?x.?x <毕业院校>?y. }"}
+{"predict": "select?x where { <小米> <口号>?x. }"}
+{"predict": "select?x where { <谷歌> <官网>?x. }"}
+{"predict": "select?x where {?x <代表作品> <AXL-ONE>.?x <奖项>?y.?y <主要配音>?x. }"}
+{"predict": "select?x where {?x <毕业院校> <山田尚子_（日本漫画家、导演）>.?x <职业> <动画导演>. }"}
+{"predict": "select?x where{ <沙耶之歌_（沙耶之歌官方详解）> <结局数量>?x.}"}
+{"predict": "select?x where { <柚子社> <日语>?x. }"}
+{"predict": "select?x where {?y <公司> <august>.?y <最新作品>?x. }"}
+{"predict": "SELECT?x WHERE {?y <死亡时间> \"2020-02-07\".?y <职业> <医生_（职业）>.?y <出生地>?x. } "}
+{"predict": "select?x where { <新型冠状病毒> <传播途径>?x. }"}
+{"predict": "select?y where {?x <遗传物质> \"RNA\".?x <繁殖方式>?y. }"}
+{"predict": "select?x where { <SARS病毒> <形状>?x. } "}
+{"predict": "select?x where {?y <分布区域> <胸腺依赖区>.?y <标志>?x. }"}
+{"predict": "select?x where { <流感> <常见症状>?x. }"}
+{"predict": "select?x where { <空调综合征> <原因>?x. }"}
+{"predict": "select?x where {?x <发病部位> <肺部>.?x <发病部位> <淋巴结>.?x <传播途径> <空气传播>. }"}
+{"predict": "select?x where {?x <科室> <肿瘤科>.?x <涉及症状> <胸部>. }"}
+{"predict": "select?x where { <新型冠状病毒> <潜伏期>?x. }"}
+{"predict": "select?x where { <新型肺炎病原体> <遗传物质>?x. }"}
+{"predict": "select?x where {?x <城市> <日照>.?x <科室名称> <发热门诊>.?x <医疗机构>?y. }"}
+{"predict": "select?x where { <肺泡蛋白沉积症> <预防>?x. }"}
+{"predict": "select?x where { <新冠病毒感染> <科室>?x. }"}
+{"predict": "select?x where { <交叉免疫> <释义>?x. }"}
+{"predict": "select?x where { <重症急性呼吸综合征> <临床表现>?x. }"}
+{"predict": "select?x where { <传染病管理制度> <制定部门>?x. }"}
+{"predict": "select?x where { <伤寒> <潜伏期>?x. }"}
+{"predict": "select?x where { <天花疫苗> <发明者>?x. }"}
+{"predict": "select?x where {?x <参与者> <李兰娟>.?x <参与者> <张文宏>.?x <参与者> <钟南山>. } "}
+{"predict": "select?x where {?y <巨细胞病毒感染>?x.?y <临床表现>?x. } "}
+{"predict": "select?x where { <巨细胞病毒> <感染风险>?x. }"}
+{"predict": "select?x where { <SARS病毒> <症状>?x. }"}
+{"predict": "select?x where { <天花> <发病部位>?x. }"}
+{"predict": "select?x where { <蕈类> <繁殖形式>?x. }"}
+{"predict": "select?distance where { <预防结核感染> <建议距离>?distance. }"}
+{"predict": "select?x where { <白细胞计数> <范围>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <白细胞增多>.?x <涉及症状> <持续性弛张热>. }"}
+{"predict": "select?x where { <新冠患者> <急性呼吸困难>?x. <新冠患者> <高碳酸血症>?x. <新冠患者> <口唇发绀>?x. }"}
+{"predict": "select?x where { <李文亮> <别名>?x. }"}
+{"predict": "select?x where { <新冠病毒_（2019年新型冠状病毒）> <最早发现时间>?x. }"}
+{"predict": "select?x where { <西班牙流感> <感染人数>?x. }"}
+{"predict": "select?x where { <接种流感疫苗> <负面作用>?x. }"}
+{"predict": "select?x where { <新冠病素> <遗传特点>?x. }"}
+{"predict": "select?x where {?x <主要防护效果> \"与N95口罩相同防护效果\". }"}
+{"predict": "select?x where {?y <标签> \"N95口罩\".?y <防护效果>?x. } "}
+{"predict": "select?x where { <抗生素> <作用>?x. }"}
+{"predict": "select?x where { <大肠杆菌> <涉及疾病>?x. }"}
+{"predict": "select?x where { <百日咳> <治疗>?x. }"}
+{"predict": "select?y where {?x <主演> <莱昂纳多·迪卡普里奥>.?x <主要奖项>?y. }"}
+{"predict": "select?x where {?y <主要奖项> \"第67届金球奖最佳影片\".?y <导演>?x. }"}
+{"predict": "select?x where { <佛跳墙_（福建福州名席菜肴）> <主要食材>?x. }"}
+{"predict": "select?y where { <肯德基> <创始人>?x.?x <逝世日期>?y. }"}
+{"predict": "select?x where { <影分身之术> <创作背景>?x. }"}
+{"predict": "select?x where { <小小兔> <宠物>?y.?y <特点>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"七十二变\".?x <主要成就> \"使用混铁棍\". }"}
+{"predict": "select?x where { <三个代表重要思想> <提出时间>?x. }"}
+{"predict": "select?y where { <邓小平> <毕业院校>?y. }"}
+{"predict": "select?x where {?x <代表作品> <不能承受的生命之轻>.?x <代表作品> <生活在别处_（李宗盛作词，罗大佑作曲）>. }"}
+{"predict": "select?x where {?x <歌曲原唱> <周杰伦>.?x <音乐风格> <说唱_（音乐风格）>. }"}
+{"predict": "select?x where {?x <填词> <林夕_（著名填词人）>.?x <歌曲原唱> <孙燕姿>. }"}
+{"predict": "select?x where {?y <主演> <汤唯_（中国内地女演员）>.?y <主演> <吴秀波_（中国内地男演员）>.?y <票房>?x. }"}
+{"predict": "select?x where {?x <作者> <张择端>.?x <馆馆址> <天津博物馆>. }"}
+{"predict": "select?x where {?x <出土时间> \"1938\".?x <所属藏品> <十大传世国宝>. }"}
+{"predict": "select?x where { <元宵节> <节日活动>?x.  }"}
+{"predict": "select?x where { <小潘_（歌曲）> <城市> <成都>. }"}
+{"predict": "select?x where { <随意门> <作用>?x. }"}
+{"predict": "select?x where { <欧若拉_（北欧神话中的女神）> <掌管内容>?x. }"}
+{"predict": "select?x where { <桔梗_（日本动漫《犬夜叉》中的人物）> <喜欢>?x. }"}
+{"predict": "select?x where { <蒙娜丽莎_（达芬奇画作）> <出版地>?x. }"}
+{"predict": "select?x where { <斯里兰卡> <信仰>?x. }"}
+{"predict": "select?x where { <柏林墙_（德国柏林墙）> <倒塌时间>?x. }"}
+{"predict": "select?x where { <抗美援朝_（1950年-1953年美国侵略朝鲜战争）> <伤亡人数>?x. }"}
+{"predict": "select?x where { <万里长城_（中国古代军事工程）> <总长>?x. }"}
+{"predict": "select?x where { <埃菲尔铁塔_（巴黎城市地标之一）> <完工日期>?x. }"}
+{"predict": "select?x where { <巴黎圣母院_（法国巴黎教堂）> <建筑风格>?x. }"}
+{"predict": "select?x where{ <满汉全席_（宫廷盛宴）> <菜品数>?x.}"}
+{"predict": "select?x where { <计划生育政策> <内容>?x. }"}
+{"predict": "select?x where {?x <作者> <孔庆东>.?x <作者> <叶文曦>. }"}
+{"predict": "select?x where {?x <职业> <在清华大学任过职>.?x <职业> <北京大学教授>. }"}
+{"predict": "select?x where {?x <出版社> <北京大学出版社>.?x <定价> \"110.00\". }"}
+{"predict": "select?x where {?x <出版时间> \"2012-03-01\".?x <出版单位> <北京大学出版社>. }"}
+{"predict": "select?y where { <醉角度看金庸> <作者>?x.?x <民族>?y. }"}
+{"predict": "select?x where { <醉眼看金庸> <作者>?y.?y <职业> <教授_（教师职业）>.?y <毕业院校>?x. }"}
+{"predict": "select?x where { <醉角度看金庸> <作者>?y.?y <代表作品>?x. }"}
+{"predict": "select?y where {?y <城市> <合肥>.?y <类型> <高中>.?y <九校联盟> <九校联盟联盟>. }"}
+{"predict": "select?x where { <北京大学> <学术传统>?x. }"}
+{"predict": "select?x where {?x <学校代码> \"10003\". }"}
+{"predict": "select?x where {?y <代码> 10056.?y <硕士点>?x. } "}
+{"predict": "Q冷笑话一则。"}
+{"predict": "select?x where { <危险化学品经营企业安全管理培训教程> <作者>?y.?y <主要成就>?x. } "}
+{"predict": "select?x where { <古埃及> <作者>?y.?y <职业> <大学_（教育机构）>. }"}
+{"predict": "select?x where { <蒙特卡罗分析> <提出者>?x. }"}
+{"predict": "select?x where { <北大耕读社> <成立时间>?x. }"}
+{"predict": "select?x where { <北京_（中华人民共和国首都）> <别名>?x. }"}
+{"predict": "select?x where {?x <导演> <周星驰_（中国香港演员、导演）>.?x <类型> <奇幻剧>. }"}
+{"predict": "select?x where { <渊虹> <代表作品>?x.?x <导演>?y. }"}
+{"predict": "select?x where { <轻音少女剧场版> <导演>?y.?y <毕业院校>?x. }"}
+{"predict": "select?x where { <JOJO的奇妙冒险JOJOLion> <作者>?y.?y <星座>?x. }"}
+{"predict": "select?x where { <阿尔冯斯·艾尔利克> <作品出处>?y.?y <导演>?x. }"}
+{"predict": "select?x where { <七星灯_（成语）> <作者>?x. }"}
+{"predict": "select?x where { <北京大学> <学校地址>?x. }"}
+{"predict": "select?y where {?x <中文名> \"无间道_（2002年刘伟强、麦兆辉执导电影）\".?x <主要奖项>?y. }"}
+{"predict": "select?x where {?x <主演> <刘德华_（中国香港男演员、歌手、词作人）>.?x <主演> <梁朝伟>. }"}
+{"predict": "select?x where {?x <主演> <姜文>.?x <导演> <姜文_（中国导演、演员）>. }"}
+{"predict": "select?x where { <阿尔伯特·爱因斯坦> <出生日期>?x. }"}
+{"predict": "select?y where { <归并排序> <发明人>?x.?x <主要成就>?y. }"}
+{"predict": "select?x where { <平方取中法> <创造者>?y.?y <血型>?x. }"}
+{"predict": "SELECT?x WHERE { <2019新型冠状病毒> <命名组织>?x } "}
+{"predict": "select?x where { <2019新型冠状病毒> <命名组织>?y.?y <成立时间>?x. } "}
+{"predict": "SELECT?组织 WHERE { <流感疫苗>\t<规定组织>\t?组织.?组织\t<总部地点>\t?总部地点. } "}
+{"predict": "select?x where { <ADCC> <性质>?x. }"}
+{"predict": "select?x where { <骨髓瘤细胞> <天敌>?x. }"}
+{"predict": "select?x where { <CIH病毒> <感染对象>?x. }"}
+{"predict": "select?p where {?x <类型> <动物>.?x <类型> <病毒>.?x <子类型>?p. }"}
+{"predict": "select?x where { <新型冠状病毒肺炎> <病原体>?x.?x <疑似宿主>?y. } "}
+{"predict": "select?x where { <新型冠状病毒肺炎> <临床治疗期中期推荐中成药>?x. }"}
+{"predict": "select?x where { <木村次郎右卫门> <死亡疾病>?y.?y <盛行率>?x. }"}
+{"predict": "select?x where { <哮喘> <共同相似疾病或共病>?x. <慢性阻塞性肺疾病> <共同相似疾病或共病>?x. }"}
+{"predict": "select?x where { <哮喘> <药物>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <鼻塞>.?x <涉及科室> <耳鼻喉科>. }"}
+{"predict": "select?x where { <流行性感冒> <涉及疾病>?x. <军团病、肺炎> <涉及疾病>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <高热>.?x <涉及症状> <胸痛>. }"}
+{"predict": "select?x where { <代谢性酸中毒> <科室>?x. }"}
+{"predict": "select?x where { <甲状腺肿大> <涉及症状>?x. <腹腔积液> <涉及症状>?x. }"}
+{"predict": "select?x where { <口干> <涉及症状>?x. <心悸> <涉及症状>?x. }"}
+{"predict": "select?x where { <婴儿吐奶> <起因>?x. }"}
+{"predict": "select?x where { <国家税务总局公告2020年第4号> <发布时间>?x. }"}
+{"predict": "select?x where { <甲型H1N1流感> <症状>?x. }"}
+{"predict": "select?x where { <埃博拉病毒> <致死率>?x. }"}
+{"predict": "select?x where {?y <标签> \"N95口罩\".?y <过滤速度>?x. } "}
+{"predict": "select?x where { <病毒性出血热> <临床表现>?x. }"}
+{"predict": "select?x where { <高血糖> <病因>?x. }"}
+{"predict": "select?x where { <南宁市第四人民医院> <地址>?x. }"}
+{"predict": "select?x where { <肝炎> <传播途径>?x. }"}
+{"predict": "select?x where { <肝炎> <症状>?x. }"}
+{"predict": "select?x where { <肝炎> <病因>?x. }"}
+{"predict": "select?y where {?x <外文名> \"Escherichia coli，E.coli\".?x <别名>?y. } "}
+{"predict": "select?x where {?y <别名> \"CDV\".?y <临床症状>?x. } "}
+{"predict": "select?x where {?y <化学式> \"C6H12O5\".?y <分子量>?x. }"}
+{"predict": "select?x where { <C6H12O5> <英文名>?x. }"}
+{"predict": "select?x where { <鼠疫> <传播途径>?x. }"}
+{"predict": "select?x where {?y <别称> <水熊虫>.?y <分布区域>?x. }"}
+{"predict": "select?x where {?y <别名> \"水熊虫\".?y <科>?x. }"}
+{"predict": "select?x where { <水熊虫> <拉丁学名>?x. }"}
+{"predict": "select?x where {?x <政策内容> \"市场监管总局办公厅于2020年2月7日发布了《关于统筹做好疫情防控和民生商品价格工作的通知》\". }"}
+{"predict": "select?x where {?x <政策> <市场监管总局办公厅于2020年2月7日发布的政策>?x. }"}
+{"predict": "select?x where {?x <别名> \"万岛之国\". }"}
+{"predict": "select?x where { <挪威_（挪威王国）> <政治体制>?x. }"}
+{"predict": "select?x where { <挪威> <首都>?y.?y <机场>?x. }"}
+{"predict": "select?x where { <挪威> <官方货币>?y.?y <代码>?x. }"}
+{"predict": "select?x where { <汤姆·赫宁> <国籍>?y.?y <所属洲>?x. } "}
+{"predict": "select?x where { <挪威> <国庆日>?x. }"}
+{"predict": "select?y where {?x <代表作品> <声声慢·寻寻觅觅>.?x <所处时代>?y. }"}
+{"predict": "select?x where { <李清照_（宋代女词人）> <配偶>?y.?y <逝世日期>?x. }"}
+{"predict": "select?x where { <李清照_（宋代女词人）> <职业>?x. }"}
+{"predict": "select?x where { <秦_（中国历史朝代）> <国土面积>?x. }"}
+{"predict": "select?z where {?x <中文名> \"秦始皇\".?x <主要成就>  \"统一六国\".?x <发行货币>?z. }"}
+{"predict": "select?x where { <秦始皇_（中国秦朝皇帝）> <选官制度>?x. }"}
+{"predict": "select?x where { <秦_（中国历史朝代）> <首都>?x. }"}
+{"predict": "select?y where {?x <国都> <秦朝_（中国历史上第一个统一的中央集权国家）>.?x <位置>?y. }"}
+{"predict": "select?x where { <基督山伯爵_（大仲马代表作之一）> <作者>?y.?y <国籍>?x. }"}
+{"predict": "select?x where { <丽姬娅_（古波斯帝国皇后）> <作者>?y.?y <国籍>?x. }"}
+{"predict": "select?x where { <新西兰> <首都>?y.?y <面积>?x. }"}
+{"predict": "select?y where { <新西兰> <首都>?x.?x <人口>?y. }"}
+{"predict": "select?x where { <新西兰> <国花>?x. }"}
+{"predict": "select?x where { <新西兰> <所属洲>?x. }"}
+{"predict": "select?x where { <伊丽莎白二世_（英国现任女王）> <即位时间>?x. }"}
+{"predict": "select?y where { <伊丽莎白二世_（英国女王）> <丈夫>?x.?x <出生地>?y. }"}
+{"predict": "select?x where {?y <代表作品> <小夜曲_（席慕蓉诗作）>.?y <出生地>?x. }"}
+{"predict": "select?x where { <莫扎特_（欧洲著名古典主义音乐作曲家）> <逝世日期>?x. }"}
+{"predict": "select?x where { <莫扎特_（欧洲著名古典主义音乐作曲家）> <国籍>?y.?y <灭亡时间>?x. }"}
+{"predict": "select?x where { <芬兰> <国庆日>?x. }"}
+{"predict": "select?x where { <芬兰> <国土>?x. }"}
+{"predict": "select?x where { <亚马孙河> <发源地>?x. }"}
+{"predict": "select?x where { <亚马孙河_（南美洲河流）> <流经地区>?x.?x <主要语言> <西班牙语_（语言）>. }"}
+{"predict": "select?x where {?x <主导地位> <新型冠状病毒联防联控工作机制科研攻关组>.?x <担任组长>?x. }"}
+{"predict": "select?x where { <钟南山> <研究方向>?x. } "}
+{"predict": "SELECT?x WHERE {?x <观点> <新冠病毒可能人传人>. } "}
+{"predict": "select?x where {?x <主要成就> \"非典战役\".?x <主要成就> \"新冠病毒战役\". }"}
+{"predict": "select?x where {?x <主要成就> \"连花清瘟胶囊对新冠病毒有抑制效果\". }"}
+{"predict": "select?x where { <新型冠状病毒(SARS-CoV-2)> <首次爆发地> ?x. } "}
+{"predict": "select?x where {?x <主要成就> \"心血管疾病领域的专家\".?x <主要成就> \"中国工程院院士\". }"}
+{"predict": "select?x where { <金银潭医院> <医院院士>?y.?y <籍贯>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"十七年前的奇迹\".?x <主要成就> \"SARS零严重后遗症\".?x <主要成就> \"无医务人员感染\".?x <主要成就> \"无二代病人\". }"}
+{"predict": "select?x where {?x <主要成就> \"十七年前创造SARS零严重症、无医务人员感染、无二代病人奇迹\". }"}
+{"predict": "select?x where {?x <主要成就> \"传染病学第3版\". }"}
+{"predict": "select?x where { <咳嗽> <病因>?x. }"}
+{"predict": "select?y where {?x <毕业院校>?y.?x <毕业时间> <2020年>. }"}
+{"predict": "select?x where {?y <主要成就> \"（新冠疫情）\".?y <出生于>?x.?y <职业> <中国工程院院士>.?y <出生日期>?x. } "}
+{"predict": "select?x where { <慢性阻塞性肺疾病在中国> <作者>?x. }"}
+{"predict": "select?x where { <广州呼吸疾病研究所> <所长>?y.?y <籍贯>?x. }"}
+{"predict": "select?x where { <广州呼吸疾病研究所> <所长>?y.?y <毕业院校>?x. }"}
+{"predict": "select?x where { <李兰娟> <所属救援队>?x. }"}
+{"predict": "select?x where { <复旦大学附属华山医院感染病科> <党支部书记>?y. <复旦大学附属华山医院感染病科> <主任研究方向>?x. }"}
+{"predict": "select?x where { <复旦大学附属华山医院感染病科党支部书记、主任> <参与疫情防控>?x. }"}
+{"predict": "select?x where { <华为技术有限公司> <公司口号>?x. }"}
+{"predict": "select?x where {?x <导演> <佩妮莱·费舍尔·克里斯滕森>.?x <制片地区> <丹麦>.?x <类型> <喜剧_（艺术体裁）>. }"}
+{"predict": "select?y where {?x <外文名称> \"Porsche AG\".?x <创始人>?y. }"}
+{"predict": "select?x where { <魔性诱惑> <导演>?x. }"}
+{"predict": "select?x where { <下北阳光灿烂的日子> <主演>?y.?y <代表作品>?x. }"}
+{"predict": "select?y where {?x <主要成就> \"用风筝吸引雷电对电进行了探索\".?x <主要成就> \"发现了电荷\".?x <主要成就> \"提出并论证电离假说\".?x <逝世日期>?y. } "}
+{"predict": "select?x where {?x <主要成就> \"美国独立战争\".?x <本质> <电>. }"}
+{"predict": "select?x where { <穷理查年鉴> <作者>?y.?y <出生日期>?x. }"}
+{"predict": "select?x where {?y <中文名> \"巴勃罗·鲁伊斯·毕加索\".?y <外文名>?x. }"}
+{"predict": "select?x where { <毕加索_（画家）> <出生日期>?x. }"}
+{"predict": "select?x where { <三个音乐家> <作者>?y.?x <代表人物>?y. }"}
+{"predict": "select?x where { <哭泣的女人_（毕加索创作油画）> <作者>?y.?y <出生日期>?x. }"}
+{"predict": "select?x where {?x <学术传统> \"思想自由\".?x <学术传统> \"兼容并包\". }"}
+{"predict": "select?x where {?y <学校代码> \"10001\".?y <长江学者>?x. }"}
+{"predict": "select?x where { <思想自由兼容并包> <大学>?y.?y <科室>?z.?z <资深教授>?x. }"}
+{"predict": "select?x where { <思想自由兼容并包> <校庆日>?x. }"}
+{"predict": "select?x where {?y <中文名> \"嬴政\".?y <主要成就>?x. }"}
+{"predict": "select?x where {?y <中文名> \"嬴政\".?y <继承人>?x. }"}
+{"predict": "select?y where {?x <代表作品> <师说_（唐代王僧辩散文）>.?x <去世时间>?y. }"}
+{"predict": "select?x where {?x <主要成就> \"车同轨\".?x <主要成就> \"书同文\". }"}
+{"predict": "select?x where { <李星辰> <出生日期>?x. }"}
+{"predict": "select?x where {?y <别名> \"小飞侠，\".?y <父亲>?x. }"}
+{"predict": "select?x where {?y <别名> \"小飞侠，\".?y <NBA选中>?x. }"}
+{"predict": "select?x where {?y <别名> \"小飞侠，\".?y <出生地>?z.?z <现任州长>?x. }"}
+{"predict": "select?x where { <科比24> <作者>?y.?y <别名>?x. } "}
+{"predict": "select?x where { <毛泽东_（无产阶级革命家）> <信仰>?x. }"}
+{"predict": "select?x where { <沁园春·雪> <作者>?y.?y <毕业院校>?x. }"}
+{"predict": "select?x where { <逃学威龙2> <主演>?y.?y <出生地>?x. }"}
+{"predict": "select?x where { <逃学威龙2> <主演>?y.?y <身高>?x. }"}
+{"predict": "select?x where { <黑暗精灵米莉雅> <登场作品>?x. }"}
+{"predict": "select?x where { <妮娜_（日本CAPCOM公司作品《头文字D》系列作品中的角色）> <创作者> <村上春树_（日本作家）>. <村上春树_（日本作家）> <代表作品>?x. }"}
+{"predict": "select?x where {?x <所属地区> <日本_（日本国）>.?x <市花> <百合_（百合科植物）>. }"}
+{"predict": "select?y where {?x <主要成就> \"sos团团团长\".?x <声优>?y.?x <身材>?y. }"}
+{"predict": "select?x where { <娜可露露_（《王者荣耀》中的英雄）> <国籍>?x. }"}
+{"predict": "select?y where {?x <地位> \"战国四大名将之首\".?x <成就>?y. }"}
+{"predict": "select?x where { <闪电> <产生原因>?x. }"}
+{"predict": "select?x where {?x <主演> <嘟嘟>.?x <主演> <黄海波>. }"}
+{"predict": "select?x where {?x <作者> <李文杰>.?x <出版社> <商务印书馆>. } "}
+{"predict": "select?x where { <岩永琴子> <登场作品>?x. }"}
+{"predict": "select?x where { <道_（哲学概念）> <三种形态>?x. }"}
+{"predict": "select?x where {?y <别名> \"炮姐\".?y <母上大人>?x. }"}
+{"predict": "select?x where { <御坂美琴> <同学>?x. }"}
+{"predict": "select?x where {?x <登场作品> <魔法禁书目录_（丸山积范创作的Web漫画）>.?x <属性> <桃花_（动漫作品《魔法禁书目录》中角色）>. }"}
+{"predict": "select?x where { <吹雪酱> <身高>?x. }"}
+{"predict": "select?x where { <秃头披风侠> <喜欢>?x. }"}
+{"predict": "select?x where { <琦玉_（进击的动物城主要人物）> <年龄>?x. }"}
+{"predict": "select?x where { <梅花_（花卉品种）> <常见灾害>?x. }"}
+{"predict": "SELECT?x WHERE {?y <职业> <足球运动员>.?y <运动项目> <足球>.?y <主要奖项>?x. } "}
+{"predict": "select?x where {?x <国籍> <俄罗斯_（俄罗斯联邦）>.?x <主要成就> \"单骑横跨欧亚大陆\". }"}
+{"predict": "select?x where { <语嫣姐> <代表作品>?x. }"}
+{"predict": "select?x where { <幽城幻剑录> <发布时间>?x. }"}
+{"predict": "select?x where {?x <登场作品> <天地劫_（武侠小说《天地劫》）>.?x <登场作品> <神魔至尊传_（武侠小说《神魔至尊传》）>.?x <登场作品> <幽城幻剑录_（武侠小说《幽城幻剑录》）>. }"}
+{"predict": "select?x where { <长方形_（数学概念）> <面积>?x. }"}
+{"predict": "select?x where { <等边三角形> <面积计算>?x. }"}
+{"predict": "select?x where { <藏马> <生日>?x. }"}
+{"predict": "select?x where { <飞影_（电影《卧虎藏龙》中女主角）> <妹妹>?y.?x <配乐>?y. }"}
+{"predict": "select?x where { <里番> <中文名>?x. }"}
+{"predict": "select?x where { <无限流> <开山鼻祖>?x. }"}
+{"predict": "select?y where { <腐女> <特征>?y. }"}
+{"predict": "select?x where { <埃博拉病毒疫情> <死亡人数>?x. }"}
+{"predict": "select?x where { <流感_（流行性感冒）> <死亡人数>?x. }"}
+{"predict": "select?x where { <烦躁不安> <原因>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <多尿>.?x <涉及症状> <夜尿增多>. }"}
+{"predict": "select?x where { <发炎> <原因>?x. }"}
+{"predict": "select?x where { <打呼噜> <解决方法>?x. }"}
+{"predict": "select?x where { <牛屎牙膏> <类型>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <面色青紫>.?x <涉及症状> <间歇性血尿>. }"}
+{"predict": "select?x where { <真命天女症> <表现>?x. }"}
+{"predict": "select?x where { <世界艾滋病日> <标志>?x. }"}
+{"predict": "select?x where { <世界艾滋病日> <发起机构>?x. }"}
+{"predict": "select?x where { <总流鼻血> <科室>?x. }"}
+{"predict": "select?x where { <T病毒> <别称>?x. }"}
+{"predict": "select?x where { <暴君病毒> <危害>?x. }"}
+{"predict": "select?x where { <RNA病毒> <繁殖方式>?x. }"}
+{"predict": "select?x where { <T病毒> <病原>?x. }"}
+{"predict": "select?x where { <手足口病> <传播途径>?x. }"}
+{"predict": "select?x where { <幼儿疾病> <多发群体>?y.?y <传播途径>?x. } "}
+{"predict": "select?x where {?x <常见年龄> \"15～40岁女性\". }"}
+{"predict": "select?x where { <华为技术有限公司> <经营范围>?x. }"}
+{"predict": "select?x where { <资生堂> <公司官网>?x. }"}
+{"predict": "select?x where {?y <所属学院> <格兰芬多_（霍格沃茨学院）>.?y <象征元素>?x. }"}
+{"predict": "select?x where {?x <别名> \"粉丝称鲸鱼\". }"}
+{"predict": "select?x where { <牛油果_（Cullenia melanocarpa）> <别称>?x. }"}
+{"predict": "select?x where { <小美人鱼_（丹麦哥本哈根海港城市标志之一）> <作者>?x. }"}
+{"predict": "select?x where { <路遥> <毕业院校>?x. }"}
+{"predict": "select?x where { <Android> <开发公司>?x. }"}
+{"predict": "select?x where { <加减消元法> <来源>?x. }"}
+{"predict": "select?x where { <勾股容方> <公式>?x. }"}
+{"predict": "select?x where { <国际货币基金组织> <总部地点>?x. }"}
+{"predict": "select?x where { <国际货币基金组织> <机构成立时间>?x. }"}
+{"predict": "select?x where { <世界无烟日> <设立机构>?x. }"}
+{"predict": "SELECT?x WHERE { <世界卫生组织> <组织架构>?x } "}
+{"predict": "select?x where {?y <相关规定> <临床用血手册>.?y <官网>?x. } "}
+{"predict": "select?x where {?x <主演> <孔刘_（韩国著名演员）>.?x <类型> <灾难_（名词解释）>. }"}
+{"predict": "select?y where {?x <外文名> \"蚌埠\".?x <著名男歌手>?y. }"}
+{"predict": "select?x where { <知乎> <创始人>?x.?x <毕业院校> <东南大学>. }"}
+{"predict": "select?y where {?x <代表作品>?y.?x <别名>?y. }"}
+{"predict": "select?x where {?y <中文名> \"魅可\".?y <隶属品牌>?x.?y <集团>?x. }"}
+{"predict": "select?x where { <蒙牛纯甄> <上市状态>?x. }"}
+{"predict": "select?y where { <菠萝科学奖> <主办单位>?x.?x <愿景>?y. }"}
+{"predict": "select?x where {?y <主要成就>?x.?y <封号> \"海蟾明悟弘道真君\".?y <传说来源> <封神榜_（古代神话传说）>. }"}
+{"predict": "select?x where { <嫦娥_（中国神话传说人物）> <配偶>?y.?y <成就是>?x. }"}
+{"predict": "select?x where {?x <代表作品> <天外飞仙_（2010年李毅宏执导电视剧）>.?x <代表作品> <伪装者_（2015年胡歌主演电视剧）>. }"}
+{"predict": "select?x where {?x <登场作品> <八仙过海>.?x <坐骑> <毛驴_（一种自行车）>. }"}
+{"predict": "select?x where {?y <父亲> <张翠山>.?y <武器>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"太极拳\".?x <师承> <陈王陈式拳>. }"}
+{"predict": "select?y where { <襄阳帮> <历届帮主>?x.?x <主要成就> \"驻守襄阳数十年\".?x <别名>?y. }"}
+{"predict": "select?x where { <乙型肝炎病毒> <常用检测>?x. }"}
+{"predict": "select?x where { <乙肝疫苗> <不良反应>?x. }"}
+{"predict": "select?x where {?x <分子式> \"C143H230N42O37S7\". }"}
+{"predict": "select?x where { <二分裂> <存在地点>?x. }"}
+{"predict": "select?x where { <二氨基庚二酸> <发明人>?x. }"}
+{"predict": "select?x where { <伞菌> <分布区域>?x. }"}
+{"predict": "select?x where { <伤寒杂病论> <作者>?x. }"}
+{"predict": "select?x where {?y <中文名> \"免疫\".?y <定义> <伴随免疫>. }"}
+{"predict": "select?x where { <激发体液免疫反应> <因素>?x. }"}
+{"predict": "select?x where { <免疫共沉淀> <缺点>?x. }"}
+{"predict": "select?x where {?y <外文名> \"satellite virus\".?y <形状>?x. } "}
+{"predict": "select?x where {?x <呼吸方式> <有氧呼吸>.?x <类型> <无核膜生物>.?x <类型> <细胞>.?x <类型> <真核生物>. }"}
+{"predict": "select?x where {?x <提取物质> <葡萄籽>.?x <颜色> <棕红色>. }"}
+{"predict": "select?x where {?x <亚群> \"四个\".?x <增殖方式> <二分裂>.?x <增殖方式> <芽殖>. }"}
+{"predict": "select?x where {?x <涉及部位> <舌的背面>.?x <涉及部位> <舌尖>.?x <涉及部位> <侧缘>. }"}
+{"predict": "select?x where {?y <外文名> \"extremophile\".?y <生存环境>?x. }"}
+{"predict": "select?y where {?x <分子量> \"444.45\".?x <主要应用>?y. }"}
+{"predict": "select?x where { <天花病毒> <常见症状>?x. }"}
+{"predict": "select?y where {?x <别称> <肉灵芝>.?x <成分>?y. }"}
+{"predict": "select?x where { <2019-nCoV> <命名时间>?x. }"}
+{"predict": "SELECT?x WHERE { <2019新冠病毒> <命名地点>?x. } "}
+{"predict": "select?x where { <Covid19> <特点>?x. }"}
+{"predict": "select?x where {?y <标签> <非典_（一种病毒）>.?y <形状>?x. } "}
+{"predict": "select?x where {?x <类别> <KN95口罩>.?x <类别> <FFP2口罩>. }"}
+{"predict": "select?x where { <消毒> <目的>?x. }"}
+{"predict": "select?x where { <人类疱疹病毒> <发病部位>?x. }"}
+{"predict": "SELECT?特点 WHERE {\n<A型流感病毒的亚型>\t<亚型>\t?病毒.\n?病毒\t<特点>\t?特点.} "}
+{"predict": "select?x where { <己糖磷酸途径> <作用>?x. }"}
+{"predict": "select?x where {?y <标签> \"生物界RNA合成的催化剂\".?y <类别> <生物界>. }"}
+{"predict": "select?x where {?y <中文名> \"RNAvirus\".?y <繁殖方式>?x. }"}
+{"predict": "SELECT?x WHERE { <烟草花叶病毒> <级别>?x. } "}
+{"predict": "select?x where { <T2phage> <头部形状>?x. }"}
+{"predict": "select?x where {?y <别名> \"T-lymphocyte\".?y <来源>?x. }"}
+{"predict": "select?x where { <T淋巴细胞> <分布>?x. }"}
+{"predict": "select?x where {?y <化学式> \"C40H56\".?y <溶解度>?x. } "}
+{"predict": "select?x where { <迟发型超敏反应> <本质>?x. }"}
+{"predict": "select?x where { <primary syphilis> <症状>?x. }"}
+{"predict": "select?x where {?y <致病菌> <梅毒螺旋体（TP）>.?y <传染性>?x. }"}
+{"predict": "select?x where { <丁型病毒性肝炎> <多发群体>?x. }"}
+{"predict": "select?y where {?x <外文名> \"Peking University\".?x <校庆日>?y. }"}
+{"predict": "select?x where {?x <毕业院校> <清华大学>.?x <毕业院校> <北京大学>.?x <毕业院校> <海淀区清华园>. }"}
+{"predict": "select?y where { <骆驼_（中国香烟品牌）> <推出时间>?y. }"}
+{"predict": "select?x where { <羊驼_（骆驼科动物）> <外文名>?x. }"}
+{"predict": "select?x where { <玫瑰三红汤> <主要原料>?x. }"}
+{"predict": "select?x where {?y <主要成就> \"第27届 台湾电影金马奖最佳女主角\".?y <别名>?x. }"}
+{"predict": "select?y where { <窗里窗外_（2008年方晓迪执导电影）> <主演>?x.?x <星座>?y. }"}
+{"predict": "select?x where { <New Dragon Gate Inn> <类型>?x. }"}
+{"predict": "select?y where { <梁家辉> <出生日期>?y. }"}
+{"predict": "select?x where {?y <中文名> \"Tony Leung Ka Fai\".?y <出生日期>?x. }"}
+{"predict": "select?x where {?x <类别> <生物界>.?x <作用> \"RNA合成催化剂\". }"}
+{"predict": "select?x where { <江嘉年> <丈夫>?y.?y <外文名>?x. }"}
+{"predict": "select?x where {?x <主演> <张曼玉_（中国香港女演员、导演）>.?x <主演> <梁家辉>.?x <颜色> \"彩色\". }"}
+{"predict": "select?y where {?x <别名> \"Tony Leung Ka Fai\".?x <妻子>?y. }"}
+{"predict": "select?x where {?x <主演> <刘嘉玲>.?x <主演> <许志豪_（香港演员许志豪）>.?x <主演> <梁家辉>. }"}
+{"predict": "select?x where { <我对你说_（王力宏创作歌曲）> <作者>?x. }"}
+{"predict": "select?x where { <我对你说_（王忠贞著小说）> <出版时间>?x. }"}
+{"predict": "select?x where { <寒战> <票房>?x. }"}
+{"predict": "select?x where {?x <主演> <陈奕迅>.?x <主演> <吴君如>.?x <主演> <梁家辉>. }"}
+{"predict": "select?x where { <江湖告急_（2008年刘德华主演电影）> <又名>?x. }"}
+{"predict": "select?x where { <江湖告急_（刘德华主演电影）> <英文名>?x. }"}
+{"predict": "select?x where {?x <主要成就> \"第18届香港电影金像奖最佳女主角\". }"}
+{"predict": "select?x where { <三姑> <丈夫>?x. }"}
+{"predict": "select?x where {?x <代表作品> <大内密探零零狗>.?x <代表作品> <专钓大鳄>.?x <代表作品> <天下第一媒婆>. }"}
+{"predict": "select?x where {?x <主要成就> \"第40届台湾电影金马奖最佳女主角\". }"}
+{"predict": "select?x where { <北平_（中国直辖市）> <面积>?x. }"}
+{"predict": "select?x where { <洛阳_（河南省地级市）> <电话区号>?x. }"}
+{"predict": "select?x where { <洛阳_（河南省省辖市）> <别名>?x. }"}
+{"predict": "select?x where { <苹果_（苹果产品公司）> <成立时间>?x. }"}
+{"predict": "select?x where { <单侧鼻塞> <症状>?x. }"}
+{"predict": "select?x where {?x <行业> <赫伯特·威廉·康>. }"}
+{"predict": "select?x where { <吴军伟> <对手>?x. }"}
+{"predict": "select?x where { <三公仔小儿七星茶> <服用方法>?x. }"}
+{"predict": "select?x where { <海晏县人民医院> <地址>?x. }"}
+{"predict": "select?x where {?x <国籍> <日本_（日本国）>.?x <中文名> \"盛田昭夫. }"}
+{"predict": "select?x where { <胸水> <涉及症状>?x. }"}
+{"predict": "select?x where { <放线菌病> <常见病因>?x. }"}
+{"predict": "select?x where { <昌乐县人民医院红河分院> <地址>?x. }"}
+{"predict": "select?x where { <临沂市妇幼保健院附院> <地址>?x. }"}
+{"predict": "select?x where { <紫烬灰链霉菌> <界>?x. }"}
+{"predict": "select?x where { <朝阳二三四医院> <地址>?x. }"}
+{"predict": "select?x where { <岑巩县人民医院> <地址>?x. }"}
+{"predict": "select?x where { <惠来县第三人民医院> <地址>?x. }"}
+{"predict": "select?x where { <白化病> <常见病因>?x. }"}
+{"predict": "select?x where { <肛肠外科> <涉及疾病>?x. }"}
+{"predict": "select?x where { <室颤> <表现>?x. }"}
+{"predict": "select?x where { <肛乳头肥大> <涉及部位>?x. }"}
+{"predict": "select?x where { <大连妇女儿童医疗中心> <地址>?x. }"}
+{"predict": "select?x where { <口臭> <类型>?x. }"}
+{"predict": "select?x where { <曹操_（东汉末年人物）> <代表作品>?x. }"}
+{"predict": "select?x where { <曹操_（东汉末年人物）> <墓葬地>?x. }"}
+{"predict": "select?x where { <曹操_（东汉末年人物）> <历史功绩>?x. }"}
+{"predict": "select?y where { <司马懿> <死亡时间>?y. }"}
+{"predict": "select?y where { <上官剑南> <作者>?x.?x <毕业院校>?y. }"}
+{"predict": "select?x where {?x <主要成就> \"法国政府荣誉军团骑士头衔\".?x <主要成就> \"香港大紫荆勋章\".?x <外文名>?y. }"}
+{"predict": "select?y where { <射雕英雄传_（金庸武侠小说系列）> <作者>?x.?x <出生日期>?y. }"}
+{"predict": "select?x where { <京东> <创始人>?y.?y <毕业院校>?x. }"}
+{"predict": "select?x where { <众创学院> <代言品牌>?x. }"}
+{"predict": "select?x where {?y <出生日期>?x.?y <荣誉> \"2015年全球50位最伟大领导者之一\".?y <学位> <人大_（中华人民共和国最高学府）>. } "}
+{"predict": "select?x where {?x <毕业院校> <宿迁市钟吾初级中学>.?x <职业> <企业家_（名词解释）>. }"}
+{"predict": "select?x where { <京东> <CEO>?y.?y <配偶>?x. }"}
+{"predict": "select?x where { <广州垂直马拉松系列赛> <决赛地点>?x. }"}
+{"predict": "select?x where {?y <出版社> <朗文外研社>.?y <出版社成立时间>?x. }"}
+{"predict": "select?x where {?x <宗旨> <教学科研服务>.?x <地理位置> <北京_（中华人民共和国首都）>. }"}
+{"predict": "select?x where { <道布森式望远镜> <发明者>?y.?y <国籍>?x. }"}
+{"predict": "select?y where { <道布森式望远镜> <发明者>?x.?x <出生地>?y. }"}
+{"predict": "select?x where {?y <出生地> <北京_（中华人民共和国首都）>.?y <毕业院校> <UC Berkeley>.?y <主要成就>?x. }"}
+{"predict": "select?x where { <道布森式望远镜> <发明者>?y.?y <毕业院校>?z.?z <官网网址>?x. }"}
+{"predict": "select?x where { <二沙岛> <流域>?y.?y <流域面积>?x. }"}
+{"predict": "select?x where {?y <别名> \"面鱼\".?y <分布区域> <珠江>.?y <拉丁学名>?x. } "}
+{"predict": "select?x where {?x <生活环境> <长江>.?x <生活环境> <珠江_（珠江）>.?x <生活环境> <澜沧江>.?x <生活环境> <伊洛瓦底江>.?x <科> <裂腹鱼属>.?x <目> <鲤科>. }"}
+{"predict": "select?x where {?x <主演>?y.?x <导演> <李慧珠_（中国内地女导演）>.?x <首播时间> \"2014-12-3\" (ISO标准时间12月3日).?x <主演>?z. }"}
+{"predict": "select?x where {?y <代表作品> <金庸_（中国香港著名武侠小说作家）>.?y <代表作品> <电视剧_（2017年于正工作室与华夏视听环球传媒集团有限公司共同出品电视剧）>.?y <上映时间>?x. }"}
+{"predict": "select?x where {?y <毕业院校> <迦密中学>.?y <主要成就> \"万千星辉颁奖典礼最佳男主角\".?y <出生日期>?x. }"}
+{"predict": "select?y where { <保持通话_（2010年马晓晨执导电视剧）> <主演>?x.?x <出生地> <广东中山>.?x <身高>?y. }"}
+{"predict": "select?x where {?y <主演>?x.?y <中文名>?x.?y <主演>?x. } "}
+{"predict": "select?x where {?y <别名> \"古仔、古先生\".?y <毕业院校>?x. }"}
+{"predict": "select?x where {?y <主演> <古天乐_（中国香港男演员、歌手、电影导演）>.?y <主演> <刘德华_（中国香港男演员、歌手、演员）>.?y <主演> <袁咏仪>.?y <导演> <陈可辛_（中国香港电影导演、编剧）>.?y <上映时间>?x. }"}
+{"predict": "select?x where {?y <主要成就> \"香港小姐冠军\".?y <主要成就> \"国际华裔小姐亚军\".?y <毕业院校>?x. }"}
+{"predict": "select?x where {?x <职业> <演员_（职业）>.?x <别名> \"靓靓\".?x <婚姻> <伴侣>?y. }"}
+{"predict": "select?x where {?y <代表作品> <乱世艳阳天>.?y <代表作品> <龙门镖局_（2010年刘江执导电视剧）>.?y <属性>?x. }"}
+{"predict": "select?x where { <中国合伙人_（2013年陈可辛执导电影）> <导演>?y.?y <出生地>?x. }"}
+{"predict": "select?y where { <吴君如> <配偶>?x.?x <外文名>?y. }"}
+{"predict": "select?x where {?x <涉及病毒> <HBV病毒>.?x <类型> <检测手段>. }"}
+{"predict": "select?x where { <禽流感> <多发人群>?x. }"}
+{"predict": "select?x where {?y <多发>?x.?y <发现地点> \"美国加州\". } "}
+{"predict": "select?x where { <atelectasis> <临床表现>?x. }"}
+{"predict": "select?x where { <非特异性间质性肺炎> <传染性>?x. }"}
+{"predict": "select?x where { <韦格纳肉芽肿> <饮食>?x. }"}
+{"predict": "select?y where {?x <cas注册号> \"59870\".?x <化学式>?y. }"}
+{"predict": "select?x where {?y <化学式> \"C10H15N5O3\".?y <药理作用>?x. }"}
+{"predict": "select?x where { <孔雀石绿> <摩尔质量>?x. }"}
+{"predict": "select?x where { <慢性阻塞性肺病> <常见病因>?x. }"}
+{"predict": "select?x where { <沙门氏菌感染症> <预防>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <腹泻或腹痛、呕吐、胸痛>.?x <诊断> <微生物培养>. }"}
+{"predict": "select?x where { <肺炎> <死亡人数>?x. }"}
+{"predict": "select?x where {?x <诊断途径> <腰椎穿刺>.?x <科室> <神经内科>. }"}
+{"predict": "select?x where {?x <涉及症状> <癫痫>.?x <涉及症状> <脑水肿>.?x <涉及症状> <听觉障碍>. }"}
+{"predict": "select?x where { <脑膜炎> <治疗>?x. }"}
+{"predict": "select?x where { <蜂窝组织炎> <专科>?x. }"}
+{"predict": "select?x where { <小儿乳蛾> <发病部位>?x. }"}
+{"predict": "select?x where {?y <临床表现> \"系统性红斑狼疮与多发性肌炎重叠\".?y <病因>?x. }"}
+{"predict": "SELECT?x WHERE { <2019-nCov> <最早发现>?x } "}
+{"predict": "select?x where {?y <病例时间>?x.?y <标签> <2019-nCov>. } "}
+{"predict": "SELECT?x WHERE { <2019新型冠状病毒> <命名组织>?x. } "}
+{"predict": "select?x where { <2018年埃博拉疫情> <发生地>?x. }"}
+{"predict": "select?x where { <埃博拉疫情> <死亡人数>?x. }"}
+{"predict": "select?x where { <Covid19> <特点>?x. } "}
+{"predict": "select?x where { <Covid19> <科>?x. }"}
+{"predict": "select?x where { <新型冠状病毒> <平均直径>?x. }"}
+{"predict": "SELECT?y WHERE { <非典> <类型>?y. } "}
+{"predict": "select?x where { <SARS> <主要病症>?x. }"}
+{"predict": "select?x where { <SARS病毒> <形状>?x. } "}
+{"predict": "select?x where { <RNA病毒> <繁殖方式>?x. }"}
+{"predict": "select?x where { <RNA病毒> <营养类型>?x. }"}
+{"predict": "SELECT?x WHERE { <DNA病毒> <别称>?x. } "}
+{"predict": "select?x where { <C2HCl3> <相对分子质量>?x. }"}
+{"predict": "select?x where { <C2HCl3> <储存方法>?x. }"}
+{"predict": "select?x where { <bt毒蛋白> <功效>?x. }"}
+{"predict": "select?x where { <过敏> <常见原因>?x. }"}
+{"predict": "select?x where { <禽流感> <传播途径>?x. }"}
+{"predict": "select?x where { <卢浮宫_（法国巴黎的博物馆）> <气候>?x. }"}
+{"predict": "select?x where { <三圣母_（宗教故事人物）> <主要角色>?x. }"}
+{"predict": "select?x where { <关羽_（汉寿亭侯）> <主要成就>?x. }"}
+{"predict": "select?y where { <马可·波罗游记_（马可·波罗口述、鲁思梯谦记录游记）> <作者>?x.?x <国籍>?y. }"}
+{"predict": "select?y where {?x <别名> \"李清照\".?x <主要作品>?y. }"}
+{"predict": "select?y where {?x <主要作品> <嫦娥_（中国古代神话人物）>.?x <丈夫>?y.?y <出生地>?y. }"}
+{"predict": "select?x where {?y <别称> <书圣_（王羲之）>.?y <主要成就>?x. }"}
+{"predict": "select?x where { <刘彻_（汉武帝）> <墓葬地>?x. }"}
+{"predict": "select?y where { <成败一知己，生死两妇人> <主要人物>?x.?x <任职>?y. }"}
+{"predict": "select?y where {?x <陵墓> <端陵_（韩国汉阳王李泰栨父陵墓）>.?x <在位时间>?y. }"}
+{"predict": "select?x where { <紫鹃_（小说《红楼梦》人物）> <主>?y.?y <居住地>?x. }"}
+{"predict": "select?x where { <留声机_（放音装置）> <发明人>?x. }"}
+{"predict": "select?y where {?x <妹妹> <薛宝钗>.?x <别名>?y. }"}
+{"predict": "select?y where { <本草纲目_（李时珍撰写药学著作）> <作者>?x.?x <所处时代>?y. }"}
+{"predict": "select?y where { <严嵩> <儿子>?x.?x <别称>?y. }"}
+{"predict": "select?x where { <包子_（传统小吃）> <发明者>?y.?y <主要成就>?x. }"}
+{"predict": "select?y where {?x <丈夫> <贾琏_（小说《红楼梦》人物）>.?x <丫鬟>?y. }"}
+{"predict": "select?x where {?x <涉及症状> <下肢水肿>.?x <涉及症状> <胸水>. }"}
+{"predict": "select?x where {?x <涉及症状> <胸水>.?x <涉及症状> <肝积水>. }"}
+{"predict": "select?x where {?x <涉及症状> <肝积水>.?x <涉及症状> <胸腔积液>. }"}
+{"predict": "select?x where {?x <涉及症状> <胸腔积液>.?x <涉及症状> <肝源性水肿>. }"}
+{"predict": "select?x where {?x <涉及症状> <肝源性水肿>.?x <涉及症状> <肾损害>. }"}
+{"predict": "select?x where {?x <涉及症状> <斑疹>.?x <涉及症状> <淋巴结肿大>. }"}
+{"predict": "select?x where {?x <涉及症状> <淋巴结肿大>.?x <涉及症状> <疱疹>. }"}
+{"predict": "select?x where {?x <涉及症状> <淋巴结肿大>.?x <涉及症状> <疱疹>. }"}
+{"predict": "select?x where {?x <涉及症状> <鼻粘膜肿胀>.?x <涉及症状> <单侧鼻腔阻塞>. }"}
+{"predict": "select?x where {?x <涉及症状> <单侧鼻腔阻塞>.?x <涉及症状> <阵发性鼻塞>. }"}
+{"predict": "select?x where {?x <涉及症状> <下肢肿胀和乏力>.?x <涉及症状> <下肢浅静脉曲张>. }"}
+{"predict": "select?x where {?x <涉及症状> <下肢浅静脉曲张>.?x <涉及症状> <下肢或周身软瘫>. }"}
+{"predict": "select?x where {?x <涉及症状> <咽喉痛>.?x <涉及治疗> <注射季节性流感疫苗>. }"}
+{"predict": "select?x where { <咽喉痛还伴随咳嗽> <涉及疾病>?x. }"}
+{"predict": "select?x where {?x <科室> <感染科>.?x <涉及症状> <咳嗽>. }"}
+{"predict": "select?x where {?x <涉及症状> <支气管痉挛>.?x <涉及症状> <畏寒>. }"}
+{"predict": "select?x where {?x <涉及症状> <畏寒>.?x <涉及症状> <阵发性鼻塞>. }"}
+{"predict": "select?x where {?x <涉及症状> <阵发性鼻塞>.?x <涉及症状> <浑身忽冷忽热>. }"}
+{"predict": "select?x where {?x <涉及症状> <浑身忽冷忽热>.?x <涉及症状> <咽痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <咽痛>.?x <涉及症状> <咽部充血>. }"}
+{"predict": "select?x where {?x <涉及症状> <咽部充血>.?x <涉及症状> <打喷嚏>. }"}
+{"predict": "select?x where {?x <涉及症状> <打喷嚏>.?x <涉及症状> <发热伴咳嗽、咯痰、胸痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <感染性发热>.?x <涉及症状> <伤口感染>. }"}
+{"predict": "select?x where {?x <涉及症状> <鼻塞>.?x <涉及症状> <流鼻涕>. }"}
+{"predict": "select?x where {?x <涉及症状> <流鼻涕>.?x <涉及症状> <瘙痒>. }"}
+{"predict": "select?x where {?x <涉及症状> <瘙痒>.?x <涉及症状> <咽喉炎>. }"}
+{"predict": "select?x where {?x <涉及疾病> <咽喉炎>.?x <涉及疾病> <声音嘶哑>. }"}
+{"predict": "select?x where {?x <涉及症状> <声音嘶哑>.?x <涉及症状> <失音>. }"}
+{"predict": "select?x where {?x <涉及症状> <失音>.?x <涉及症状> <咽部充血>. }"}
+{"predict": "select?x where {?x <涉及症状> <打喷嚏>.?x <涉及症状> <过度通气>. }"}
+{"predict": "select?x where {?x <涉及症状> <过度通气>.?x <涉及症状> <干性咳嗽>. }"}
+{"predict": "select?x where {?x <涉及症状> <呼吸浅慢>.?x <涉及症状> <充血>. }"}
+{"predict": "select?x where {?x <涉及症状> <充血>.?x <涉及症状> <哮鸣音>. }"}
+{"predict": "select?x where {?x <涉及症状> <哮鸣音>.?x <涉及症状> <肺源性呼吸困难>. }"}
+{"predict": "select?x where {?x <涉及症状> <肺源性呼吸困难>.?x <涉及症状> <中性粒细胞增高>. }"}
+{"predict": "select?x where {?x <涉及症状> <中性粒细胞增高>.?x <涉及症状> <呼吸抑制>. }"}
+{"predict": "select?x where {?x <涉及症状> <呼吸抑制>.?x <涉及症状> <心源性呼吸困难>. }"}
+{"predict": "select?x where {?x <涉及疾病> <心源性呼吸困难>.?x <涉及疾病> <口唇发绀>. }"}
+{"predict": "select?x where {?x <涉及症状> <口唇发绀>.?x <涉及症状> <三凹征>. }"}
+{"predict": "select?x where {?x <涉及症状> <三凹征>.?x <涉及症状> <腹式反常呼吸>. }"}
+{"predict": "select?x where {?x <涉及症状> <腹式反常呼吸>.?x <涉及疾病> <支气管哮喘>. }"}
+{"predict": "select?x where { <支气管哮喘> <涉及症状>?x. <特发性肺纤维化> <涉及症状>?x. }"}
+{"predict": "select?x where {?y <疾病> <特发性肺纤维化>.?y <疾病> <尿毒症性肺炎>.?y <症状>?x. }"}
+{"predict": "select?x where {?x <涉及疾病> <尿毒症性肺炎>.?x <涉及疾病> <癔症性躯体障碍>. }"}
+{"predict": "select?x where { <低热发炎> <涉及症状>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <发炎>.?x <涉及症状> <畏寒>. }"}
+{"predict": "select?x where {?x <涉及症状> <畏寒>.?x <涉及症状> <利尿>. }"}
+{"predict": "select?x where {?x <涉及症状> <利尿>.?x <涉及症状> <胀痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <胀痛>.?x <涉及症状> <鼻痒>. }"}
+{"predict": "select?x where {?x <涉及症状> <打喷嚏>.?x <涉及症状> <张口呼吸>. }"}
+{"predict": "select?x where {?x <涉及症状> <张口呼吸>.?x <涉及症状> <局部压痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <局部压痛>.?x <涉及症状> <结痂>. }"}
+{"predict": "select?x where { <结痂> <涉及症状>?x. <白喉> <涉及症状>?x. }"}
+{"predict": "select?x where {?y <涉及症状> <白喉>.?y <涉及症状> <慢性鼻窦炎>.?y <涉及症状>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <气短>.?x <涉及症状> <恶心>. }"}
+{"predict": "select?x where {?x <涉及症状> <恶心>.?x <涉及症状> <牛奶色或米汤样便>. }"}
+{"predict": "select?x where {?x <涉及症状> <牛奶色或米汤样便>.?x <涉及症状> <里急后重>. }"}
+{"predict": "select?x where {?x <涉及疾病> <里急后重>.?x <涉及疾病> <病毒性腹泻>. }"}
+{"predict": "select?x where { <病毒性腹泻> <涉及症状>?x. <胸闷> <涉及症状>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <胸闷>.?x <涉及症状> <食欲减退>. }"}
+{"predict": "select?x where {?x <涉及症状> <食欲减退>.?x <涉及症状> <水泻伴低血钾>. }"}
+{"predict": "select?x where {?x <涉及症状> <水泻>.?x <涉及症状> <低血钾>.?x <涉及症状> <腹泻为水样带黏液恶臭>. }"}
+{"predict": "select?x where {?x <涉及症状> <腹泻为水样带黏液恶臭无脓血>.?x <涉及症状> <粪便量少>. }"}
+{"predict": "select?x where {?x <涉及检查> <耳、鼻、咽拭子细菌培养检查>.?x <涉及症状> <口炎>. }"}
+{"predict": "select?x where {?x <涉及症状> <疱疹>.?x <涉及症状> <呼吸困难>. }"}
+{"predict": "select?x where {?x <涉及症状> <呼吸困难>.?x <涉及症状> <吞咽痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <吞咽痛>.?x <涉及症状> <吞咽痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <充血>.?x <涉及症状> <声音嘶哑>. }"}
+{"predict": "select?x where {?x <涉及症状> <声音嘶哑>.?x <涉及症状> <溃疡>. }"}
+{"predict": "select?x where {?y <涉及症状>?x.?y <涉及疾病> \"弓形虫病\". } filter(regex(str(?y), \"流行性感冒\") == str(\"流行性感冒\")) }"}
+{"predict": "select?x where {?x <涉及疾病> <弓形虫病>.?x <涉及疾病> <肺炎支原体肺炎>. }"}
+{"predict": "select?x where {?x <涉及疾病> <肺炎支原体肺炎>.?x <涉及疾病> <急性喉气管支气管炎>. }"}
+{"predict": "select?x where {?x <涉及疾病> <急性喉气管支气管炎>.?x <涉及疾病> <血栓性静脉炎>. }"}
+{"predict": "select?x where {?y <涉及症状> <血栓性静脉炎>.?y <涉及症状> <砷中毒>. }"}
+{"predict": "select?x where {?x <涉及症状> <呼吸困难>.?x <涉及症状> <恶心>. }"}
+{"predict": "select?x where {?x <涉及症状> <恶心>.?x <涉及症状> <高碳酸血症>. }"}
+{"predict": "select?x where { <高碳酸血症> <涉及症状>?x. <血压下降> <涉及症状>?x. }"}
+{"predict": "select?x where {?x <涉及症状> <血压下降>.?x <涉及症状> <震颤>. }"}
+{"predict": "select?x where {?x <涉及症状> <震颤>.?x <涉及症状> <酮症酸中毒>. }"}
+{"predict": "select?x where {?y <关键词> \"酮症酸中毒\".?y <关键词> \"甲状旁腺功能亢进\".?y <症状>?x. } "}
+{"predict": "select?x where {?x <涉及症状> <甲状旁腺功能亢进>.?x <涉及症状> <高血钾>. }"}
+{"predict": "select?x where {?x <涉及症状> <高血钾>.?x <涉及症状> <呼吸急促>. }"}
+{"predict": "select?x where {?x <涉及症状> <呼吸急促>.?x <涉及症状> <脂肪代谢障碍>. }"}
+{"predict": "select?x where {?x <涉及疾病> <急性肾上腺皮质功能不全>.?x <涉及症状> <脂肪代谢障碍>. }"}
+{"predict": "select?x where {?x <涉及疾病> <急性肾上腺皮质功能不全>.?x <涉及疾病> <肾小管酸中毒>. }"}
+{"predict": "select?x where {?x <涉及症状> <支气管痉挛>.?x <涉及症状> <心动过速>. }"}
+{"predict": "select?x where {?x <涉及症状> <心动过速>.?x <涉及症状> <紫绀>. }"}
+{"predict": "select?x where {?x <涉及症状> <紫绀>.?x <涉及症状> <高碳酸血症>. }"}
+{"predict": "select?x where {?x <涉及症状> <高碳酸血症>.?x <涉及症状> <低血容量休克>. }"}
+{"predict": "select?x where {?x <涉及症状> <低血容量休克>.?x <涉及症状> <麻痹病症反应>. }"}
+{"predict": "select?x where {?x <涉及疾病> <支气管哮喘>.?x <涉及疾病> <胎粪吸入综合征>. }"}
+{"predict": "select?x where {?x <涉及症状> <凝血因子功能的障碍>.?x <涉及症状> <胎盘早剥>. }"}
+{"predict": "select?x where { <回归热> <涉及症状>?x. <败血症> <涉及症状>?x. }"}
+{"predict": "select?x where { <肺脓肿和衣原体肺炎> <临床表现>?x. }"}
+{"predict": "select?x where {?x <涉及疾病> <衣原体肺炎>.?x <涉及疾病> <细菌感染>. }"}
+{"predict": "select?x where { <肺炎球菌脑膜炎> <涉及症状>?x. }"}
+{"predict": "select?x where {?x <涉及症状>?y.?y <涉及检查> <体温>. }"}
+{"predict": "select?x where {?x <涉及疾病> <HIV>.?x <涉及疾病> <低热>. }"}
+{"predict": "select?x where {?x <涉及症状> <低热>.?x <涉及症状> <无力>. }"}
+{"predict": "select?x where {?x <涉及症状> <无力>.?x <涉及症状> <脓毒性血栓>. }"}
+{"predict": "select?x where {?x <涉及症状> <腿脚浮肿>.?x <涉及症状> <儿童偏食>. }"}
+{"predict": "select?x where {?x <涉及症状> <呼吸窘迫综合症>.?x <涉及症状> <面色苍白>. }"}
+{"predict": "select?x where {?x <涉及疾病> <病毒性心肌炎>.?x <涉及疾病> <眼外肌麻痹>.?x <涉及疾病> <急性心房心肌梗塞>. }"}
+{"predict": "select?x where {?x <涉及疾病> <眼外肌麻痹>.?x <涉及疾病> <急性心房心肌梗塞>.?x <涉及疾病> <甲状腺功能减退>. }"}
+{"predict": "select?x where {?x <涉及疾病> <急性心房心肌梗塞>.?x <涉及疾病> <甲状腺功能减退>.?x <涉及疾病> <进行性肌萎缩>. }"}
+{"predict": "select?x where {?x <涉及疾病> <甲状腺功能减退>.?x <涉及疾病> <进行性肌萎缩>.?x <涉及疾病> <慢性进行性眼外肌瘫痪>. }"}
+{"predict": "select?x where {?x <涉及疾病> <进行性肌萎缩>.?x <涉及疾病> <慢性进行性眼外肌瘫痪>.?x <涉及疾病> <眼肌营养不良>. }"}
+{"predict": "select?x where {?x <涉及疾病> <慢性进行性眼外肌麻痹>.?x <涉及疾病> <眼肌营养不良>.?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>. }"}
+{"predict": "select?x where {?x <涉及疾病> <眼肌营养不良>.?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>.?x <涉及疾病> <眼外肌肌病>. }"}
+{"predict": "select?x where {?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>.?x <涉及疾病> <眼外肌肌病>.?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <眼外肌肌病>.?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>.?x <涉及疾病> <小儿预激综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>.?x <涉及疾病> <小儿预激综合征>.?x <涉及疾病> <高嗜酸粒细胞综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <小儿预激综合征>.?x <涉及疾病> <高嗜酸粒细胞综合征>.?x <涉及疾病> <非阵发性交接区性心动过速>. }"}
+{"predict": "select?x where {?x <涉及疾病> <高嗜酸粒细胞综合征>.?x <涉及疾病> <非阵发性交接区性心动过速>.?x <涉及疾病> <嗜酸细胞增多性肌痛综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <非阵发性交接区性心动过速>.?x <涉及疾病> <嗜酸细胞增多性肌痛综合征>.?x <涉及疾病> <进行性肌营养不良症>. }"}
+{"predict": "select?x where {?x <涉及疾病> <嗜酸细胞增多性肌痛综合征>.?x <涉及疾病> <进行性肌营养不良症>.?x <涉及疾病> <小儿良性先天性肌弛缓综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <进行性肌营养不良症>.?x <涉及疾病> <小儿良性先天性肌弛缓综合征>.?x <涉及疾病> <肌萎缩侧索硬化症>. }"}
+{"predict": "select?x where {?x <涉及疾病> <小儿良性先天性肌弛缓综合征>.?x <涉及疾病> <肌萎缩侧索硬化症>.?x <涉及疾病> <冠状动脉异位起源>. }"}
+{"predict": "select?x where {?x <涉及疾病> <肌萎缩侧索硬化症>.?x <涉及疾病> <冠状动脉异位起源>.?x <涉及疾病> <慢性进行性眼外肌麻痹>. }"}
+{"predict": "select?x where {?x <涉及症状> <冠状动脉异位起源>.?x <涉及症状> <慢性进行性眼外肌麻痹>.?x <涉及症状> <小儿先天性肌强直综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <慢性进行性眼外肌麻痹>.?x <涉及疾病> <小儿先天性肌强直综合>.?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>. }"}
+{"predict": "select?x where {?x <涉及疾病> <小儿先天性肌强直综合征>.?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>.?x <涉及疾病> <脂质沉积性肌病>. }"}
+{"predict": "select?x where {?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>.?x <涉及疾病> <脂质沉积性肌病>.?x <涉及疾病> <小儿克山病>. }"}
+{"predict": "select?x where {?x <涉及疾病> <脂质沉积性肌病>.?x <涉及疾病> <小儿克山病>.?x <涉及疾病> <老年甲状腺功能减退症>. }"}
+{"predict": "select?x where {?x <涉及疾病> <小儿克山病>.?x <涉及疾病> <老年甲状腺功能减退症>.?x <涉及疾病> <肌萎缩侧索硬化>. }"}
+{"predict": "select?x where {?x <涉及疾病> <老年甲状腺功能减退症>.?x <涉及疾病> <肌萎缩侧索硬化>.?x <涉及疾病> <脂质贮积性肌病>. }"}
+{"predict": "select?x where {?x <涉及疾病> <肌萎缩侧索硬化>.?x <涉及疾病> <脂质贮积性肌病>.?x <涉及疾病> <脂肪贮积肌病>. }"}
+{"predict": "select?x where {?x <涉及疾病> <脂质贮积性肌病>.?x <涉及疾病> <脂肪贮积肌病>.?x <涉及疾病> <肌营养不良>. }"}
+{"predict": "select?x where {?x <涉及症状> <全身过敏和发热皮疹>.?x <涉及症状> <关节痛>.?x <涉及症状> <非感染性发热>.?x <涉及症状> <手足湿冷>. }"}
+{"predict": "select?x where {?x <涉及症状> <热病汗不出>.?x <涉及症状> <足心发热>.?x <涉及症状> <面红升火>. }"}
+{"predict": "select?x where {?x <涉及症状> <面红升火>.?x <涉及症状> <迫血妄行>.?x <涉及症状> <潮热颧红>. }"}
+{"predict": "select?x where {?x <涉及症状> <迫血妄行>.?x <涉及症状> <潮热颧红>.?x <涉及症状> <持续性发热>. }"}
+{"predict": "select?x where {?x <涉及症状> <潮热颧红>.?x <涉及症状> <持续性发热>.?x <涉及症状> <中枢性发热>. }"}
+{"predict": "select?x where {?x <涉及症状> <持续性发热>.?x <涉及症状> <中枢性发热>.?x <涉及症状> <舌嫩苔厚>. }"}
+{"predict": "select?x where {?x <涉及症状> <中枢性发热>.?x <涉及症状> <舌嫩苔厚>.?x <涉及症状> <体温调节紊乱>. }"}
+{"predict": "select?x where {?x <涉及症状> <舌嫩苔厚>.?x <涉及症状> <体温调节紊乱>.?x <涉及症状> <温毒厥脱>. }"}
+{"predict": "select?x where {?x <涉及症状> <体温调节紊乱>.?x <涉及症状> <温毒厥脱>.?x <涉及症状> <内热哺热>. }"}
+{"predict": "select?x where {?x <涉及症状> <温毒厥脱>.?x <涉及症状> <内热哺热>.?x <涉及症状> <坠胀拒按>. }"}
+{"predict": "select?x where {?x <涉及症状> <内热哺热>.?x <涉及症状> <坠胀拒按>.?x <涉及症状> <涕唾稠粘>. }"}
+{"predict": "select?x where {?x <涉及症状> <坠胀拒按>.?x <涉及症状> <涕唾稠粘>.?x <涉及症状> <苔白而润>. }"}
+{"predict": "select?x where {?x <涉及症状> <涕唾稠粘>.?x <涉及症状> <苔白而润>.?x <涉及症状> <夜啼饶哭>. }"}
+{"predict": "select?x where {?x <涉及内容> <苔白而润>.?x <涉及内容> <夜啼饶哭>.?x <涉及内容> <五心烦热>. }"}
+{"predict": "select?x where {?x <科室> <呼吸内科>.?x <涉及症状> <高碳酸血症>.?x <涉及疾病> <成人呼吸窘迫综合征>. }"}
+{"predict": "select?x where {?x <涉及症状> <高碳酸血症>.?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <CO2潴留>. }"}
+{"predict": "select?x where {?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <CO2潴留>.?x <涉及症状> <口唇发绀>. }"}
+{"predict": "select?x where {?x <涉及症状> <CO2潴留>.?x <涉及症状> <口唇发绀>.?x <涉及症状> <低氧血症>. }"}
+{"predict": "select?x where {?x <涉及症状> <口唇发绀>.?x <涉及症状> <低氧血症>. }"}
+{"predict": "select?x where {?x <科室> <急诊科>.?x <涉及症状> <创伤>.?x <需要检查> <动脉血气分析>. }"}
+{"predict": "select?x where {?x <涉及症状> <创伤以及低血容量休克>.?x <涉及检测> <动脉血气分析>. }"}
+{"predict": "select?x where {?x <涉及症状> <心悸>.?x <涉及症状> <白细胞增多>.?x <涉及症状> <暴饮暴食>. }"}
+{"predict": "select?x where {?x <涉及症状> <白细胞增多>.?x <涉及症状> <暴饮暴食>.?x <涉及症状> <紧张>. }"}
+{"predict": "select?x where {?x <涉及症状> <暴饮暴食>.?x <涉及症状> <紧张>.?x <涉及症状> <胸痛>. }"}
+{"predict": "select?x where {?x <涉及症状> <紧张>.?x <涉及症状> <胸痛>.?x <涉及症状> <利尿>. }"}
+{"predict": "select?x where {?x <涉及症状> <胸痛>.?x <涉及症状> <利尿>.?x <涉及症状> <胸水>. }"}
+{"predict": "select?x where {?x <涉及症状> <利尿>.?x <涉及症状> <胸水>.?x <涉及症状> <气管移位>. }"}
+{"predict": "select?x where {?x <涉及症状> <胸水>.?x <涉及症状> <气管移位>.?x <涉及症状> <液气胸>. }"}
+{"predict": "select?x where {?x <涉及症状> <气管移位>.?x <涉及症状> <液气胸>.?x <涉及症状> <低蛋白血症>. }"}
+{"predict": "select?x where {?x <涉及疾病> <液气胸>.?x <涉及疾病> <低蛋白血症>.?x <涉及疾病> <肝硬化>. }"}
+{"predict": "select?x where {?x <涉及疾病> <低蛋白血症>.?x <涉及疾病> <肝硬化>.?x <涉及疾病> <链球菌感染>. }"}
+{"predict": "select?x where {?x <涉及疾病> <肝硬化>.?x <涉及疾病> <链球菌感染>.?x <涉及疾病> <胸膜间皮瘤>. }"}
+{"predict": "select?x where {?x <科室> <血液科>.?x <涉及症状> <肺实变>.?x <涉及症状> <发热>. }"}
+{"predict": "select?x where {?x <涉及症状> <肺实变>.?x <涉及症状> <发热>.?x <涉及症状> <紫绀>. }"}
+{"predict": "select?x where {?x <涉及症状> <发热>.?x <涉及症状> <紫绀>.?x <涉及症状> <急性病容>. }"}
+{"predict": "select?x where {?x <涉及症状> <紫绀>.?x <涉及症状> <急性病容>.?x <涉及症状> <高热>. }"}
+{"predict": "select?x where {?x <涉及症状> <急性病容>.?x <涉及症状> <高热>.?x <涉及症状> <脓性分泌物>. }"}
+{"predict": "select?x where {?x <涉及症状> <高热>.?x <涉及症状> <脓性分泌物>.?x <涉及症状> <血压下降>. }"}
+{"predict": "select?x where {?x <涉及症状> <脓性分泌物>.?x <涉及症状> <血压下降>.?x <涉及症状> <尿急>. }"}
+{"predict": "select?x where {?x <涉及症状> <血压下降>.?x <涉及症状> <尿急>.?x <涉及症状> <寒战>. }"}
+{"predict": "select?x where {?x <涉及症状> <尿急>.?x <涉及症状> <寒战>.?x <涉及症状> <肝脾肿大>. }"}
+{"predict": "select?x where {?x <涉及症状> <寒战>.?x <涉及症状> <肝脾肿大>.?x <涉及疾病> <慢性前列腺炎>. }"}
+{"predict": "select?x where {?x <涉及症状> <肝脾肿大>.?x <涉及疾病> <慢性前列腺炎>.?x <涉及疾病> <肝脓肿>. }"}
+{"predict": "select?x where {?x <涉及疾病> <慢性前列腺炎>.?x <涉及疾病> <肝脓肿>.?x <涉及疾病> <急性喉气管支气管炎>. }"}
+{"predict": "select?x where {?x <涉及疾病> <肝脓肿>.?x <涉及疾病> <急性喉气管支气管炎>.?x <涉及疾病> <肝片形吸虫病>. }"}
+{"predict": "select?x where {?x <涉及症状> <肺淤血>.?x <涉及症状> <端坐呼吸>.?x <涉及症状> <哮鸣音>. }"}
+{"predict": "select?x where {?x <涉及症状> <端坐呼吸>.?x <涉及症状> <哮鸣音>.?x <涉及症状> <声音嘶哑>. }"}
+{"predict": "select?x where {?x <涉及症状> <哮鸣音>.?x <涉及症状> <声音嘶哑>.?x <涉及疾病> <肺动脉栓塞>. }"}
+{"predict": "select?x where {?x <涉及症状> <声音嘶哑>.?x <涉及疾病> <肺动脉栓塞>.?x <涉及疾病> <不稳定型心绞痛>. }"}
+{"predict": "select?x where {?x <涉及检查> <耳、鼻、咽拭子细菌培养>.?x <涉及症状> <低热>.?x <涉及症状> <流鼻涕>. }"}
+{"predict": "select?x where {?x <涉及症状> <低热>.?x <涉及症状> <流鼻涕>.?x <涉及症状> <干咳>. }"}
+{"predict": "select?x where {?x <涉及症状> <口炎>.?x <涉及症状> <疱疹>.?x <涉及症状> <肌肉萎缩>. }"}
+{"predict": "select?x where {?x <涉及症状> <疱疹>.?x <涉及症状> <肌肉萎缩>.?x <涉及症状> <水肿伴呼吸困难>.?x <涉及症状> <紫绀>. }"}
+{"predict": "select?x where {?x <涉及症状> <肌肉萎缩>.?x <涉及症状> <水肿伴呼吸困难>.?x <涉及症状> <紫绀>.?x <涉及症状> <腿脚浮肿>. }"}
+{"predict": "select?x where {?x <涉及症状> <水肿伴呼吸困难、紫绀>.?x <涉及症状> <腿脚浮肿>.?x <涉及症状> <端坐呼吸>. }"}
+{"predict": "select?x where {?x <涉及症状> <腿脚浮肿>.?x <涉及症状> <端坐呼吸>.?x <涉及症状> <下肢水肿>. }"}
+{"predict": "select?x where {?x <涉及症状> <端坐呼吸>.?x <涉及症状> <下肢水肿>.?x <涉及症状> <急性呼吸困>. }"}
+{"predict": "select?x where {?x <涉及症状> <下肢水肿>.?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <浑身忽冷忽热>. }"}
+{"predict": "select?x where {?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <浑身忽冷忽热>.?x <涉及症状> <少尿>. }"}
+{"predict": "select?x where {?x <涉及症状> <浑身忽冷忽热>.?x <涉及症状> <少尿>.?x <涉及症状> <消瘦>. }"}
+{"predict": "select?x where {?x <涉及症状> <少尿>.?x <涉及症状> <消瘦>.?x <涉及症状> <声门水肿>. }"}
+{"predict": "select?x where {?x <涉及症状> <消瘦>.?x <涉及症状> <声门水肿>.?x <涉及症状> <蠕动感>. }"}
+{"predict": "select?x where {?x <涉及症状> <声门水肿>.?x <涉及症状> <蠕动感>.?x <涉及症状> <肝肿大>. }"}
+{"predict": "select?x where {?x <涉及症状> <蠕动感>.?x <涉及症状> <肝肿大>.?x <涉及症状> <低蛋白血症>. }"}
+{"predict": "select?x where {?x <涉及症状> <肝肿大>.?x <涉及症状> <低蛋白血症>.?x <涉及症状> <溃疡>. }"}
+{"predict": "select?x where {?x <涉及症状> <低蛋白血症>.?x <涉及症状> <溃疡>.?x <涉及症状> <耳内流脓>. }"}
+{"predict": "select?x where {?x <涉及症状> <溃疡>.?x <涉及症状> <耳内流脓>.?x <涉及症状> <听力减退>. }"}
+{"predict": "select?x where {?x <涉及症状> <耳内流脓>.?x <涉及症状> <听力减退>.?x <涉及症状> <氮质血症>. }"}
+{"predict": "select?x where { <横纹肌肉瘤> <医学专科>?x. }"}
+{"predict": "select?x where { <梅毒> <传染性>?x. }"}
+{"predict": "select?x where { <梅毒> <MeSH>?x. }"}
+{"predict": "select?x where { <梅毒> <ICD10>?x. }"}
+{"predict": "select?x where { <梅毒> <ICD9CM>?x. }"}
+{"predict": "select?x where { <梅毒> <eMedicine>?x. }"}
+{"predict": "select?x where { <梅毒> <医学专科>?x. }"}
+{"predict": "select?x where { <梅毒> <DiseasesDB>?x. }"}
+{"predict": "select?x where { <贫血> <传染性>?x. }"}
+{"predict": "select?x where { <灭菌注射用水> <用途>?x. }"}
+{"predict": "select?x where { <防风通圣丸> <用途>?x. }"}
+{"predict": "select?x where { <藿香正气胶囊> <用途>?x. }"}
+{"predict": "select?x where { <连花清瘟胶囊> <用途标签>?x. }"}
+{"predict": "select?x where { <疏风解毒胶囊> <用途>?x. }"}
+{"predict": "select?x where { <解毒胶囊> <用途>?x. }"}
+{"predict": "select?x where { <安宫牛黄丸> <用途>?x. }"}
+{"predict": "select?x where { <小儿腹泻散> <用途>?x. }"}
+{"predict": "select?x where { <干咳> <预防>?x. }"}
+{"predict": "select?x where { <干咳> <临床表现>?x. }"}
+{"predict": "select?x where { <干咳> <起因>?x. }"}
+{"predict": "select?x where { <干咳> <诊断>?x. }"}
+{"predict": "select?x where { <呼吸困难> <预防>?x. }"}
+{"predict": "select?x where { <呼吸困难> <临床表现>?x. }"}
+{"predict": "select?x where { <呼吸困难> <起因>?x. }"}
+{"predict": "select?x where { <呼吸困难> <MeSH>?x. }"}
+{"predict": "select?x where { <呼吸困难> <ICD10>?x. }"}
+{"predict": "select?x where { <呼吸困难> <DiseasesDB>?x. }"}
+{"predict": "select?x where { <呼吸困难> <MedlinePlus>?x. }"}
+{"predict": "select?x where { <呼吸困难> <ICD9>?x. }"}
+{"predict": "select?x where { <呼吸困难> <诊断>?x. }"}
+{"predict": "select?x where { <鼻塞> <传染性>?x. }"}
+{"predict": "select?x where { <鼻塞> <预防>?x. }"}
+{"predict": "select?x where { <鼻塞> <ICD9CM>?x. }"}
+{"predict": "select?x where { <鼻塞> <诊断>?x. }"}
+{"predict": "select?x where { <腹泻> <传染性>?x. }"}
+{"predict": "select?x where { <腹泻> <英文名称>?x. }"}
+{"predict": "select?x where { <腹泻> <临床表现>?x. }"}
+{"predict": "select?x where { <腹泻> <MeSH>?x. }"}
+{"predict": "select?x where { <腹泻> <ICD10>?x. }"}
+{"predict": "select?x where { <腹泻> <eMedicine>?x. }"}
+{"predict": "select?x where { <腹泻> <DiseasesDB>?x. }"}
+{"predict": "select?x where { <腹泻> <ICD9>?x. }"}
+{"predict": "select?x where { <腹泻> <诊断>?x. }"}
+{"predict": "select?x where { <流涕> <预防>?x. }"}
+{"predict": "select?x where { <咽痛> <诊断>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <传染性>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <发病部位>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <预防>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <临床表现>?x. }"}
+{"predict": "select?x where { <低氧血症> <预防>?x. }"}
+{"predict": "select?x where { <低氧血症> <诊断>?x. }"}
+{"predict": "select?x where { <呼吸窘迫综合征> <预防>?x. }"}
+{"predict": "select?x where { <凝血功能障碍> <预防>?x. }"}
+{"predict": "select?x where { <凝血功能障碍> <诊断>?x. }"}
+{"predict": "select?x where { <支气管肺炎> <表现>?x. }"}
+{"predict": "select?x where { <支气管肺炎> <常见病因>?x. }"}
+{"predict": "select?x where { <支气管肺炎> <多发群体>?x. }"}
+{"predict": "select?x where { <颈动脉狭窄> <常见病因>?x. }"}
+{"predict": "select?x where { <胆囊结石> <传染性>?x. }"}
+{"predict": "select?x where { <胆囊结石> <科室>?x. }"}
+{"predict": "select?x where { <胆囊结石> <常见症状>?x. }"}
+{"predict": "select?x where { <胆囊结石> <多发风险>?x. }"}
+{"predict": "select?x where { <梅毒> <传播途径>?x. }"}
+{"predict": "select?x where { <梅毒> <外文名>?x. }"}
+{"predict": "select?x where { <梅毒> <MedlinePlu>?x. }"}
+{"predict": "select?x where { <贫血> <就诊科室>?x. }"}
+{"predict": "select?x where { <贫血> <症状>?x. }"}
+{"predict": "select?x where { <贫血> <原因>?x. }"}
+{"predict": "select?x where { <灭菌注射用水> <类型>?x. }"}
+{"predict": "select?x where { <灭菌注射用水> <类型>?x. }"}
+{"predict": "select?x where { <防风通圣丸> <类型>?x. }"}
+{"predict": "select?x where { <藿香正气胶囊> <类型>?x. }"}
+{"predict": "select?x where { <连花清瘟胶囊> <类型>?x. }"}
+{"predict": "select?x where { <疏风解毒胶囊> <类型>?x. }"}
+{"predict": "select?x where { <解毒胶囊> <类型>?x. }"}
+{"predict": "select?x where { <苏合香丸> <类型>?x. }"}
+{"predict": "select?x where { <苏合香丸> <用途>?x. }"}
+{"predict": "select?x where { <安宫牛黄丸> <类型>?x. }"}
+{"predict": "select?x where { <血必净注射液> <类型>?x. }"}
+{"predict": "select?x where { <血必净注射液> <类型>?x. }"}
+{"predict": "select?x where { <参附注射液> <类型>?x. }"}
+{"predict": "select?x where { <参附注射液> <类型>?x. }"}
+{"predict": "select?x where { <生脉注射液> <类型>?x. }"}
+{"predict": "select?x where { <生脉注射液> <类型>?x. }"}
+{"predict": "select?x where { <喜炎平注射液> <类型>?x. }"}
+{"predict": "select?x where { <喜炎平注射液> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻宁糖浆> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻散> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻宁(泡腾颗粒)> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻宁(泡腾颗粒)> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻贴> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻贴> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻宁合剂> <类型>?x. }"}
+{"predict": "select?x where { <小儿腹泻宁合剂> <类型>?x. }"}
+{"predict": "select?x where { <干咳> <科室>?x. }"}
+{"predict": "select?x where { <干咳> <原因>?x. }"}
+{"predict": "select?x where { <干咳> <定义>?x. }"}
+{"predict": "select?x where { <呼吸困难> <传染性>?x. }"}
+{"predict": "select?x where { <呼吸困难> <科室>?x. }"}
+{"predict": "select?x where { <呼吸困难> <原因>?x. }"}
+{"predict": "select?x where { <呼吸困难> <症状>?x. }"}
+{"predict": "select?x where { <鼻塞> <科室>?x. }"}
+{"predict": "select?x where { <鼻塞> <涉及因素>?x. }"}
+{"predict": "select?x where { <鼻塞> <原因>?x. }"}
+{"predict": "select?x where { <鼻塞> <症状>?x. }"}
+{"predict": "select?x where { <腹泻> <病因>?x. }"}
+{"predict": "select?x where { <腹泻> <科室>?x. }"}
+{"predict": "select?x where { <腹泻> <症状>?x. }"}
+{"predict": "select?x where { <腹泻> <症状>?x. }"}
+{"predict": "select?x where { <咽痛> <预防>?x. }"}
+{"predict": "select?x where { <咽痛> <症状>?x. }"}
+{"predict": "select?x where { <咽痛> <病因>?x. }"}
+{"predict": "select?x where { <咽痛> <类型>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <科室>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <类型>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <常见病因>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <诊断>?x. }"}
+{"predict": "select?x where { <代谢性酸中毒> <类型>?x. }"}
+{"predict": "select?x where { <低氧血症> <常见病因>?x. }"}
+{"predict": "select?x where { <低氧血症> <类型>?x. }"}
+{"predict": "select?x where { <呼吸窘迫综合征> <常见病因>?x. }"}
+{"predict": "select?x where { <呼吸窘迫综合征> <类型>?x. }"}
+{"predict": "select?x where { <凝血功能障碍> <引发>?x. }"}
+{"predict": "select?x where { <凝血功能障碍> <类型>?x. }"}
+{"predict": "select?x where { <低热表现> <原因>?x. }"}
+{"predict": "select?x where { <低热> <原因>?x. }"}
+{"predict": "select?x where { <低热> <原因>?x. }"}
+{"predict": "select?x where { <低热> <症状>?x. }"}
+{"predict": "select?x where { <高热> <症状>?x. }"}
+{"predict": "select?x where { <呼吸衰竭> <科室>?x. }"}
+{"predict": "select?x where { <呼吸衰竭> <原发病症>?x. }"}
+{"predict": "select?x where { <引发呼吸衰竭> <原因>?x. }"}
+{"predict": "select?x where { <肺实变> <英文名称>?x. }"}
+{"predict": "select?x where { <肺实变> <原因>?x. }"}
+{"predict": "select?x where { <肺实变> <类型>?x. }"}
+{"predict": "select?x where { <不明原因发热> <别称>?x. }"}
+{"predict": "select?x where { <不明原因发热> <表现>?x. }"}
+{"predict": "select?x where { <引发不明原因发热> <原因>?x. }"}
+{"predict": "select?x where { <不明原因发热> <类型>?x. }"}
+{"predict": "select?x where { <咳嗽> <科室>?x. }"}
+{"predict": "select?x where { <咳嗽> <原因>?x. }"}
+{"predict": "select?x where { <咳嗽> <病症>?x. }"}
+{"predict": "select?x where { <恶寒发热> <病因>?x. }"}
+{"predict": "select?x where { <恶寒发热> <类型>?x. }"}
+{"predict": "select?x where { <倦怠> <病因>?x. }"}
+{"predict": "select?x where { <倦怠> <症状>?x. }"}
+{"predict": "select?x where { <脘痞> <常见病因>?x. }"}
+{"predict": "select?x where { <脘痞> <释义>?x. }"}
+{"predict": "select?x where { <咽干> <涉及病因>?x. }"}
+{"predict": "select?x where { <咽干> <类型>?x. }"}
+{"predict": "select?x where { <便秘> <科室>?x. }"}
+{"predict": "select?x where { <便秘> <常见病因>?x. }"}
+{"predict": "select?x where { <便秘> <类型>?x. }"}
+{"predict": "select?x where { <喘憋> <原因>?x. }"}
+{"predict": "select?x where { <东北大厦> <房型名称> <尊贵豪华悠景双床房>. <尊贵豪华悠景双床房> <房型描述>?x. }"}
+{"predict": "select?y where { <北京金融街威斯汀大酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 1).?y <城市> <北京>.?y <类型> <酒店>. }"}
+{"predict": "select?y  where { <北京世纪金源大酒店> <附近>?cvt.?cvt <实体名称>?y.?y <是否有停车场> <有收费停车场>.?y <类型> <景点>. }"}
+{"predict": "select?x where { <故宫博物院（故宫）> <娱乐项目名称> <延庆殿>. <延庆殿> <项目描述>?x. }"}
+{"predict": "select?x where { <沈阳梵高星空艺术馆（益田假日世界店）> <娱乐项目名称> <恐怖沙发>. <恐怖沙发> <项目描述>?x. }"}
+{"predict": "select?x where { <济南护城河> <电话>?x. }"}
+{"predict": "select?x where { <森泊幻想岛> <是否免费> \"全年收费\". <森泊幻想岛> <优待政策>?x. }"}
+{"predict": "select (count(?x) as?count_city) where { ?x <城市> <南京>. ?x <酒店品牌名称> <香格里拉>. }"}
+{"predict": "select?x where { <润达奇妙萌宠乐园> <最佳游玩时间>?x. }"}
+{"predict": "select?x where { <梅溪湖国际文化艺术中心艺术馆> <优待政策>?x. }"}
+{"predict": "select?x where { <大连远洲大酒店> <电话>?x. }"}
+{"predict": "select?x where {?x <城市> <济南>.?x <景点的等级A> \"5A\". }"}
+{"predict": "select?t where { <北京国贸大酒店> <附近>?cvt.?cvt <实体名称> <北京饭店（原北京喜来登长城中心）>.?cvt <距离值>?t.}"}
+{"predict": "select?y where { <雍和宫> <附近>?cvt.?cvt <实体名称>?y.?y <是否有充电车位> <有充电车位>.?y <类型> <酒店>.  }"}
+{"predict": "select?y where { <景山公园> <附近>?cvt.?cvt <实体名称>?y.?y <是否有高尔夫球馆> <有高尔夫球馆>.?y <类型> <酒店>. }"}
+{"predict": "select?x where { <外滩> <平均价格>?x. }"}
+{"predict": "select?time where { <沈阳黎明国际酒店> <酒店入住开始时间>?time. }"}
+{"predict": "select?x where { <辽宁省博物馆> <城市> <沈阳>. <辽宁省博物馆> <地址>?x. }"}
+{"predict": "select?y where { <天津独角兽星空艺术馆> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 2).?y <城市> <天津>.?y <类型> <景点>.}"}
+{"predict": "select?y where { <重庆君豪大饭店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <重庆>.?y <类型> <景点>.}"}
+{"predict": "select?x where { <凯玄国际大酒店> <酒店退房时间>?x. }"}
+{"predict": "select?x where { <南京城市名人酒店> <酒店入住开始时间>?x. }"}
+{"predict": "select?y where { <幻光之城星空艺术馆（青岛东城旗舰店）> <娱乐项目名称> <水晶柱镜花宫>. <水晶柱镜花宫> <项目描述>?y. }"}
+{"predict": "select?x where { <颐和园> <附近>?cvt.?cvt <实体名称>?x.?cvt <距离值>?distance. filter(?distance <= 5).?x <城市> <北京>.?x <类型> <酒店>.?x <停车收费> <免费停车>. }"}
+{"predict": "select?x where { <梅里雪山国家公园> <官方门票数据>?x. }"}
+{"predict": "select?x where { <湖南省博物馆> <营业时间>?x. }"}
+{"predict": "select?x where { <润达奇妙萌宠乐园> <营业时间>?x. }"}
+{"predict": "select?x where { <时空魔方艺术馆（嘉里中心旗舰店）> <电话>?x. }"}
+{"predict": "select?y where { <景山公园> <附近>?cvt.?cvt <实体名称>?y.?y <是否有泳池> <室内泳池>. }"}
+{"predict": "select?x where { <玉龙雪山蓝月谷> <平均价格>?x. }"}
+{"predict": "select?x where { <厦门艾美酒店> <平均价格>?x. }"}
+{"predict": "select?x where { <森泊幻想岛> <位于>?cvt. ?cvt <实体名称> <孤山公园>. ?cvt <方向>?x }"}
+{"predict": "select?y where { <北京国宾酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <类型> <景点>.}"}
+{"predict": "select?x where { <奥林匹克森林公园> <电话>?x. }"}
+{"predict": "select?x where { <永银钱币博物馆> <城市> <南京>. <永银钱币博物馆> <景点简介-优惠信息>?x. }"}
+{"predict": "select?x where {?x <城市> <济南>.?x <酒店品牌名称> <索菲特>. }"}
+{"predict": "select?x where { <喀纳斯景区> <官方门票数据>?x. }"}
+{"predict": "select?x where { <武汉华美达光谷大酒店> <wifi情况>?x. }"}
+{"predict": "select?x where { <济南护城河> <景点的等级A>?x. }"}
+{"predict": "select?x where { <北海公园> <城市> <北京>. <北海公园> <位置>?x. }"}
+{"predict": "select?x where { <广州独角兽星空艺术馆> <城市>?x. }"}
+{"predict": "select?x where { <梵高星空艺术馆（益田假日世界店）> <城市>?x. }"}
+{"predict": "select?x where { <库尔勒康城建国国际酒店> <是否有咖啡厅>?x. }"}
+{"predict": "select?y where { <景山公园> <附近>?cvt.?cvt <实体名称>?y.?y <是否有外币兑换> <有外币兑换>.?y <类型> <酒店>. }"}
+{"predict": "select?t where { <萤火虫星空艺术馆（钟楼旗舰店）> <附近>?cvt.?cvt <实体名称> <西安梦幻星空抖乐园（钟楼旗舰店）>.?cvt <距离值>?t.}"}
+{"predict": "select?y where { <布达拉宫> <附近>?cvt.?cvt <实体名称>?y.?y <是否有咖啡厅> <有咖啡厅>.?y <类型> <酒店>. }"}
+{"predict": "select?x where { <空中之翼航空飞行跳伞俱乐部> <城市> <天津>. <空中之翼航空飞行跳伞俱乐部> <最佳游玩时间>?x. }"}
+{"predict": "select?x where { <九寨沟风景区> <城市> <九寨沟县>. <九寨沟风景区> <优待政策>?x. }"}
+{"predict": "select?x where { <重庆·巅峰乐园> <建议游玩时长>?x. }"}
+{"predict": "select?x where { <北京金茂威斯汀酒店> <是否有网球馆>?x. }"}
+{"predict": "select?x where { <辽宁省博物馆> <娱乐项目名称> <洞穴岁月>. <洞穴岁月> <项目限制（一般指身高年龄限制）>?x. }"}
+{"predict": "select?y where { <雍和宫> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <北京>.?y <类型> <景点>.}"}
+{"predict": "select?y  where { <故宫博物院（故宫）> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance.?y <类型> <酒店>.?y <平均价格>?price. filter(?distance <= 5). } ORDER BY desc(?price) LIMIT 1"}
+{"predict": "select?x where { <成都望江宾馆> <是否有婚宴服务>?x. }"}
+{"predict": "select?x where { <孤山公园> <城市> <杭州>. <孤山公园> <景点的等级A>?x. }"}
+{"predict": "select?x where { <故宫博物院（故宫）> <营业时间>?x. }"}
+{"predict": "select?x where { <瑞海姆田园度假村> <是否有接送站>?x. }"}
+{"predict": "select?x where { <美丽华酒店> <是否有允许带宠物>?x. }"}
+{"predict": "select?t where { <故宫博物院（故宫）> <附近>?cvt.?cvt <实体名称> <北京新云南皇冠假日酒店>.?cvt <距离值>?t.}"}
+{"predict": "select?x where { <清华大学艺术博物馆> <娱乐项目名称> <家具部分>. <家具部分> <项目描述>?x. }"}
+{"predict": "select?x where { <丽江泸沽湖景区> <是否可开车进景区>?x. }"}
+{"predict": "select?x where { <景山公园> <官方门票数据>?x. }"}
+{"predict": "select?x where { <上海西郊宾馆> <酒店入住开始时间>?x. }"}
+{"predict": "select?x where { <萤火虫星空艺术馆（钟楼旗舰店）> <娱乐项目名称> <奇趣动漫馆>. <奇趣动漫馆> <项目描述>?x. }"}
+{"predict": "select?x where { <颐和园> <位于>?cvt. ?cvt <实体名称> <日坛宾馆>. ?cvt <方向>?x }"}
+{"predict": "select?x where {?x <城市> <镇江>.?x <酒店品牌名称> <喜来登>. }"}
+{"predict": "select?x where { <北京金融街威斯汀大酒店> <位于>?cvt. ?cvt <实体名称> <雍和宫>. ?cvt <方向>?x }"}
+{"predict": "select?x where { <东北大厦> <房型名称> <豪华悠景大床房>. <豪华悠景大床房> <容纳人数>?x. }"}
+{"predict": "select?x where { <灵峰山森仙亲子教育农场> <wifi服务>?x. }"}
+{"predict": "select?x where { <丽江泸沽湖> <交通信息>?x. }"}
+{"predict": "select (count(?x) as?count_hotel) where { ?x <城市> <常熟>. ?x <酒店品牌名称> <金海华连锁酒店>. }"}
+{"predict": "select?y where { <北京国贸大酒店> <附近>?cvt.?cvt <实体名称>?y.?y <是否有擦鞋服务> <有擦鞋服务>.?y <类型> <酒店>. }"}
+{"predict": "select?x where { <杭州西湖星空魔幻城（星空艺术馆品牌旗舰店）> <最佳游玩时间>?x. }"}
+{"predict": "select?x where { <颐和园> <城市> <北京>. <颐和园> <景点简介-门票>?x. }"}
+{"predict": "select?y where { <北京昆仑饭店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 2).?y <类型> <景点>.}"}
+{"predict": "select?t where { <湖南省博物馆> <附近>?cvt.?cvt <实体名称> <梅溪湖国际文化艺术中心艺术馆>.?cvt <距离值>?t.}"}
+{"predict": "select?x where { <成都家园国际酒店> <早餐类型>?x. }"}
+{"predict": "select?distance where { <济南护城河> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance.?y <类型> <酒店>. }"}
+{"predict": "select?y where { <布达拉宫> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <拉萨>.?y <类型> <酒店>. }"}
+{"predict": "select?y where { <绍兴市国际大酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <绍兴>.?y <类型> <酒店>.}"}
+{"predict": "select?x where { <玉龙雪山蓝月谷> <是否有餐厅>?x. }"}
+{"predict": "select?x where { <养性殿> <娱乐项目名称> <故宫博物馆>. <故宫博物馆> <项目名称>?x. }"}
+{"predict": "select?x where { <开平潭江半岛酒店> <早餐价格>?x. }"}
+{"predict": "select?x where { <景山公园> <城市> <北京>. <景山公园> <景点简介-优惠信息>?x. }"}
+{"predict": "select?x where { <奥林匹克森林公园> <城市>?x. }"}
+{"predict": "select?x where { <珠海来魅力假日酒店> <城市>?x. }"}
+{"predict": "select?c where { <天坛公园> <附近>?c.?c <平均价格>?z.?c <距离值>?d. filter(?d < 5).?c <类型> <酒店>. }"}
+{"predict": "select?y where { <厦门星空艺术馆> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <厦门>.?y <类型> <景点>.}"}
+{"predict": "select?y where { <亚龙湾希尔顿大酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 1).?y <城市> <三亚>.?y <类型> <酒店>. }"}
+{"predict": "select?y where { <西安威斯汀大酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 2).?y <城市> <西安>.?y <类型> <景点>.}"}
+{"predict": "select?y where { <广州失恋博物馆> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <类型> <景点>.}"}
+{"predict": "select?x where { <名人国际大酒店> <城市>?x. }"}
+{"predict": "select?y where { <开封中州国际饭店> <智能门锁>?y. }"}
+{"predict": "select?y where { <天津独角兽星空艺术馆> <附近>?cvt.?cvt <实体名称>?y.?y <是否有酒店> <酒店>.?y <类型> <酒店>. <酒店> <平均价格>?price. filter(?price < <400>) }"}
+{"predict": "select?y where { <南京博物院> <附近>?cvt.?cvt <实体名称>?y.?y <是否有健身房> <有健身房>.?y <类型> <酒店>. }"}
+{"predict": "select?x where { <壶山温泉> <娱乐项目名称> <电玩游戏厅>. <电玩游戏厅> <营业时间>?x. }"}
+{"predict": "select?t where { <南京恋爱博物馆> <附近>?cvt.?cvt <实体名称> <永银钱币博物馆>.?cvt <距离值>?t.}"}
+{"predict": "select?x where { <壶山温泉> <是否有自拍杆>?x. }"}
+{"predict": "select?x where { <颐和园> <位于>?cvt. ?cvt <实体名称> <凤凰中心>. ?cvt <方向>?x }"}
+{"predict": "select?x where { <紫金山探险公园> <城市> <南京>. <紫金山探险公园> <最佳游玩时间>?x. }"}
+{"predict": "select?x where { <布达拉宫> <地址>?x. }"}
+{"predict": "select?x where { <湖南博物馆> <是否免费>?x. }"}
+{"predict": "select?y where { <南京绿地洲际酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <类型> <景点>.}"}
+{"predict": "select?x where { <梵高星空美术> <附近>?cvt.?cvt <实体名称> <江汉路>.?cvt <是否有母婴室>?x. }"}
+{"predict": "select?x where { <思南九天温泉酒店> <地址>?x. }"}
+{"predict": "select?x where { <故宫博物院> <文化程度>?x. }"}
+{"predict": "select?x where { <北京中奥马哥孛罗大酒店> <早餐价格>?x. }"}
+{"predict": "select?x where { <思丽卡尔顿酒店> <酒店退房时间>?x. }"}
+{"predict": "select?x where { <御水温泉度假酒店> <平均价格>?x. }"}
+{"predict": "select?x where { <颐和园> <娱乐项目名称> <玉澜堂>. <玉澜堂> <项目短描述>?x. }"}
+{"predict": "select?x where { <九寨沟风景区> <交通信息>?x. }"}
+{"predict": "select?y where { <北京天伦王朝酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 2).?y <城市> <北京>.?y <类型> <景点>.}"}
+{"predict": "select?x where { <苏州吴宫泛太平洋酒店> <是否有游泳池>?x. }"}
+{"predict": "select?x where { <北京伯豪瑞廷酒店> <酒店品牌名称>?x. }"}
+{"predict": "select?x where { <森泊幻想岛> <官方门票数据>?x. }"}
+{"predict": "select?y where { <北京希尔顿酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <北京>.?y <平均价格>?price. filter(?price < 100) }"}
+{"predict": "select?x where { <赛里木湖风景区> <景点的等级A> \"4A\". <赛里木湖风景区> <城市>?x. }"}
+{"predict": "select?y where { <珠海来魅力假日酒店> <房型名称>?y.?y <娱乐设备> \"影音\". }"}
+{"predict": "select?x where {?x <城市> <北京>.?x <景点的等级A> \"5A\". }"}
+{"predict": "select?y where { <国贸大酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <城市> <北京>.?y <类型> <景点>.}"}
+{"predict": "select?y where {?y <城市> <上虞区>.?y <酒店品牌名称> <上虞宾馆>. }"}
+{"predict": "select?x where { <九寨沟风景区> <城市>?x. }"}
+{"predict": "select?x where { <纳木错> <是否有婴儿车租赁>?x. }"}
+{"predict": "select?x where { <天坛公园> <位于>?cvt. ?cvt <实体名称> <北京饭店>. ?cvt <方向>?x }"}
+{"predict": "select?x where { <天津金皇大酒店> <电话>?x. }"}
+{"predict": "select?y where { <北京嘉里大酒店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5).?y <类型> <景点>.}"}
+{"predict": "select?x where { <贵阳世纪金源大饭店> <平均价格>?x. }"}
+{"predict": "select?y where { <西安梦幻星空抖乐园（钟楼旗舰店）> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 2).?y <城市> <西安>.?y <类型> <酒店>. }"}
+{"predict": "select?x where { <大庆市博物馆> <电话>?x. }"}
+{"predict": "select?x where { <长春安哥拉巨兔体验馆> <是否有wifi服务>?x. }"}
+{"predict": "select?x where { <西湖风景名胜区> <城市>?x. }"}
+{"predict": "select?x where { <厦门时空魔方艺术馆> <是否免费>?x. }"}
+{"predict": "select?x where { <丽江泸沽湖景区> <交通信息>?x. }"}
+{"predict": "select?y where { <金茂北京威斯汀大饭店> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 5000).?y <城市> <北京>.?y <类型> <景点>.?y <平均价格>?price. filter(?price < 100) }"}
+{"predict": "select?x where {?x <k歌房> <类型>.?x <酒店品牌名称> <KTV>.?x <城市> <天津>. }"}
+{"predict": "select?x where {?x <城市> <大连>.?x <是否有停车场> <有停车场>.?x <类型> <酒店>. }"}
+{"predict": "select?x where { <蓝月谷> <最佳旅游时间>?x. }"}
+{"predict": "select?x where { <喀纳斯景区> <建议游玩时长>?x. }"}
+{"predict": "select?x where {?x <城市> <拉萨>.?x <酒店品牌名称> <瑞吉>. }"}
+{"predict": "select?x where { <湖南省博物馆> <建议游玩时长>?x. }"}
+{"predict": "select?x where { <流动的永恒> <举办地>?x. }"}
+{"predict": "select?x where { <故宫博物院（故宫）> <城市>?x. }"}
+{"predict": "select?y where { <国家大剧院> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 2).?y <城市> <北京>.?y <类型> <酒店>. }"}
+{"predict": "select?y where { <金狮国际酒店> <房型名称>?y.?y <容纳人数> \"5.0\"^^<http://www.w3.org/2001/XMLSchema#float>.}"}
+{"predict": "select?x where { <厦门悦华酒店> <入住年龄限制>?x. }"}
+{"predict": "select?x where { <天津梵高星空艺术馆（天河城旗舰店）> <附近>?cvt.?cvt <实体名称> <天津梵高星空艺术馆>.?cvt <方向>?direction.?direction <类型> <景点>.?cvt <景点平均价格>?price. filter(?price < 50).?cvt <城市> <天津>.?cvt <风俗文化> <梵高星空艺术馆>. }"}
+{"predict": "select (count(?x) as?count_city) where { ?x <城市> <西安>. ?x <酒店品牌名称> <皇冠假日>.?x <类型> <酒店>}"}
+{"predict": "select?x where {?x <城市> <泰安>.?x <酒店品牌名称> <华美达>. }"}
+{"predict": "select?y where { <南京博物院> <附近>?cvt.?cvt <实体名称>?y.?cvt <距离值>?distance. filter(?distance <= 1).?y <城市> <南京>.?y <类型> <酒店>. }"}
+{"predict": "select?x where { <国家地理探险家中心> <营业时间>?x. }"}

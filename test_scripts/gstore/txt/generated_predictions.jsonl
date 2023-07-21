@@ -1,0 +1,1000 @@
+{"label": "凉宫村日所在的社团？", "predict": "select?x where {?y <别名> \"凉宫春香（凉宫企鹅的企鹅）\".?y <社团>?x. }"}
+{"label": "无间道中的主演中同时是歌手的人有哪些？", "predict": "select?x where { <无间道_（2002年刘镇伟执导电影）> <主演>?y.?x <职业> <歌手>.?y <职业> <演员_（汉语词语）>. }"}
+{"label": "诸邑公主的父亲的庙号是什么?", "predict": "select?y where {?x <中文名> \"诸邑公主\".?x <父亲>?z.?z <庙号>?y. }"}
+{"label": "参与1776年8月2日签署某法案的英国人？", "predict": "select?x where {?x <国籍> <英国_（大不列颠及北爱尔兰联合王国）>.?x <代表作品> <独立宣言_（美国合众国早期纲领性宣言）>.?x <签字时间> \"1776-08-23\". }"}
+{"label": "莉薇娅·杜路莎·奥古斯塔所在的国家的主要宗教是什么？", "predict": "select?y where {?x <中文名> \"莉薇娅·杜路莎·奥古斯塔\".?x <国籍>?y.?y <主要宗教>?y. }"}
+{"label": "用于制作原子弹的金属是什么时候发现的?", "predict": "select?x where { <原子弹_（核武器）> <构成>?y.?y <主要构成>?x.?x <发现时间>?x. }"}
+{"label": "世界上第一台电子多用途计算机的重量", "predict": "select?x where { <电子多用途计算机> <重量>?x. }"}
+{"label": "代表食物是烤包子的民族所信奉的宗教？", "predict": "select?y where {?x <代表食物> <烤包子>.?x <信仰>?y. }"}
+{"label": "招牌动作是后仰跳投且有6次总冠军的篮球人物是谁？", "predict": "select?x where {?x <运动项目> <篮球_（球类运动）>.?x <技巧动作> <后仰跳投>.?x <成就> <6次总冠军>. }"}
+{"label": "中国人民大学所在的城市总人口数量是多少？", "predict": "select?x where { <中国人民大学> <校址>?y.?y <人口>?z.?z <城市>?x. }"}
+{"label": "沙丘战役所在的地点的气候类型？", "predict": "select?y where {?x <中文名> \"沙丘战役\".?x <地理位置>?x.?x <气候条件>?y. }"}
+{"label": "获得了15座金曲奖的歌手身高是多少？", "predict": "select?x where {?y <主要成就> \"获得了15座金曲奖\".?y <身高>?x. }"}
+{"label": "提出狭义相对论的科学家出生日期?", "predict": "select?y where { <狭义相对论> <提出者>?x.?x <出生日期>?y. }"}
+{"label": "对莫言有影响的作家的代表作品？", "predict": "select?y where { <莫言_（2012年诺贝尔文学奖得主）> <影响>?x.?x <代表作品>?y. }"}
+{"label": "波兰首都的面积大小是多少？", "predict": "select?x where { <波兰共和国> <首都>?y.?y <面积>?x. }"}
+{"label": "钢铁侠的主演是谁？", "predict": "select?x where { <钢铁侠_（2008年罗伯特·唐尼主演的美国电影）> <主演>?x. }"}
+{"label": "北京大学的学术传统？", "predict": "select?x where { <北京大学> <学术传统>?x. }"}
+{"label": "谁迁都到北京的？", "predict": "select?x where {?x <主要成就> \"迁都\". }"}
+{"label": "被誉为现代通话之父的人是谁？", "predict": "select?x where {?x <主要成就> \"现代通话之父\". }"}
+{"label": "渡江战役的参战兵力是多少？", "predict": "select?x where { <渡江战役> <参战兵力>?x. }"}
+{"label": "太平洋的平均盐度？", "predict": "select?x where { <太平洋> <平均盐度>?x. }"}
+{"label": "任天堂的主要的游戏系列有哪些？", "predict": "select?x where { <任天堂> <主要游戏系列>?x. }"}
+{"label": "游戏神秘海域所在的游戏平台的生产商是谁？", "predict": "select?y where {?x <游戏> <神秘海域_（系列游戏）>.?x <生产商>?y. }"}
+{"label": "方正集团的公司口号是什么？", "predict": "select?x where { <方正集团> <公司口号>?x. }"}
+{"label": "iPhone 所搭载的操作系统是什么？", "predict": "select?x where { <iPhone> <操作系统>?x. }"}
+{"label": "第一个进入太空的地球人是谁？", "predict": "select?x where { <进入太空的地球人> <相关不满1岁的孩子>?x.?x <主要成就> \"成为第一个进入太空的地球人\". }"}
+{"label": "十月革命发生的地点?", "predict": "select?x where { <十月革命> <发生地点>?x. }"}
+{"label": "南水北调工程涉及的地区？", "predict": "select?x where { <南水北调工程> <地区>?x. }"}
+{"label": "安卓的发行商是谁？", "predict": "select?x where { <安卓_（操作系统）> <发行商>?x. }"}
+{"label": "华为总裁的出生地？", "predict": "select?x where { <华为> <总裁>?y.?y <出生地>?x. }"}
+{"label": "刺客信条系列是哪个公司开发的？", "predict": "select?x where { <刺客信条_（ Ubisoft 旗下的刺客信条系列游戏）> <开发公司>?x. }"}
+{"label": "塞尔达传说的主角在哪些游戏中有出场？", "predict": "select?x where { <塞尔达传说_（任天堂公司作品）> <主角>?y.?x <主角>?y. }"}
+{"label": "零系列的最新作是什么？", "predict": "select?x where { <零系列> <最新作>?x. }"}
+{"label": "微软和343共同开发了什么游戏？", "predict": "select?x where {?x <开发公司> <微软>.?x <开发公司> <343_（美国微软公司下属部门）>. }"}
+{"label": "Valve开发了哪些FPS游戏？", "predict": "select?x where {?x <开发公司> <Valve>.?x <游戏类型> <即时对战>.?x <游戏类型> <动作游戏>. }"}
+{"label": "与彩虹六号：围攻同一原作者的末日主题游戏是什么？", "predict": "select?y where { <彩虹六号：围攻> <作者>?x.?y <作者>?x.?y <类型> <末日_（概念）>. }"}
+{"label": "战舰世界的开发商什么时候成立的？", "predict": "select?x where { <战舰世界_（游戏《战锤世界》）> <开发商>?y.?y <成立时间>?x. }"}
+{"label": "PS4能玩到哪些文字冒险类游戏？", "predict": "select?x where {?x <游戏类型> <文字冒险>.?x <游戏平台> <ps4_（PlayStation 4）>. }"}
+{"label": "初音为主角的游戏是哪个公司开发的？", "predict": "select?x where {?y <主角> <初音>.?y <开发公司>?x. }"}
+{"label": "黑魂的发行商全称是？", "predict": "select?x where { <黑魂_（苍井空与入野贵幸共同主演的动作冒险游戏）> <发行商>?x. }"}
+{"label": "\"第六天魔王\"有哪些成就？", "predict": "select?x where {?y <别名> \"第六天魔王\".?y <主要成就>?x. }"}
+{"label": "伊达政宗生活的时代是在哪一年开始的？", "predict": "select?y where { <伊达政宗> <生卒>?x.?x <始于>?y. }"}
+{"label": "川端康成的作品中有岛村这一角色的是哪一部？", "predict": "select?x where {?x <作者> <川端康成>.?x <主要人物> <岛村>. }"}
+{"label": "宫泽贤治写过哪些诗歌？", "predict": "select?x where {?x <作者> <宫泽贤治>. }"}
+{"label": "船中八策的提出者参与的一个历史事件发生在什么时候？", "predict": "select?y where {?x <提出者> <船中八策_（唐宋八大家之一王之涣所著《登鹳雀楼》中典故）>.?x <发生时间>?y. }"}
+{"label": "日本战国三英杰中被称为猴子的那一位的坟墓在哪？", "predict": "select?x where { <日本战国三英杰_（日本战国时代三人英杰）> <猴子_（常用贬义词）>?y.?y <坟墓>?x. }"}
+{"label": "大正浪漫的提出者什么时候去世的？", "predict": "select?y where { <大正浪漫> <提出者>?x.?x <逝世日期>?y. }"}
+{"label": "逆转裁判在3ds上有哪些作品？", "predict": "select?x where {?x <游戏平台> <3ds>.?x <作品名称>?y. FILTER REGEXEXPTIF <逆转裁判_（ONE engine游戏）>. }"}
+{"label": "三岛由纪夫的一篇长篇小说发表于什么时候？", "predict": "select?y where {?x <作者> <三岛由纪夫>.?x <发表时间>?y. }"}
+{"label": "镰仓幕府是何时灭亡的？", "predict": "select?x where { <镰仓幕府> <灭亡时间>?x. }"}
+{"label": "有哪些动画监督兼演出的人？", "predict": "select?x where {?x <职业> <动画监督>.?x <职业> <演出>. }"}
+{"label": "生化危机一共有哪些主角？", "predict": "select?x where { <生化危机_（游戏系列）> <主要角色>?x. }"}
+{"label": "T病毒又称？", "predict": "select?x where {?x <外文名> \"T-virus\". }"}
+{"label": "命运石之门可以在哪些平台上玩到？", "predict": "select?x where { <命运石之门_（命运石之门游戏）> <中文名称>?y.?x <中文名>?y. }"}
+{"label": "生于东京，身高只有152的声优有哪些？", "predict": "select?y where {?y <出生地> <东京_（日本首都）>.?y <身高> \"152-145cm\".?y <职业> <声优_（以声音为职业的娱乐人员）>. }"}
+{"label": "水濑祈的绰号是什么？", "predict": "select?x where { <水濑祈> <别名>?x. }"}
+{"label": "天元突破的监督是谁？", "predict": "select?x where { <天元突破_（日本2005年Kon Ami失落的世界）> <导演>?x. }"}
+{"label": "士官长来自哪个地方？", "predict": "select?y where { <士官长_（汉语词语）> <职业>?x.?x <分布区域>?y. }"}
+{"label": "3ds有哪些特色？", "predict": "select?x where { <3ds> <特色>?x. }"}
+{"label": "街机版偶像大师是什么时候发行的？", "predict": "select?y where {?x <登场作品> <偶像大师_（Cygames 发行的一款音乐角色扮演游戏）>.?x <机版名称> \"街机偶像大师\".?x <发行时间>?y. }"}
+{"label": "书籍《四松堂集》被收藏于何处？", "predict": "select?x where { <四松堂集> <收藏>?x. }"}
+{"label": "北京大学图书馆是于何时建馆的？", "predict": "select?x where { <北京大学图书馆> <建馆时间>?x. }"}
+{"label": "新西兰属于哪个洲？", "predict": "select?x where { <New Zealand> <所属洲>?x. }"}
+{"label": "新西兰这个国家的主要宗教有哪些？", "predict": "select?x where { <新西兰> <主要宗教>?x. }"}
+{"label": "足球运动员马里诺维奇属于哪个球队？", "predict": "select?x where { <马里诺维奇_（足球明星）> <所属运动队>?x. }"}
+{"label": "足球运动的最高赛事是什么？", "predict": "select?x where { <足球_（2018年国际足球联合会世界杯比赛项目）> <最高赛事>?x. }"}
+{"label": "金垃圾奖属于哪个领域的奖项？", "predict": "select?x where { <金垃圾奖> <类型>?x. }"}
+{"label": "意大利这个国家的国土面积是多少？", "predict": "select?x where { <意大利_（意大利共和国）> <国土面积>?x. }"}
+{"label": "天主教的创始地点在何处？", "predict": "select?y where {?x <主要教派> <天主教_（宗教概念）>.?x <创建时间>?z.?z <地区>?y. }"}
+{"label": "天主教的教徒有哪些禁忌？", "predict": "select?x where { <天主教_（世界三大宗教之一）> <信徒>?y.?y <忌讳>?x. }"}
+{"label": "漫画蜡笔小新出版于哪一年？", "predict": "select?x where { <蜡笔小新> <出版>?x. }"}
+{"label": "动漫蜡笔小新一共有多少集？", "predict": "select?x where { <新野新一_（日本漫画《名侦探柯南》中的主角）> <登场作品>?y.?y <集数>?x. }"}
+{"label": "小山义治是哪部动漫作品中的人物？", "predict": "select?x where { <小山义治> <登场作品>?x. }"}
+{"label": "鲁迅先生的主要成就有哪些？", "predict": "select?x where { <鲁迅_（文学家、思想家）> <主要成就>?x. }"}
+{"label": "散文诗《希望》出自哪部诗集？", "predict": "select?x where { <希望_（袁枚创作散文诗）> <所属诗集>?x. }"}
+{"label": "鼠标的发明人毕业于哪个院校？", "predict": "select?y where { <鼠标> <发明人>?x.?x <毕业院校>?y. }"}
+{"label": "被誉为目前卓有成就的日本指挥家之一的指挥家其别名是什么？", "predict": "select?x where {?y <国籍> <日本_（中华人民共和国特别行政区）>.?y <职业> <指挥家>.?y <别名>?x. }"}
+{"label": "被称作中国“硅谷”的地方在哪里？", "predict": "select?x where {?x <称号> \"中国硅谷\". }"}
+{"label": "以极简主义为理念的这家公司其总部位于何处？", "predict": "select?x where {?y <理念> <极简主义_（设计风格）>.?y <总部地点>?x. }"}
+{"label": "竣工于1421年的属于历史博物馆_（公共建筑）的建筑是哪一个？", "predict": "select?x where {?x <竣工时间> \"1421\".?x <类型> <历史博物馆_（公共建筑）>. }"}
+{"label": "张择端所绘的被誉为\"中国十大传世名画之一\"的是哪幅作品？", "predict": "select?x where {?x <作者> <张择端>.?x <外观誉程度> \"中国十大传世名画之一\". }"}
+{"label": "明成祖朱棣的年号的前一任是什么？", "predict": "select?x where { <朱棣_（明成祖）> <年号>?y.?y <前任>?x. }"}
+{"label": "唐朝的一位贵妃，其又被称为玉奴，请问她的本名是什么？", "predict": "select?x where {?y <所称名> \"玉奴\".?y <本名>?x. }"}
+{"label": "司马迁所著的著名纪传体通史，其中包括乐毅列传的是哪一部？", "predict": "select?x where {?x <作者> <司马迁>.?x <文学体裁> <纪传体>.?x <内容> <乐毅列传>. }"}
+{"label": "无颜见江东父老这句话的出处作品的文学体裁是什么？", "predict": "select?x where {?y <主要内容> <无颜见江东父老>.?y <文学体裁>?x. }"}
+{"label": "《项羽本纪》的文学体裁的特点是什么？", "predict": "select?y where {?x <代表作品> <项羽本纪>.?x <文学体裁>?y. }"}
+{"label": "《宋微子世家》和《曹相国世家》都属于哪种文学体裁？", "predict": "select?x where { <宋微子世家> <文学体裁>?x. <曹相国世家> <文学体裁>?x. }"}
+{"label": "瓮牖绳枢之子这句话出自于谁？", "predict": "select?x where { <瓮牖绳枢之子> <出处>?x. }"}
+{"label": "《心学四诀》的作者是的别名是什么？", "predict": "select?y where { <心学四诀> <作者>?x.?x <别名>?y. }"}
+{"label": "创立“阳明心学”并成功剿灭南赣盗贼的明代哲学家是谁？", "predict": "select?x where {?x <主要成就> \"创立 '阳明心学'\".?x <主要成就> \"剿灭南赣盗贼\". }"}
+{"label": "电话区号为5910599的省份的省会是什么？", "predict": "SELECT?y WHERE {?x <电话区号> \"5910599\".?x <省会是?y>. }"}
+{"label": "信用媒介论的代表人物有哪些？", "predict": "SELECT?x WHERE { <信用媒介论> <代表人物>?x. }"}
+{"label": "由圆谷英二导演的特摄片有哪些？", "predict": "select?x where {?x <导演> <圆谷英二>.?x <类型> <特摄>. }"}
+{"label": "刘伟强导演的作品中，有郭富城和郑伊健作为主演的作品有哪些？", "predict": "select?x where {?x <导演> <刘伟强_（2002年香港电影导演）>.?x <主演> <郭富城_（加拿大籍华语演员、歌手）>.?x <主演> <郑伊健_（香港演员）>. }"}
+{"label": "战国时期武安君的主要成就有哪些？", "predict": "select?y where {?x <主要成就>?y.?x <国君> <武安君_（战国时期秦国君主）>. }"}
+{"label": "天主教的教理有哪些？", "predict": "select?x where { <天主教> <教义>?x. }"}
+{"label": "夏洛特黄蜂队的控球后卫毕业在哪个大学？", "predict": "select?x where { <夏洛特黄蜂队> <控球后卫>?y.?y <毕业院校>?x. }"}
+{"label": "H1N1猪流感的症状有哪些？", "predict": "select?x where { <H1N1> <症状>?x. }"}
+{"label": "南阳三大宝中又叫做烫画的是什么？", "predict": "select?x where { <南阳三大宝> <又叫做>?x. }"}
+{"label": "《我们的答案》的歌手背后的经纪公司是？", "predict": "select?x where { <我们的答案> <经纪公司>?x. }"}
+{"label": "姬世晓的民族使用的官方语言是？", "predict": "select?x where {?y <别名>  <姬世晓>.?y <官方语言>?x. }"}
+{"label": "红楼梦散的歌手出生于何地？", "predict": "select?y where { <红楼梦_（中国古典长篇小说）> <歌曲>?x.?x <代表人物>?y.?x <创作地点>?y. }"}
+{"label": "粤台经贸合作试验区的车牌号是？", "predict": "select?x where {?x <车牌号>?y.?x <实验区地点> \"粤台经贸合作试验区\".?y <牌号>?x. }"}
+{"label": "被赞誉为中国之父的科学家是何时出生的？", "predict": "select?x where {?y <被誉为中国之父>.?y <出生日期>?x. }"}
+{"label": "湖南地区的方言有哪些？", "predict": "select?x where { <湖南_（中华人民共和国省份）> <方言>?x. }"}
+{"label": "被称作荧惑的行星的直径是多少？", "predict": "select?x where {?y <别称> <荧惑>.?y <直径>?x. }"}
+{"label": "何大仁毕业的大学的是什么时候创办的？", "predict": "select?y where {?x <中文名> \"何大仁\".?x <毕业院校>?y.?y <创办时间>?x. }"}
+{"label": "漳州有哪些大学？", "predict": "select?x where { <漳州市> <高等学府>?x. }"}
+{"label": "用枸杞和雏鸽烹饪的汤是什么口味的？", "predict": "select?x where {?y <主要食材> <枸杞>.?y <主要食材> <雏鸽>.?y <口味>?x. }"}
+{"label": "追梦赤子心是哪个乐队演唱的？", "predict": "select?x where {?x <代表作品> <追梦赤子心_（王俊凯演唱歌曲）>. }"}
+{"label": "阿里音乐人由什么组成？", "predict": "select?x where { <网易云音乐·网易云音乐人> <成员>?x. }"}
+{"label": "李渊的主要成就是？", "predict": "select?x where { <李渊_（唐朝开国皇帝）> <主要成就>?x. }"}
+{"label": "晋阳起兵是什么时候发生的？", "predict": "select?x where { <晋阳起兵> <发生时间>?x. }"}
+{"label": "意见派的又被叫做什么？", "predict": "select?x where {?y <观点> <意见派>.?y <别称>?x. }"}
+{"label": "福尔摩斯的作者是哪个民族的人？", "predict": "select?x where { <福尔摩斯_（著名侦探小说作者）> <作者>?y.?y <民族>?x. }"}
+{"label": "使用意大利语和欧元的地方有哪些？", "predict": "select?x where {?x <货币> <欧元>.?x <语言> <意大利_（意大利共和国）>. }"}
+{"label": "我国首都的邮政区码是多少？", "predict": "select?y where { <中华人民共和国> <首都>?x.?x <邮政区码>?y. }"}
+{"label": "文化苦旅的作者是从哪个学校毕业的？", "predict": "select?y where {?x <主要作品> <文化苦旅_（余光中著长篇小说）>.?x <毕业院校>?y. }"}
+{"label": "马化腾和陈一丹共同创立的公司有多少员工？", "predict": "select?x where { <腾讯公司> <员工>?x. }"}
+{"label": "北京大学有什么样的学术传统？", "predict": "select?x where { <北京大学> <学术传统>?x. }"}
+{"label": "白居易诞辰是什么时候？", "predict": "select?x where { <白居易_（唐代诗人）> <诞辰>?x. }"}
+{"label": "《白氏长庆集》共计多少卷？", "predict": "select?x where { <白氏长庆集> <卷数>?x. }"}
+{"label": "《貘屏赞》出自哪本集子？", "predict": "select?x where { <貘屏赞> <作品出处>?x. }"}
+{"label": "《忆江南三首》是什么时代的诗？", "predict": "select?x where { <忆江南三首> <时代>?x. }"}
+{"label": "苏轼的谥号是？", "predict": "select?x where { <苏轼_（北宋文学家、书画家）> <谥号>?x. }"}
+{"label": "哪位历史名人被称为“苏仙”？", "predict": "select?x where {?x <别名> \"苏仙\". }"}
+{"label": "《掷凫猎兔》是谁写的？", "predict": "select?x where { <掷凫猎兔> <作者>?x. }"}
+{"label": "《送欧阳推官赴华州监酒》是一首什么体裁的古诗？", "predict": "select?x where { <《送欧阳推官赴华州监酒》> <体裁>?x. }"}
+{"label": "谁是豪放派的主要代表人物？", "predict": "select?x where { <豪放派> <代表人物>?x. }"}
+{"label": "陈思成毕业于哪所大学？", "predict": "select?x where { <陈思成> <毕业院校>?x. }"}
+{"label": "陈思成的粉丝自称为什么？", "predict": "select?x where { <陈思成_（中国内地男演员、编剧）> <粉丝名称>?x. }"}
+{"label": "谁是陈思成的妻子？", "predict": "select?x where {?x <丈夫> <陈思成>. }"}
+{"label": "“珠落玉盘”这个成语出自谁的作品？", "predict": "select?x where { <珠落玉盘> <出典>?x. }"}
+{"label": "著名诗人白居易写过哪些讽喻诗？", "predict": "select?x where {?x <作者> <白居易>.?x <类别> <讽喻诗>. }"}
+{"label": "与《醉中留别杨六兄弟》出自同一本集子的七言绝句有哪些？", "predict": "select?y where {?x <代表作品> <醉中留别杨六兄弟>.?x <作品>?y.?y <形式> <七言绝句>. }"}
+{"label": "唐代有哪些著名诗人？", "predict": "select?x where { <诗仙_（唐代著名诗人）> <职业>?x. }"}
+{"label": "谥号为“文忠”的唐宋八大家之一是谁？", "predict": "select?x where {?x <谥号> \"文忠\".?x <职业> <唐宋八大家>.?x <地位> <唐宋八大家>. }"}
+{"label": "《醉饱高眠》的作者生于何时？", "predict": "select?y where { <醉饱高眠> <作者>?x.?x <出生日期>?y. }"}
+{"label": "谁同时是“唐宋八大家”和“宋四家”之一？", "predict": "select?x where {?x <地位> \"唐宋八大家之一\".?x <地位> \"宋四家之一\". }"}
+{"label": "《北京爱情故事吧》的导演是属什么的？", "predict": "select?x where { <北京爱情故事吧> <导演>?y.?y <职业>?x. }"}
+{"label": "谁同时主演过《山花情》和《愤怒的机枪》？", "predict": "select?x where { <山花情> <主演>?x. <愤怒的机枪> <主演>?x. }"}
+{"label": "出生于沈阳、主演过《碧海雄心》的演员是谁？", "predict": "select?x where {?x <出生地> <沈阳>.?x <代表作品> <碧海雄心_（2016年李易峰主演电视剧）>. }"}
+{"label": "陈思成同时担任主演和导演的影视作品有哪些？", "predict": "select?x where {?x <主演> <陈思成_（中国内地男演员、导演）>.?x <导演> <陈思成>. }"}
+{"label": "2003年上映了哪部剧是陈思成、刘涛等人主演的？", "predict": "select?x where {?x <主演> <陈思成_（中国内地男演员）>.?x <代表作品> \"新还珠格格\".?x <上映时间> \"2003\". }"}
+{"label": "由陈思成主演的剧情剧有哪些？", "predict": "select?x where {?x <主演> <陈思成_（中国内地男演员、歌手、编剧）>.?x <剧情> <陈思成>. }"}
+{"label": "在2013年内相继获得“最具演技女演员奖”、“十大正能量女性”等荣誉的是谁？", "predict": "select?x where {?x <主要成就> \"2013年亚洲电视大奖最佳女主角\".?x <主要成就> \"2014年音乐风云榜最受欢迎女演员\".?x <主要成就> \"2015年第19届全球华语电影交流协会奖最佳女演员\". }"}
+{"label": "曾主演过《欢乐颂》、《芈月传》、《老有所依》等知名影视作品的演员，其配偶叫什么名字？", "predict": "select?y where {?x <代表作品> <欢乐颂_（2016年蒋雯丽主演电视剧）>.?x <主要成就> \"金鹰奖最佳女主角\".?x <配偶>?y. }"}
+{"label": "梁咏琪和金城武共同主演了哪些电影？", "predict": "select?x where {?x <主演> <梁咏琪>.?x <主演> <金城武>. }"}
+{"label": "96黄金一代里有哪些得分后卫？", "predict": "select?x where {?x <所属年代> <96黄金一代>.?x <所属位置> <得分后卫>. }"}
+{"label": "波士顿凯尔特人队的主场在哪？", "predict": "select?x where { <波士顿凯尔特人队> <主场馆>?x. }"}
+{"label": "瑞典有哪些汽车牌子？", "predict": "select?x where { <瑞典_（瑞典王国）> <汽车品牌>?x. }"}
+{"label": "谁创设了刺史制度？", "predict": "select?x where { <刺史_（中国古代官职）> <创制者>?x. }"}
+{"label": "《沉默的大多数》作者的妻子是谁？", "predict": "select?y where { <沉默的大多数> <作者>?x.?x <妻子>?y. }"}
+{"label": "被封为冠军侯的军事将领有谁？", "predict": "select?x where {?x <军事成就> \"被封为冠军侯\". }"}
+{"label": "伯克希尔·哈撒韦的CEO出生在哪？", "predict": "select?x where { <伯克希尔·哈撒韦> <公司高管>?y.?y <出生地>?x. }"}
+{"label": "谁改良了蒸汽机？", "predict": "select?x where {?x <主要成就> \"蒸汽机\". }"}
+{"label": "隋朝开国皇帝的妻子是什么民族的？", "predict": "select?y where {?x <主要成就> \"隋朝开国皇帝\".?x <妻子>?y.?y <民族>?z. }"}
+{"label": "哪些艺术家出生在维也纳？", "predict": "select?x where {?x <出生地> <维也纳>.?x <职业> <艺术家_（汉语词语）>.}"}
+{"label": "上海三大亨都有谁？", "predict": "select?x where { <上海三大亨> <主要人物>?x. }"}
+{"label": "《忏悔录》的作者出生在哪？", "predict": "select?x where { <忏悔录_（基督教哲学著作）> <作者>?y.?y <出生地>?x. }"}
+{"label": "龙珠中布尔玛的丈夫是谁？", "predict": "select?x where {?y <丈夫>?x.?y <别名> \"布尔玛\". }"}
+{"label": "谁证明了卡拉比猜想？", "predict": "select?x where { <卡拉比猜想> <证明人>?x. }"}
+{"label": "《天水围的日与夜》导演毕业于什么大学？", "predict": "select?y where { <天水围的日与夜> <导演>?x.?x <毕业院校>?y. }"}
+{"label": "文艺复兴起源于哪个国家？", "predict": "select?x where { <文艺复兴> <起源>?x. }"}
+{"label": "塞尔维亚的网球运动员有谁？", "predict": "select?x where {?x <国籍> <塞尔维亚>.?x <运动项目> <网球>. }"}
+{"label": "赤木晴子的哥哥打什么位置？", "predict": "select?y where {?x <哥哥> <赤木晴子>.?x <位置>?y. }"}
+{"label": "《开往中国的慢船》作者是哪国人？", "predict": "SELECT?y WHERE { <开往中国的慢船> <作者>?x.?x <国籍>?y. }"}
+{"label": "死海所在国的首都是哪？", "predict": "select?x where { <死海_（世界著名湖泊）> <所属国家>?y.?y <首都>?x. }"}
+{"label": "马拉多纳身上纹了谁？", "predict": "select?x where { <利昂·马拉多纳> <水浒好汉>?x. }"}
+{"label": "谁一手缔造了公牛王朝？", "predict": "select?x where {?x <主要成就> \"公牛王朝\". }"}
+{"label": "曼联的右脚将有哪些？", "predict": "select?x where {?x <位置> <右脚将>.?x <球队> <曼联_（英格兰曼联足球俱乐部）>. }"}
+{"label": "《新闻联播》里主持人的民族有哪些？", "predict": "select?x where { <新闻联播_（中央电视台每晚播出的新闻节目）> <主持人>?y.?y <民族>?x. }"}
+{"label": "《一代宗师》中的韩国演员有谁？", "predict": "select?x where { <一代宗师_（2013年袁和平、张一辉执导电影）> <主演>?x.?x <国籍> <韩国_（大韩民国）>. }"}
+{"label": "台北所属国家的国歌是什么？", "predict": "select?x where { <台北> <所属地区>?y.?y <国歌>?x. }"}
+{"label": "好望角在那个城市？", "predict": "select?x where { <好望角> <城市>?x. }"}
+{"label": "拉美文学中魔幻现实主义有什么代表作？", "predict": "select?x where { <魔幻现实主义> <代表作品>?x. }"}
+{"label": "《天龙八部》中日月神教教主有哪些绝招？", "predict": "select?x where { <天龙八部_（《金庸作品》系列小说）> <日月神教教主>?y.?y <绝招>?x. }"}
+{"label": "合肥有哪些科学家？", "predict": "select?x where {?x <职业> <科学家_（从事科学研究的人群）>.?x <出生地> <合肥>. }"}
+{"label": "湖南大学现任校长是谁？", "predict": "select?x where { <湖南大学> <现任校长>?x. }"}
+{"label": "\"成败一知己，生死两妇人\"所说的人物有什么成就？", "predict": "select?y where {?x <主要成就>?y.?x <评价> \"终为胜者，败者为妇人\".?x <主要成就>?y. }"}
+{"label": "\"贞观之治\"说的是哪位皇帝？", "predict": "select?x where {?x <主要成就> \"贞观之治\". }"}
+{"label": "《红楼梦》中贾环的父亲的人物原型是谁？", "predict": "select?y where { <贾环> <父亲>?x.?x <人物原型>?y. }"}
+{"label": "《窦娥冤》是谁写的？", "predict": "select?x where { <窦娥冤> <作者>?x. }"}
+{"label": "孔丘的妻子是谁？", "predict": "select?y where {?x <夫妻> <孔丘_（春秋时期卫国人）>.?x <妻子>?y. }"}
+{"label": "黄河的主要支流有哪些？", "predict": "select?x where { <黄河_（中国第二长河流）> <主要支流>?x. }"}
+{"label": "《红楼梦》中贾琏妻子的性格如何？", "predict": "select?y where {?x <丈夫> <贾琏_（红楼梦中贾演的人物）>.?x <性格>?y. }"}
+{"label": "杨振宁毕业于哪里？", "predict": "select?x where { <杨振宁> <毕业院校>?x. }"}
+{"label": "薛宝钗的哥哥的结拜兄弟叫什么？", "predict": "select?y where {?x <妹妹> <薛宝钗>.?x <结拜兄弟>?y. }"}
+{"label": "苏秦的师父是谁？", "predict": "select?x where { <苏秦_（战国时期纵横家）> <师承>?x. }"}
+{"label": "南宋名将韩世忠的谥号为？", "predict": "select?x where { <韩世忠_（南宋抗金名将）> <谥号>?x. }"}
+{"label": "都有谁扮演过三圣母？", "predict": "select?x where {?x <角色> <三圣母>. }"}
+{"label": "唐玄宗李隆基的年号是什么？", "predict": "select?x where { <唐玄宗_（李隆基）> <年号>?x. }"}
+{"label": "严嵩的儿子出生于哪里？", "predict": "select?y where {?x <父亲> <严嵩_（明朝嘉靖时期严嵩人）>.?x <出生地>?y. }"}
+{"label": "唐僧的父亲是谁？", "predict": "select?x where { <唐僧_（动画片《西游记》中的主角）> <父亲>?x. }"}
+{"label": "飞机是哪国人发明的？", "predict": "select?x where { <飞机_（交通工具）> <发明者>?x. }"}
+{"label": "《千金要方》的作者是哪个朝代的人？", "predict": "select?y where { <千金要方> <作者>?x.?x <所处时代>?y. }"}
+{"label": "巴黎圣母院是什么风格的建筑？", "predict": "select?x where { <巴黎圣母院_（法国巴黎教堂）> <建筑风格>?x. }"}
+{"label": "汉寿亭侯关羽字号？", "predict": "select?x where { <关羽_（三国时期蜀汉将领）> <字>?x. }"}
+{"label": "《清明上河图》是谁的画作？", "predict": "select?x where {?x <主要作品> <清明上河图_（北宋风俗画）>. }"}
+{"label": "唐朝诗人杜甫的主要作品有哪些？", "predict": "select?y where { <杜甫_（唐朝著名诗人）> <职业>?x.?x <代表作品>?y. }"}
+{"label": "杨戬的兵器是什么？", "predict": "select?x where {?y <中文名> \"杨戬\".?y <兵器>?x. }"}
+{"label": "《红楼梦》中紫鹃的主子住在大观园的哪里？", "predict": "select?x where { <紫鹃_（古典名著《红楼梦》中贾政王夫人的陪房周瑞家的小女）> <居住地>?x. }"}
+{"label": "SARS的主要病症是什么？", "predict": "select?x where { <SARS> <主要病症>?x. }"}
+{"label": "香蕉产地主要分布在我国哪些地区？", "predict": "select?x where { <香蕉_（多年生草本植物）> <分布区域>?x. }"}
+{"label": "村上春树的哪部作品出版于2007年7月1日？", "predict": "select?x where {?x <作者> <村上春树_（日本著名作家）>.?x <出版时间> \"2007-07-01\". }"}
+{"label": "村上春树是哪个国家的？", "predict": "select?x where { <村上春树_（日本著名作家）> <国籍>?x. }"}
+{"label": "周杰伦的英文名字是什么？", "predict": "select?x where { <周杰伦> <外文名>?x. }"}
+{"label": "腾讯的法人毕业于哪里？", "predict": "select?x where { <腾讯> <法定代表人>?y.?y <毕业院校>?x. }"}
+{"label": "获得NBA最有价值球员奖（2008）的球员出生于什么时候？", "predict": "select?x where {?y <主要奖项> \"NBA最有价值球员奖（2008）\". ?y <出生日期>?x. }"}
+{"label": "科比的爸爸的是哪个国家的人？", "predict": "select?x where { <科比·布莱恩特> <儿子>?y.?y <父亲>?x. }"}
+{"label": "权力的游戏第五季有多少集？", "predict": "select?x where { <权力的游戏第五季> <集数>?x. }"}
+{"label": "斯大林什么时候去世的？", "predict": "select?x where { <斯大林_（苏联领袖）> <逝世日期>?x. }"}
+{"label": "《射雕英雄传》里黄蓉的丈夫的出生于哪里？", "predict": "select?y where { <黄蓉_（金庸武侠小说《射雕英雄传》女主角）> <丈夫>?x.?x <出生地>?y. }"}
+{"label": "张智霖和香港演员朱茵共同出演的电视剧有？", "predict": "select?x where {?x <主演> <张智霖>.?x <主演> <朱茵_（中国香港女演员）>. }"}
+{"label": "由冯柏源导演，张卫健主演的哪部电视剧首播于2002年？", "predict": "select?x where {?x <主演> <张卫健>.?x <导演> <冯柏源>.?x <首播时间>?year.  }"}
+{"label": "朱茵和唐嫣共同饰演过的经典角色登场于哪部作品？", "predict": "select?x where {?x <主演> <唐嫣_（中国台湾著名女演员）>.?x <主演> <朱茵>. }"}
+{"label": "杜兰特的球衣号码是什么？", "predict": "select?x where { <杜兰特_（美国职业篮球运动员）> <球衣号码>?x. }"}
+{"label": "意大利国家有多大？", "predict": "select?x where { <意大利_（意大利共和国）> <领土面积>?x. }"}
+{"label": "意大利在哪个洲？", "predict": "select?x where { <意大利_（欧洲国家）> <所属洲>?x. }"}
+{"label": "德国的首都在哪里？", "predict": "select?x where { <德国_（德意志联邦共和国）> <首都>?x. }"}
+{"label": "张敬轩签的经纪公司的董事长是谁？", "predict": "select?x where { <张敬轩_（中国香港男歌手、演员）> <经纪人>?x. }"}
+{"label": "歌手王菲信仰什么宗教？", "predict": "select?x where { <王菲_（华语女歌手、演员）> <信仰>?x. }"}
+{"label": "《红豆》的填词人的中文名字是？", "predict": "select?x where { <红豆_（王菲演唱歌曲）> <填词>?y.?y <中文名>?x. }"}
+{"label": "专辑《唱游》中有多少首歌？", "predict": "select?x where {?y <歌曲总数>?x.?y <专辑名称> <唱游>. }"}
+{"label": "李荣浩哪首歌由黄伟文填词？", "predict": "select?x where { <李荣浩> <主要作品>?x.?x <创作歌手> <李荣浩_（中国内地流行歌手）>.?x <填词> <黄伟文_（中国流行男歌手、音乐人）>. }"}
+{"label": "诗人李白的祖籍的电话区号是什么？", "predict": "select?x where { <李白_（唐朝著名诗人）> <祖籍> ?y.?y <电话区号>?x. }"}
+{"label": "《送崔十二游天竺寺》是哪个朝代的诗人创作的？", "predict": "select?x where { <天竺寺_（佛教寺院）> <位于>?y.?y <职业> <诗人_（汉语词语）>.?y <国籍>?x. }"}
+{"label": "诗人李白葬于何地？", "predict": "select?x where { <李白_（唐朝著名诗人）> <墓葬地>?x. }"}
+{"label": "作《帝京篇》的古人的庙号是什么？", "predict": "select?x where { <帝京篇_（杨慎所作诗篇）> <作者>?y.?y <庙号>?x. }"}
+{"label": "9·11事件的袭击形式是什么？", "predict": "select?x where { <9·11事件> <袭击方式>?x. }"}
+{"label": "本·拉登最知名的罪行造成了多少人受伤？", "predict": "select?x where { <本·拉登> <主要罪行>?y.?y <受伤>?x. }"}
+{"label": "歌手赵雷在2011年8月7日发行的歌曲是属于什么音乐风格？", "predict": "select?x where { <赵雷_（民谣歌手、音乐人）> <音乐风格>?x. ?y <职业> <歌手_（职业名称）>.?y <发行时间> \"2011-08-07\" }"}
+{"label": "易烊千玺的代表作品有哪些？", "predict": "select?x where { <易烊千玺> <代表作品>?x. }"}
+{"label": "在尾田荣一郎的漫画《海贼王》中，草帽海贼团船长会使用哪些霸气？", "predict": "select?x where {?y <主人> <尾田荣一郎>.?y <船长>?x.?y <装备>?x. }"}
+{"label": "导演陈凯歌的儿子有哪些作品？", "predict": "select?y where {?x <父亲> <陈凯歌_（中国内地导演）>.?x <儿子>?y. }"}
+{"label": "漫画《进击的巨人》里，兵长身高多少？", "predict": "select?x where { <兵长_（进击的巨人中的人物）> <身高>?x. }"}
+{"label": "官方语言是拉丁语的国家都位于哪些洲？", "predict": "select?x where {?y <官方语言> <拉丁语>.?y <所属洲>?x. }"}
+{"label": "南派三叔的代表作品有哪些？", "predict": "select?y where {?x <中文名> \"南派三叔\".?x <代表作品>?y. }"}
+{"label": "澳大利亚的首都什么气候？", "predict": "select?x where { <澳大利亚> <首都>?y.?y <气候条件>?x. }"}
+{"label": "海贼里白胡子使用什么武器？", "predict": "select?x where { <弗雷明格_（日本动漫《海贼王》中的人物）> <武器>?x.}"}
+{"label": "郭麒麟的父亲是做什么的？", "predict": "select?x where { <郭麒麟> <父亲>?y.?y <职业>?x. }"}
+{"label": "法家教育思想的代表人物有哪些？", "predict": "select?y where { <法家_（中国古代思想家）> <代表人物>?y. }"}
+{"label": "大连985高校的具体地址是什么？", "predict": "select?x where { <大连985> <校园地址>?x. }"}
+{"label": "张艺谋导演，倪妮主演的电影有哪些？", "predict": "select?x where {?x <主演> <倪妮>.?x <导演> <张艺谋_（中国导演）>. }"}
+{"label": "红高粱作者的毕业院校是什么？", "predict": "select?x where { <红高粱_（莫言小说改编的电影）> <作者>?y.?y <毕业院校>?x. }"}
+{"label": "Cola的配料有什么？", "predict": "select?x where { <cola_（软饮料）> <配料>?x. }"}
+{"label": "腾讯的法人毕业于哪所院校？", "predict": "select?x where { <腾讯> <法定代表人>?y.?y <毕业院校>?x. }"}
+{"label": "还在上学的河南籍演员有哪些？", "predict": "select?x where {?x <籍贯> <河南_（中国中部地区省份）>.?x <职业> <演员_（职业）>. }"}
+{"label": "维吾尔族的演员有哪些？", "predict": "select?x where {?x <民族> <维吾尔族>.?x <职业> <演员_（职业）>. }"}
+{"label": "杨幂、迪丽热巴共同主演的影视剧有哪些？", "predict": "select?x where {?x <主演> <杨幂>.?x <主演> <迪丽热巴>. }"}
+{"label": "北京大学东门站在哪条地铁线上？", "predict": "select?x where { <北京大学东门站> <城市轨道交通线>?x. }"}
+{"label": "火影忍者中，佐助妻子的配音演员是谁？", "predict": "select?x where {?y <登场作品> <火影忍者_（岸本齐史创作的漫画）>.?y <丈夫> <佐助_（日本漫画《火影忍者》人物）>.?y <配音>?x. }"}
+{"label": "《海贼王》中月光·莫利亚的果实有什么能力？", "predict": "select?x where { <月光·莫利亚_（漫画《海贼王》角色）> <果实能力>?x. }"}
+{"label": "被称为\"Laughing gas；dinitrogen oxide\"的气体化学式是什么", "predict": "select?x where {?y <别名> \"笑气；Dinitrogen oxide（DNO2）\".?y <化学式>?x. }"}
+{"label": "沈腾导演的作品有哪些？", "predict": "select?x where {?x <导演> <沈腾_（中国内地男演员、导演）>. }"}
+{"label": "华为的官网是什么？", "predict": "select?x where { <华为> <官网>?x. }"}
+{"label": "白羊座的守护神是什么？", "predict": "select?x where { <白羊座_（天文学）> <守护神>?x. }"}
+{"label": "被称为“黑曼巴”的篮球明星穿几号球衣？", "predict": "select?y where {?x <别名> \"黑曼巴\".?x <球衣号码>?y. }"}
+{"label": "玉米的别名有哪些？", "predict": "select?x where { <玉米_（粮食作物）> <别名>?x. }"}
+{"label": "有哪些亚洲国家参与了二战？", "predict": "select?x where {?x <主要成就> \"亚太地区影响深远\".?x <所属地区> <亚洲>.?x <所属洲> <世界>.?x <主要参与> \"二战\". }"}
+{"label": "日本的国歌是什么？", "predict": "select?x where { <日本_（日本国）> <国歌>?x. }"}
+{"label": "台湾省的方言是什么？", "predict": "select?x where { <台湾省_（中国台湾地区省）> <方言>?x. }"}
+{"label": "深圳有哪些火车站？", "predict": "select?x where { <深圳_（广东省深圳市）> <火车站>?x. }"}
+{"label": "美国的英文名称是什么？", "predict": "select?x where { <美国_（美国联邦共和国）> <外文名>?x. }"}
+{"label": "芝加哥有哪些别名？", "predict": "select?x where { <芝加哥_（美国伊利诺伊州最大城市）> <别名>?x. }"}
+{"label": "旧金山属于什么气候类型？", "predict": "select?x where { <旧金山_（美国加利福尼亚州城市）> <气候条件>?x. }"}
+{"label": "谷歌有哪些公司口号？", "predict": "select?x where { <谷歌> <公司口号>?x. }"}
+{"label": "索尼的创始人是谁？", "predict": "select?x where { <索尼_（全球领先的电子与电气企业）> <创始人>?x. }"}
+{"label": "清华大学的校训是什么？", "predict": "select?x where { <清华大学> <校训>?x. }"}
+{"label": "水的沸点是多少？", "predict": "select?x where { <水_（常见溶剂）> <沸点>?x. }"}
+{"label": "曹县的外文名称是什么？", "predict": "select?x where { <曹县> <外文名称>?x. }"}
+{"label": "《龟虽寿》是谁写的？", "predict": "select?x where { <龟虽寿> <作者>?x. }"}
+{"label": "苏炳添有哪些荣誉呀？", "predict": "select?x where { <苏炳添> <荣誉>?x. }"}
+{"label": "约塞米蒂国家公园里面的植被类型是什么呀？", "predict": "select?x where { <约塞米蒂国家公园> <植被类型>?x. }"}
+{"label": "死海在哪个国家？", "predict": "select?x where { <死海> <位置>?x. }"}
+{"label": "乞力马扎罗山脉的主峰叫什么？", "predict": "select?x where { <乞力马扎罗山脉> <主峰>?x. }"}
+{"label": "塔希提岛的主要宗教是？", "predict": "select?x where { <塔希提岛> <主要宗教>?x. }"}
+{"label": "有哪些美国歌手的经纪公司是索尼音乐？", "predict": "select?x where {?x <经纪公司> <索尼音乐>.?x <国籍> <美国_（美利坚合众国）>. }"}
+{"label": "渔人码头所在的城市的机场是什么？", "predict": "select?x where { <渔人码头> <机场>?x. }"}
+{"label": "Android的开发商是什么时候成立的？", "predict": "select?x where { <Android_（Android）> <开发商>?y.?y <成立时间>?x. }"}
+{"label": "老炮儿是哪个地区的方言？", "predict": "select?x where { <老炮儿_（2015年管虎导演电影）> <主演>?y.?y <方言>?x. }"}
+{"label": "大堡礁里有哪些动物呀？", "predict": "select?y where { <大堡礁> <娱乐项目名称>?y.?y <类型> <动物>. }"}
+{"label": "哪位法国数学家同时也是著名的天体力学家？", "predict": "SELECT?x WHERE {?x <职业> <天体力学家>.?x <国籍> <法国_（法兰西共和国）>.?x <职业> <数学家>. }"}
+{"label": "法国首都有哪些雅称？", "predict": "select?y where { <法国_（法兰西共和国）> <首都>?x.?x <别名>?y. }"}
+{"label": "邮政区码是200000的城市的市花是什么？", "predict": "select?y where {?x <邮政区码> \"200000\".?x <市花>?y. }"}
+{"label": "和黑脸琵鹭同一属的都有哪些动物？", "predict": "select?x where { <黑脸琵鹭> <所属类群>?y.?x <所属类群>?y.}"}
+{"label": "Peking University的地址在哪？", "predict": "select?x where { <北京大学> <学校地址>?x. }"}
+{"label": "贝多芬的哪位老师同时也出生于萨尔茨堡？", "predict": "select?x where { <贝多芬_（欧洲古典音乐作曲家）> <音乐老师>?x.?x <出生地> <萨尔茨堡>. }"}
+{"label": "被誉为“近代物理学之父”的科学家毕业于哪里？", "predict": "select?y where {?x <别名> \"近代物理学家，相对论的奠基人\".?x <毕业院校>?y. }"}
+{"label": "埃菲尔铁塔的设计师是哪国人？", "predict": "select?y where { <埃菲尔铁塔_（巴黎城市地标之一）> <设计者>?x.?x <国籍>?y. }"}
+{"label": "哪国科学家提出了杠杆原理？", "predict": "select?x where { <杠杆原理> <提出者>?x. }"}
+{"label": "南美洲哪个国家说葡萄牙语？", "predict": "select?x where {?x <所属洲> <南美洲_（大陆及岛屿）>.?x <主要语言> <葡萄牙语>. }"}
+{"label": "新子憧的声优是哪一年出道的？", "predict": "select?z where {?x <中文名> \"新子憧憬\".?x <声优>?y.?y <出道>?z. }"}
+{"label": "洲崎绫和西明日香都作为主要配音的动画是什么？", "predict": "select?x where {?x <动画配音> <洲崎绫>.?x <动画配音> <西明日香>. }"}
+{"label": "由P.A.WORKS制作的群像剧是哪部动画？", "predict": "select?x where {?x <原作> <P.A.WORKS>.?x <艺术形式> <群像剧>. }"}
+{"label": "芜罗亭魔梨威登场的作品的原作者是谁？", "predict": "select?x where { <芜罗亭魔梨威> <登场作品>?y.?y <作者>?x. }"}
+{"label": "京都动画有多少员工？", "predict": "select?x where { <京都动画> <员工数>?x. }"}
+{"label": "2003年进入京都动画任职的动画师有哪些代表作品？", "predict": "select?x where {?y <任职于> <京都动画>.?y <代表作品>?x. }"}
+{"label": "任天堂有哪些主要家用机？", "predict": "select?x where { <家用机> <品牌>?x. }"}
+{"label": "2007年出道的声优歌手有哪些人？", "predict": "select?x where {?x <职业> <声优歌手>.?x <出道日期> \"2007\". }"}
+{"label": "大和号战列舰是从什么时候开始服役的？", "predict": "select?x where { <大和号战列舰> <服役起始日期>?x. }"}
+{"label": "《星间飞行》原唱出生于哪里？", "predict": "select?y where { <星间飞行_（李健演唱歌曲）> <歌曲原唱>?x.?x <出生地>?y. }"}
+{"label": "ps4的中文名是什么？", "predict": "select?x where { <ps4> <中文名>?x. }"}
+{"label": "滨崎步在2001-09-27发行的代表作是什么？", "predict": "select?x where {?y <中文名> \"滨崎 步\".?y <代表作品>?x. }"}
+{"label": "舰桥是用来干什么的？", "predict": "select?x where { <舰桥> <用途>?x. }"}
+{"label": "出生于德岛县的声优有哪些？", "predict": "select?y where {?y <所属地区> <德岛县>.?y <职业> <声优_（汉语词语）>.?y <中文名>?y. }"}
+{"label": "马里奥和路易基是什么关系？", "predict": "select?x where { <马里奥_（任天堂系列游戏《超级马里奥》角色）>?x <路易基_（美国任天堂游戏《任天堂明星作品《超级马里奥》系列的男主角）>. }"}
+{"label": "被誉为“超级马里奥之父”的人有哪些代表作？", "predict": "select?y where { <超级马里奥之父> <主要成就>?x.?x <代表作品>?y. }"}
+{"label": "提出“大正浪漫”的作家是谁？", "predict": "select?x where {?x <主要成就> \"提出 '大正浪漫'\". }"}
+{"label": "信仰佛教的日本教育家是谁？", "predict": "select?x where {?x <国籍> <日本_（日本国）>.?x <主要领域> <教育_（教育）>.?x <信仰> <佛教>. }"}
+{"label": "获得1968年获诺贝尔文学奖的小说家毕业于哪里？", "predict": "select?y where {?x <职业> <文学_（学科）>.?x <主要成就> \"1968年诺贝尔文学奖得主\".?x <毕业院校>?y. }"}
+{"label": "《百年孤独》是谁写的？", "predict": "select?x where { <百年孤独> <作者>?x. }"}
+{"label": "日本的偶像歌手有哪些人？", "predict": "select?x where {?x <职业> <偶像歌手_（韩国歌手组合中的歌手）>.?x <国籍> <日本_（日本帝国、日本王国、日本政府）>. }"}
+{"label": "《カラフル》原唱的中文名是什么？", "predict": "select?x where {?y <歌曲名称> \"カラフル\".?y <中文名>?x. }"}
+{"label": "《爱情公寓》的导演毕业于哪个学校？", "predict": "select?y where { <爱情公寓_（2009年陈羽化工作室制作动画）> <导演>?x.?x <毕业院校>?y. }"}
+{"label": "小米的口号是什么？", "predict": "select?x where { <小米> <口号>?x. }"}
+{"label": "谷歌的官网网址是什么？", "predict": "select?x where { <谷歌> <官网>?x. }"}
+{"label": "AXL-ONE旗下有哪些声优得过奖？", "predict": "select?x where {?x <主要成就> \"声优大奖\".?x <所属公司> <AXL-ONE>. }"}
+{"label": "与山田尚子毕业于同一学校的动画导演是谁？", "predict": "select?y where {?x <毕业院校> <山田尚子_（日本女性歌手、作词、作曲家）>.?x <导演>?y. }"}
+{"label": "游戏《沙耶之歌》有多少个结局？", "predict": "select?x where { <沙耶之歌_（2008年1月13日由CAPCOM公司制作发行的一款动作角色扮演游戏）> <结局数>?x. }"}
+{"label": "柚子社的日语全称是什么？", "predict": "select?x where { <柚子社> <日本语>?x. }"}
+{"label": "游戏公司“august”的最新作有哪些？", "predict": "select?x where {?x <类型> <游戏>.?x <出版时间>?y. FILTER BY?y.?x <游戏公司> <august>. }"}
+{"label": "2020-02-07死于新冠的医生是哪里人？", "predict": "SELECT?x WHERE {?y <死亡日期> <2020-02-07>.?y <职业> <医生_（医学术语）>.?y <履历>?z.?y <籍贯>?x }"}
+{"label": "新型冠状病毒的主要传播途径是什么？", "predict": "select?x where { <新型冠状病毒> <传播途径>?x. }"}
+{"label": "遗传物质由核糖核酸组成的病毒通过什么来繁殖？", "predict": "select?x where {?y <定义> \"遗传物质\".?y <构成> <核糖核酸>.?y <繁殖方式>?x. }"}
+{"label": "SARS病毒是什么形状的？", "predict": "select?x where { <SARS病毒> <形状>?x. }"}
+{"label": "分布于胸腺依赖区的细胞有什么标志？", "predict": "select?x where {?x <分布> <胸腺依赖区>.?x <标志>?x. }"}
+{"label": "流感的常见症状是什么？", "predict": "select?x where { <流感> <常见症状>?x. }"}
+{"label": "为何会得空调综合征？", "predict": "select?x where { <空调综合征> <常见病因>?x. }"}
+{"label": "在肺部，淋巴结等地发病，并通过空气传染的是什么病？", "predict": "select?x where {?x <发病部位> <肺部>.?x <发病途径> <空气传播>. }"}
+{"label": "在胸部发病但需要在肿瘤科就诊的有哪些病？", "predict": "select?x where {?x <发病部位> <胸部>.?x <科室> <肿瘤科>. }"}
+{"label": "新冠的潜伏期是多久？", "predict": "select?x where { <新型冠状病毒> <潜伏期>?x. }"}
+{"label": "新型肺炎病原体的遗传物质是什么？", "predict": "select?x where {?y <中文名> \"新型肺炎\".?y <病原体>?x. }"}
+{"label": "日照市能提供发热门诊的定点医院是什么？", "predict": "select?x where {?x <城市> <日照>.?x <是否有发热门诊> <可以发热门诊>.?x <类型> <医院>. }"}
+{"label": "肺泡蛋白沉积症要如何预防？", "predict": "select?x where { <肺泡蛋白沉积症> <预防>?x. }"}
+{"label": "得了新冠要在什么科室就诊？", "predict": "select?x where { <新型冠状病毒> <科室>?x. }"}
+{"label": "什么是交叉免疫？", "predict": "select?x where {?x <定义> \"在抗原递呈组织或非递呈组织间发生的免疫学现象\". }"}
+{"label": "重症急性呼吸综合征的临床表现是什么？", "predict": "select?x where { <重症急性呼吸综合征> <临床表现>?x. }"}
+{"label": "《传染病管理制度》由哪个部门制定？", "predict": "select?x where { <传染病管理制度> <制定部门>?x. }"}
+{"label": "伤寒的潜伏期是几天？", "predict": "select?x where { <伤寒> <潜伏期>?x. }"}
+{"label": "天花疫苗是谁率先研制出的？", "predict": "select?x where { <天花疫苗> <研制者>?x. }"}
+{"label": "李兰娟、张文宏和钟南山共同参与了哪些战役？", "predict": "select?x where {?x <参战将领> <李兰娟>.?x <参战将领> <张文宏>.?x <参战将领> <钟南山>. }"}
+{"label": "巨细胞病毒导致的疾病有哪些症状？", "predict": "select?x where { <巨细胞病毒> <疾病类型>?x. }"}
+{"label": "哪些人更容易感染巨细胞病毒？", "predict": "select?x where {?x <主要病因> <巨细胞病毒感染>. }"}
+{"label": "感染SARS病毒可能出现什么表现？", "predict": "select?x where { <SARS> <表现>?x. }"}
+{"label": "天花会在哪些部位发病？", "predict": "select?x where { <天花_（由柯萨奇病毒引起的高度传染性烈性传染病）> <发病部位>?x. }"}
+{"label": "蕈类的繁殖有哪两种形式？", "predict": "select?x where { <蕈类> <繁殖方式>?x. }"}
+{"label": "预防肺结核感染要保持多少距离？", "predict": "select?x where { <保持距离> <结核杆菌感染距离>?x. }"}
+{"label": "正常情况下，白细胞检查中的淋巴细胞计数在什么范围？", "predict": "select?x where {?y <类型> <白细胞检查>.?y <统计指标>?x. }"}
+{"label": "同时出现白细胞增多、持续性弛张热症状，可能是什么疾病？", "predict": "select?x where {?x <涉及症状> <白细胞增多>.?x <涉及症状> <持续性弛张热>. }"}
+{"label": "新冠患者如果出现了急性呼吸困难、高碳酸血症、口唇发绀，应该如何治疗？", "predict": "select?x where { <新冠患者（新型冠状病毒感染）> <症状>?x.?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <高碳酸血症>.?x <涉及症状> <口唇发绀>. }"}
+{"label": "李文亮医生为什么被称作“疫情吹哨人”?", "predict": "select?x where { <李医生_（李文亮）> <人物评价>?x. }"}
+{"label": "新冠疫情最早发生于什么时候？", "predict": "select?x where { <新冠疫情> <最早发生时间>?x. }"}
+{"label": "西班牙流感总共感染了多少人？", "predict": "select?x where { <西班牙流感> <感染者>?x. }"}
+{"label": "接种流感疫苗可能出现什么负作用？", "predict": "select?x where { <流感疫苗> <负作用>?x. }"}
+{"label": "新冠病素是RNA病毒，具有什么遗传特点？", "predict": "select?x where { <新冠病素> <遗传特点>?x. }"}
+{"label": "与N95口罩具有相同防护效果的口罩类型？", "predict": "select?x where { <N95口罩> <防护效果>?x. }"}
+{"label": "N95口罩能达到什么级别防护效果？", "predict": "select?x where { <N95口罩> <防护级别>?x. }"}
+{"label": "抗生素具有什么作用？", "predict": "select?x where { <抗生素> <作用>?x. }"}
+{"label": "大肠杆菌可能导致什么疾病？", "predict": "select?x where { <大肠杆菌> <涉及疾病>?x. }"}
+{"label": "对于百日咳患者，应如何治疗？", "predict": "select?x where { <百日咳> <治疗方法>?x. }"}
+{"label": "2013年莱昂纳多主演的电影获得了哪些成就？", "predict": "select?x where {?y <上映日期> \"2013-07-12\".?y <主演> <莱昂纳多_（好莱坞著名演员）>.?y <荣誉>?x. }"}
+{"label": "获得第67届金球奖最佳影片的电影的导演是谁？", "predict": "select?x where {?y <主要奖项> \"第67届金球奖最佳影片\".?y <导演>?x. }"}
+{"label": "小明想做一道佛跳墙，他需要准备哪些原料？", "predict": "select?x where { <佛跳墙_（佛家菜）> <主要食材>?x. }"}
+{"label": "肯德基的创始人卒于什么时候？", "predict": "select?y where { <肯德基> <创始人>?x.?x <逝世日期>?y. }"}
+{"label": "影分身之术出自谁创作的作品？", "predict": "select?y where { <影分身之术> <创作>?x.?x <代表作品>?y. }"}
+{"label": "《美少女战士》中小小兔的宠物有什么特点？", "predict": "select?y where {?x <代表作品> <美少女战士_（原动画《美少女战士》）>.?x <宠物>?y. }"}
+{"label": "《西游记》中会七十二变、使用混铁棍的角色是谁？", "predict": "select?x where {?x <登场作品> <西游记_（中国古典长篇讽刺小说）>.?x <七十二变> \"七十二变\".?x <混铁棍>. }"}
+{"label": "江泽民在什么时候提出了三个代表重要思想？", "predict": "select?x where { <三个代表重要思想> <提出时间>?x. }"}
+{"label": "改革开放的总设计师毕业于哪个学校？", "predict": "select?x where { <邓小平> <毕业院校>?y.?y <中文名> \"的设计思想，科学社会主义的首先是由此设计的\". }"}
+{"label": "《不能承受的生命之轻》、《生活在别处》的作者是谁？", "predict": "select?x where {?x <代表作品> <不能承受的生命之轻>.?x <代表作品> <生活在别处>. }"}
+{"label": "周杰伦有哪些说唱风格的作品？", "predict": "select?x where {?x <音乐风格> <说唱_（音乐形式）>.?x <创作歌手> <周杰伦>. }"}
+{"label": "林夕为孙燕姿的哪些歌曲填过词？", "predict": "select?x where {?x <填词> <林夕_（著名填词人）>.?x <歌曲演唱者> <孙燕姿>. }"}
+{"label": "汤唯和吴秀波共同出演的电影获得了多少票房？", "predict": "select?x where {?y <主演> <吴秀波_（中国内地男演员）>.?y <主演> <汤唯>.?y <票房>?x. }"}
+{"label": "《清明上河图》的作者有一幅作品馆藏于天津博馆，这一作品是什么？", "predict": "select?y where { <清明上河图_（北宋张择端风俗画）> <馆藏>?y.?y <馆藏地点> <天津博馆>. }"}
+{"label": "十大传世国宝中1938年出土的是哪一件？", "predict": "select?x where {?x <所属年代> \"1938\".?x <十大传世国宝>?tup. }"}
+{"label": "元宵节这一天，人们通常会干什么？", "predict": "select?x where { <元宵节_（中国传统节日）> <节日活动>?x. }"}
+{"label": "小潘想去成都旅游，你能为他推荐景点吗？", "predict": "select?x where { <成都_（中华人民共和国四川省首府）> <城市风光>?x. }"}
+{"label": "《哆啦A梦》中的随意门有什么作用？", "predict": "select?x where { <随意门> <作用>?x. }"}
+{"label": "北欧神话中的欧若拉女神掌管什么？", "predict": "select?x where {?x <神话故事> <欧若拉_（北欧神话中掌管死亡的女神）>.?x <类别> <掌管>. }"}
+{"label": "《犬夜叉》中有哪些人喜欢桔梗？", "predict": "select?x where {?x <登场作品> <犬夜叉_（日本漫画《犬夜叉》系列）>.?x <喜好> <桔梗>. }"}
+{"label": "小明很喜欢《蒙娜丽莎》，他去哪里可以看到原作？", "predict": "select?x where { <蒙娜丽莎_（达芬奇画作）> <作品地点>?x. }"}
+{"label": "斯里兰卡信仰什么宗教？", "predict": "select?x where { <斯里兰卡> <主要宗教>?x. }"}
+{"label": "柏林墙是哪一年倒塌的？", "predict": "select?x where { <柏林墙> <倒塌时间>?x. }"}
+{"label": "抗美援朝战争伤亡了多少人？", "predict": "select?x where { <抗美援朝战争> <阵亡人数>?x. }"}
+{"label": "中国的长城总长多少？", "predict": "select?x where { <万里长城_（中国古代军事工程）> <总长度>?x. }"}
+{"label": "埃菲尔铁塔是什么时候完工的？", "predict": "select?x where { <埃菲尔铁塔_（巴黎城市地标）> <竣工时间>?x.}"}
+{"label": "巴黎圣母院属于什么风格的建筑？", "predict": "select?x where { <巴黎圣母院_（法国巴黎教堂）> <建筑风格>?x. }"}
+{"label": "满汉全席一共有多少道菜？", "predict": "select?x where { <满汉全席_（中国流行音乐 Live_ 演唱会）> <菜品数量>?x. }"}
+{"label": "计划生育政策是什么？", "predict": "select?x where { <计划生育> <政策>?x. }"}
+{"label": "孔庆东和叶文曦共同创作了哪部书籍？", "predict": "select?x where {?x <作者> <孔庆东>.?x <作者> <叶文曦>. }"}
+{"label": "哪些人在北京大学和清华大学都任过职？", "predict": "select?x where {?x <职业> <其他职业>.?x <任职单位> <清华大学>.?x <任职单位> <北京大学>. }"}
+{"label": "北京大学出版社出版的哪些书定价为110.00？", "predict": "select?x where {?x <出版社> <北京大学出版社>.?x <定价> \"110.00\". }"}
+{"label": "北京大学出版社在2012-03-01那天出版了哪些书？", "predict": "select?x where {?x <出版社> <北京大学出版社>.?x <出版时间> \"2012-03-01\". }"}
+{"label": "《醉眼看金庸》的作者是哪个民族的？", "predict": "select?y where { <醉眼看金庸> <作者>?x.?x <民族>?y. }"}
+{"label": "《醉眼看金庸》的作者在哪个大学任教？", "predict": "select?x where { <醉眼看金庸> <作者>?y.?y <任职单位>?x. }"}
+{"label": "《醉眼看金庸》的作者有哪些代表作品？", "predict": "select?x where { <醉眼看金庸> <作者>?y.?y <代表作品>?x. }"}
+{"label": "合肥有哪些学校属于“九校联盟”？", "predict": "select?x where {  <合肥> <城市>?y.?x <所属地区>?y.?x <类别> <九校联盟>. }"}
+{"label": "北京大学的学术传统是什么？", "predict": "select?x where { <北京大学> <学术传统>?x. }"}
+{"label": "学校代码为10003的是哪所大学？", "predict": "select?x where {?x <学校代码> <10003>. }"}
+{"label": "代码为10056的学校有多少个硕士点？", "predict": "select?y where {?x <主要专业> <编码10056>.?x <硕士点>?y. }"}
+{"label": "<2006年汉语新词语选目>作者的官网是什么？", "predict": "SELECT?x WHERE {?y <作者> <8088>.?y <主要品种> <汉语新词语选目>.?y <官网>?x. }"}
+{"label": "<危险化学品经营企业安全管理培训教程>的作者有哪些主要成就？", "predict": "select?x where { <危险化学品经营企业安全管理培训教程> <作者>?y.?y <主要成就>?x. }"}
+{"label": "<探寻遗失的文明之古埃及>作者在哪个大学任教？", "predict": "select?x where {?y <代表作品> <探寻遗失的文明之古埃及>.?y <毕业院校>?x. }"}
+{"label": "蒙特卡罗分析法是谁提出的？", "predict": "select?x where {?x <代表作品> <蒙特卡罗分析法>. }"}
+{"label": "北大耕读社成立的时间是？", "predict": "select?x where { <北大耕读社> <成立时间>?x. }"}
+{"label": "北京有哪些别名？", "predict": "select?x where { <北京_（中华人民共和国首都）> <别名>?x. }"}
+{"label": "周星驰导演的奇幻剧情片有哪些？", "predict": "select?x where {?x <导演> <周星驰>.?x <类型> <奇幻>. }"}
+{"label": "渊虹登场于哪位导演的作品？", "predict": "select?x where { <渊虹> <登场作品>?y.?y <导演>?x. }"}
+{"label": "<轻音少女剧场版>的导演毕业于哪个院校？", "predict": "select?x where { <轻音少女剧场版> <导演>?y.?y <毕业院校>?x. }"}
+{"label": "《JOJO的奇妙冒险JOJOLion》的作者是什么星座的？", "predict": "select?x where { <JOJO的奇妙冒险JOJOLion> <作者>?y.?y <星座>?x. }"}
+{"label": "阿尔冯斯·艾尔利克出处是哪位导演的作品？", "predict": "select?x where {?x <代表作品>?y.?y <编剧> <阿尔冯斯·艾尔利克>.?y <导演>?x. }"}
+{"label": "七星灯来源于哪位作者的作品？", "predict": "select?x where { <七星灯> <作者>?x. }"}
+{"label": "北京大学的地址在哪？", "predict": "select?x where { <北京大学> <学校地址>?x. }"}
+{"label": "无间道_（2002年刘伟强、麦兆辉执导电影）获得了哪些主要奖项？", "predict": "select?x where {?y <主要奖项>?x.?y <主演>?x.?y <导演> <刘伟强_（中国内地导演）>.?y <主演>?y. }"}
+{"label": "刘德华和梁朝伟共同担任了哪些电影的主演？", "predict": "select?x where {?x <主演> <刘德华_（香港演员、歌手、词作人）>.?x <主演> <梁朝伟_（华语演员、歌手、音乐人）>. }"}
+{"label": "姜文同时担任主演和导演的电影有哪些？", "predict": "select?x where {?x <主演> <姜文_（中国内地导演、演员、编剧）>.?x <导演> <姜文_（中国内地导演、演员、编剧）>. }"}
+{"label": "阿尔伯特·爱因斯坦的出生日期是？", "predict": "select?x where { <阿尔伯特·爱因斯坦> <出生日期>?x. }"}
+{"label": "归并排序的发明者的主要成就有哪些？", "predict": "select?y where { <归并排序> <发明者>?x.?x <主要成就>?y. }"}
+{"label": "平方取中法的创建者的血型是什么？", "predict": "select?x?y where {?z <主要成就> \"平方取中法\".?z <创造成人>?x.?x <血型>?y. }"}
+{"label": "2019新型冠状病毒的命名组织是？", "predict": "select?x where { <2019新型冠状病毒> <命名组织> ?x. }"}
+{"label": "2019新型冠状病毒的命名组织成立的时间是？", "predict": "SELECT?x WHERE { <2019新型冠状病毒> <命名组织>?y.?y <成立时间>?x. }"}
+{"label": "流感疫苗规定组织的总部在哪？", "predict": "SELECT?o WHERE { <流感疫苗> <规定组织>?o.?o <总部地点>?x. }"}
+{"label": "ADCC作用的性质是什么？", "predict": "select?x where {?y <外文名> \"ADCC\".?y <功效>?x. }"}
+{"label": "骨髓瘤细胞的天敌的外文名是？", "predict": "select?x where { <骨髓瘤> <天敌>?x. }"}
+{"label": "CIH病毒的感染对象是？", "predict": "select?x where { <CIH病毒> <感染对象>?x. }"}
+{"label": "动物和病毒都属于什么的子类型？", "predict": "select?x where {?x <子类型> <病毒>.?x <子类型> <动物>. }"}
+{"label": "新型冠状病毒肺炎的病原体的疑似宿主是？", "predict": "select?x where { <新型冠状病毒肺炎> <病原体疑似宿主>?x. }"}
+{"label": "新型冠状病毒肺炎临床治疗期中期推荐中成药有哪些？", "predict": "select?y where { <新型冠状病毒肺炎> <临床治疗期中期推荐中成药>?y. }"}
+{"label": "木村次郎右卫门死于的疾病盛行率是多少？", "predict": "select?x where { <木村次郎右卫门> <死因>?y. <盛行率>?x. }"}
+{"label": "哮喘和慢性阻塞性肺病的共同相似疾病或共病有哪些？", "predict": "select?x where {?x <临床表现> <哮喘>.?x <临床表现> <慢性阻塞性肺病>. }"}
+{"label": "哮喘治疗药物的化学式是？", "predict": "select?x where { <哮喘> <治疗药物>?x. }"}
+{"label": "什么疾病症状为鼻塞且应前往耳鼻喉科就诊？", "predict": "select?x where {?x <涉及科室> <耳鼻喉科>.?x <症状> <鼻塞>. }"}
+{"label": "流行性感冒和军团病、肺炎共同的症状有哪些？", "predict": "select?x where { <流行性感冒> <涉及症状>?x. }"}
+{"label": "高热和胸痛共同的涉及症状有哪些？", "predict": "select?x where { <高热> <涉及症状>?x. <胸痛> <涉及症状>?x. }"}
+{"label": "代谢性酸中毒应当在哪个科室就诊？", "predict": "select?x where { <代谢性酸中毒> <科室>?x. }"}
+{"label": "甲状腺肿大和腹腔积液的共同涉及症状有哪些？", "predict": "select?x where { <甲状腺肿大> <涉及症状>?x. <腹腔积液> <涉及症状>?x. }"}
+{"label": "口干、心悸是什么的共同涉及症状？", "predict": "select?x where { <口干、心悸> <共同涉及症状>?x. }"}
+{"label": "婴儿吐奶的起因是什么？", "predict": "select?x where { <婴儿吐奶> <起因>?x. }"}
+{"label": "国家税务总局公告2020年第4号政策是什么时间发布的？", "predict": "select?y where {?x <中文名> \"国家税务总局公告2020年第4号\".?x <发布时间>?y. }"}
+{"label": "甲型H1N1流感的症状有哪些？", "predict": "select?x where { <甲型H1N1流感> <症状>?x. }"}
+{"label": "2015年埃博拉病毒在西非导致了多少人丧生？", "predict": "select?x where { <2015年埃博拉病毒在西非爆发> <死亡人数>?x. }"}
+{"label": "合格的N95口罩需要达到什么标准？", "predict": "select?x where { <N95口罩> <合格标准>?x. }"}
+{"label": "病毒性出血热表现出的症状有哪些？", "predict": "select?x where { <病毒性出血热> <症状>?x. }"}
+{"label": "高血糖的病因有哪些？", "predict": "select?x where { <高血糖> <病因>?x. }"}
+{"label": "南宁市第四人民医院的地址是什么？", "predict": "select?x where { <南宁市第四人民医院> <地址>?x. }"}
+{"label": "肝炎的传播途径有哪些？", "predict": "select?x where { <肝炎> <传播途径>?x. }"}
+{"label": "肝炎的症状有哪些？", "predict": "select?x where { <肝炎> <症状>?x. }"}
+{"label": "肝炎的病因是什么？", "predict": "select?x where { <肝炎> <病因>?x. }"}
+{"label": "外文名 \"Escherichia coli，E.coli”的细菌俗称是什么？", "predict": "SELECT?x WHERE {?y <外文名> \"Escherichia coli，E.coli\".?y <俗称>?x. }"}
+{"label": "别名CDV的疾病有什么临床症状？", "predict": "select?x where {?y <别名> \"CDV\".?y <临床症状>?x. }"}
+{"label": "化学式为C6H12O5的物质的分子量是多少？", "predict": "select?x where {?y <化学式> <C6H12O5>.?y <分子量>?x. }"}
+{"label": "C6H12O5的英文名是什么？", "predict": "select?x where { <C6H12O5> <英文名>?x. }"}
+{"label": "鼠疫的传播途径有哪些？", "predict": "select?x where { <鼠疫> <传播途径>?x. }"}
+{"label": "别称“水熊虫”的生物分布在什么区域？", "predict": "select?y where {?x <别名> \"水熊虫、水母、水螅、水母虫\".?x <分布>?y. }"}
+{"label": "别称“水熊虫”的生物被分类在什么科？", "predict": "SELECT?x WHERE {?y <别名> <水熊虫_（节肢动物门，昆虫纲昆虫）>.?y <科>?x. }"}
+{"label": "水熊虫的拉丁学名是什么？", "predict": "select?x where { <水熊虫> <拉丁学名>?x. }"}
+{"label": "市场监管总局办公厅于2020年2月7日发布了什么政策？", "predict": "select?x where { <市场监管总局办公厅> <发布日期> \"2020-02-07\". <教育部办公厅> <对学生要求>?x. }"}
+{"label": "市场监管总局办公厅于2020年2月7日发布的政策针对对象有哪些？", "predict": "select?x where { <市场监管总局办公厅2020年2月7日发布的市场监管总局办公厅针对新型冠状病毒感染的肺炎疫情防控期间市场监管相关工作的通知> ?x <涉及内容>. }"}
+{"label": "“万岛之国“是哪个国家？", "predict": "select?x where {?x <别名> \"万岛之国\". }"}
+{"label": "挪威的政治体制是什么？", "predict": "select?x where { <挪威> <政治体制>?x. }"}
+{"label": "挪威的首都机场是哪个？", "predict": "select?x where { <挪威> <首都>?y.?y <机场>?x. }"}
+{"label": "挪威官方货币的代码是什么？", "predict": "select?x where { <挪威> <官方货币>?x. }"}
+{"label": "心理学家汤姆·赫宁的祖国在哪个洲？", "predict": "select?y where {?x <国籍> <美国_（美利坚合众国）>.?x <职业> <心理学家>.?x <国籍> <美国>. }"}
+{"label": "挪威的国庆节是哪天？", "predict": "select?x where { <挪威> <国庆日>?x. }"}
+{"label": "《声声慢·寻寻觅觅》的作者是哪个朝代的？", "predict": "select?x where { <声声慢·寻寻觅觅> <作者>?y.?y <国籍>?x. }"}
+{"label": "女词人李清照的丈夫是什么时候逝世的？", "predict": "select?y where { <李清照_（宋代女性文学家）> <配偶>?x.?x <逝世日期>?y. }"}
+{"label": "女词人李清照的丈夫职业是什么？", "predict": "select?y where { <李清照_（北宋女词人）> <职业>?y. }"}
+{"label": "秦朝时我国的国土面积有多大？", "predict": "select?x where { <中国古代公元前221年建立秦朝> <国家面积>?x. }"}
+{"label": "秦始皇统一六国后，统一发行那种货币？", "predict": "select?x where { <秦始皇_（中国首位皇帝）> <发行货币>?x. }"}
+{"label": "秦朝的选官制度是什么？", "predict": "select?x where { <秦_（中国第一个统一王朝）> <政治制度>?x. }"}
+{"label": "秦朝的首都是哪里？", "predict": "select?x where { <秦_（中国第一个统一王朝）> <首都>?x. }"}
+{"label": "秦朝的古都如今在哪个省？", "predict": "select?y where { <秦_（中国历史朝代）> <首都>?x.?x <省区名>?y. }"}
+{"label": "《基督山伯爵》的作者是哪个国家的？", "predict": "select?y where { <基督山伯爵_（大仲马长篇小说）> <作者>?x.?x <国籍>?y. }"}
+{"label": "短篇小说《丽姬娅》的作者时哪个国家的？", "predict": "select?x where {?y <代表作品> <丽姬娅_（土耳其君主国的王后）>.?y <国籍>?x. }"}
+{"label": "新西兰的首都面积有多大？", "predict": "select?x where { <新西兰> <首都>?y.?y <面积>?x. }"}
+{"label": "新西兰首都有多少居民？", "predict": "select?x where { <新西兰> <首都>?y.?y <人口>?x. }"}
+{"label": "新西兰的国花是什么？", "predict": "select?x where {<新西兰> <国花>?x.}"}
+{"label": "新西兰在哪个大洲？", "predict": "select?x where { <新西兰> <所属国家>?x. }"}
+{"label": "英国女王伊丽莎白二世是什么时候即位的？", "predict": "select?y where { <伊丽莎白二世_（英国现任君主）> <即位日期>?y. }"}
+{"label": "女王伊丽莎白二世的丈夫出生在哪里？", "predict": "select?y where { <伊丽莎白二世_（英国现任君主）> <丈夫>?x.?x <出生地>?y. }"}
+{"label": "《小夜曲》的作者出生在哪个国家?", "predict": "select?x where {?y <代表作品> <小夜曲_（李白的诗作）>.?y <出生地>?x. }"}
+{"label": "莫扎特是什么时间逝世的？", "predict": "select?x where { <莫扎特_（欧洲著名古典主义音乐作曲家）> <逝世日期>?x. }"}
+{"label": "莫扎特的祖国是什么时间灭亡的？", "predict": "select?x where { <沃尔夫冈·阿马德乌斯·莫扎特> <国籍>?y.?y <灭亡时间>?x. }"}
+{"label": "芬兰的国庆日是哪天？", "predict": "select?x where { <芬兰共和国> <国庆日>?x. }"}
+{"label": "芬兰的国土有多大？", "predict": "select?x where { <芬兰> <国土>?x. }"}
+{"label": "亚马孙河的发源地是哪里？", "predict": "select?x where { <亚马孙河> <发源地>?x. }"}
+{"label": "亚马孙河流经的国家里说西班牙语的有哪些？", "predict": "select?x where { <亚马孙河> <流域>?x. }"}
+{"label": "我国新型冠状病毒联防联控工作机制科研攻关组组长是谁？", "predict": "select?x where { <新型冠状病毒联防联控工作机制> <期号>?y.?y <组长>?x. }"}
+{"label": "钟南山院士的研究方向是什么？", "predict": "select?x where { <钟南山> <研究方向>?x. }"}
+{"label": "谁在2020年1月20日指出新冠病毒可能人传人？", "predict": "select?x where {?x <主要成就> \"2020年1月20日指出现有可能存在人际间传播\". }"}
+{"label": "同时参与非典战役和新冠病毒战役的我国知名学者是谁？", "predict": "select?x where {?x <战斗经历> <非典>.?x <战斗经历> <新冠病毒>.?x <国籍> <中华人民共和国>. }"}
+{"label": "谁的研究成果指出连花清瘟胶囊可能对新冠病毒有抑制效果？", "predict": "SELECT?x WHERE {?x <职业> <科学家_（一般指自然科学领域成就较大的学者或研究人员>. ）.?x <主要成就> \"连花清瘟胶囊\". FILTER {?x <职业> <医学专家、医生>. } }"}
+{"label": "新冠病毒首先在哪个城市爆发？", "predict": "select?x where { <2019TOKYEPLAY_（中文名_2019年东京百合大会）> <主要爆发地>?x. }"}
+{"label": "主动表示要去金银潭医院的是哪位院士？", "predict": "select?x where {?x <主要成就> \"创建了武汉市中心医院金银潭医院 \".?x <毕业院校> <武汉大学>.?x <毕业院校> <中国科学院院士>. }"}
+{"label": "主动表示要去金银潭医院的院士籍贯是哪里？", "predict": "select?x where {?y <毕业院校> <金银潭医院>.?y <职业> <院士_（科学界最高学术称号）>.?y <籍贯>?x. }"}
+{"label": "在十七年前创造SARS“零严重后遗症”、无医务人员感染、无二代病人的奇迹的人是谁？", "predict": "select?x where {?x <主要成就> \"创造SARS的 '零严重后遗症'\".?x <主要成就> \"无医务人员感染、无二代病人奇迹\". }"}
+{"label": "在十七年前创造SARS“零严重后遗症”、无医务人员感染、无二代病人的奇迹的人毕业于？", "predict": "select?x where {?y <主要病因> <SARS_无严重后遗症>.?y <主要患者> <无二代病人>.?y <毕业院校>?x. }"}
+{"label": "《传染病学第3版》是谁的重要成果？", "predict": "select?x where {?x <重要成果> <传染病学（第3版）>. }"}
+{"label": "咳嗽的病因？", "predict": "select?x where { <咳嗽> <病因>?x. }"}
+{"label": "参与此次疫情防控的1996年5月中国工程院院士毕业院校？", "predict": "SELECT?x WHERE {?y <毕业院校>?x.?y <毕业院校> <毕业院校>?z.?y <主要成就>?x.?z <主要成就>?y. }"}
+{"label": "参与此次疫情防控的1996年5月中国工程院院士出生于？", "predict": "select?x where {?y <出生日期>?x.?y <职业> <院士>.?y <主要成就> \"疫情防控\". }"}
+{"label": "《慢性阻塞性肺疾病在中国》是由谁发表的？", "predict": "select?x where { <慢性阻塞性肺疾病在中国> <作者>?x. }"}
+{"label": "广州呼吸疾病研究所所长的籍贯？", "predict": "select?x where { <广州呼吸疾病研究所> <院长>?y.?y <籍贯>?x. }"}
+{"label": "广州呼吸疾病研究所所长毕业于？", "predict": "select?x where { <广州呼吸疾病研究所> <所长>?y.?y <毕业院校>?x. }"}
+{"label": "李兰娟院士来自哪个救援队？", "predict": "select?x where { <李兰娟> <救援队>?x. }"}
+{"label": "复旦大学附属华山医院感染病科党支部书记、主任研究方向是？", "predict": "select?x where { <复旦大学附属华山医院> <科室> <感染病科>. <感染病科> <党支部书记>?x. }"}
+{"label": "复旦大学附属华山医院感染病科党支部书记、主任都参与了哪些疫情防控？", "predict": "SELECT?x WHERE {?y <复旦大学附属华山医院感染科书记、主任>.?y <参与疫情防控>?x. }"}
+{"label": "华为的公司口号是什么？", "predict": "select?x where { <华为> <公司口号>?x. }"}
+{"label": "佩妮莱·费舍尔·克里斯滕森导演的丹麦喜剧片叫什么名字？", "predict": "select?x where {?x <导演> <佩妮莱·费舍尔·克里斯滕森>.?x <制片地区> <丹麦>.?x <类型> <喜剧_（艺术体裁）>. }"}
+{"label": "Porsche AG的创始人出生于？", "predict": "select?y where {?x <外文名称> \"Porsche AG\".?x <创始人>?y.?y <出生日期>?x. }"}
+{"label": "魔性诱惑的导演是谁？", "predict": "select?x where { <魔性诱惑> <导演>?x. }"}
+{"label": "下北阳光灿烂的日子主演的代表作品是？", "predict": "select?x where { <下北阳光灿烂的日子> <主演>?y.?x <主演>?y. }"}
+{"label": "用风筝吸引雷电的科学家什么时候逝世？", "predict": "select?y where {?x <主要成就> \"用风筝吸引雷电\".?x <逝世日期>?y. }"}
+{"label": "同时证明闪电本质是电和领导美国独立战争的是谁？", "predict": "select?x where {?x <本质> \"电\".?x <参战> <美国独立战争>. }"}
+{"label": "《穷理查年鉴》的作者出生于哪天？", "predict": "select?x where {?y <代表作品> <穷理查年鉴>.?y <出生日期>?x. }"}
+{"label": "巴勃罗·鲁伊斯·毕加索外文名叫什么？", "predict": "select?x where {?y <中文名> \"巴勃罗·鲁伊斯·毕加索\".?y <外文名>?x. }"}
+{"label": "巴勃罗·鲁伊斯·毕加索生日是什么？", "predict": "select?x where {?y <出生日期>?x.?y <职业> <画家_（职业名称）>.?y <名字> \"巴勃罗·鲁伊斯·毕加索\". }"}
+{"label": "《三个音乐家》的作者是什么派别的画家？", "predict": "select?x where { <三个音乐家> <作者>?y.?x <代表人物>?y. }"}
+{"label": "《哭泣的女人》的作者出生于哪天？", "predict": "select?x where { <哭泣的女人_（毕淑敏文章）> <作者>?y.?y <出生日期>?x. }"}
+{"label": "思想自由，兼容并包，是那个学校的学术传统？", "predict": "select?x where {?x <学术传统> \"思想自由\".?x <学术传统> \"兼容并包\". }"}
+{"label": "学校代码是10001的大学，目前有多少位长江学者？", "predict": "select?x where {?y <学校代码> \"10001\".?y <长江学者>?x. }"}
+{"label": "“思想自由兼容并包”的大学有多少文科资深教授？", "predict": "select?x where {?y <思想自由兼容并包>.?y <文科资深教授>?z.?z <九级教授>?x. } union {?y <思想自由兼容并包>.?z <文科教授>?y.?y <教授级专家>?z.?z <九级教授>?x }. }"}
+{"label": "“思想自由兼容并包”的大学校庆日是哪一天？", "predict": "select?x where {?y <思想自由兼容并包>?z.?y <校庆日>?x. }"}
+{"label": "嬴政赞成哪种治国思想？", "predict": "select?x where { <嬴政_（战国时期秦国国君）> <政治思想>?x. }"}
+{"label": "嬴政继承人是谁？", "predict": "select?y where {?x <主要成就> \"战国时期秦国君主\".?x <继承人>?y. }"}
+{"label": "师说的作者哪年去世？", "predict": "select?x where { <师说_（苏轼撰《论语》一书行文名）> <作者>?y.?y <逝世日期>?x. }"}
+{"label": "让车同轨，书同文的是中国哪位皇帝？", "predict": "select?x where {?x <主要成就> \"车同轨，书同文\". }"}
+{"label": "李星辰出生于哪一年？", "predict": "select?x where { <李星辰> <出生日期>?x. }"}
+{"label": "“小飞侠”的父亲是谁？", "predict": "select?x where {?y <别名> \"小飞侠，（美国动画电影《小飞侠（2008年动画电影））\".?y <父亲>?x. }"}
+{"label": "“小飞侠”是怎么被NBA选中的？", "predict": "select?x where { <小飞侠_（美国NBA球员）> <nba选秀>?x. }"}
+{"label": "“小飞侠”出生州的州长是谁？", "predict": "select?x where {?y <别名> \"小飞侠，\".?y <出生地>?z.?z <现任州长>?x. }"}
+{"label": "《科比24》这本书的作者的别名是？", "predict": "select?x where { <科比24> <作者>?y.?y <别名>?x. }"}
+{"label": "毛泽东的信仰是？", "predict": "select?x where { <毛泽东> <信仰>?x. }"}
+{"label": "沁园春雪的作者的毕业院校是？", "predict": "select?x where { <沁园春·雪> <作者>?y.?y <毕业院校>?x. }"}
+{"label": "逃学威龙2的主演的出生地是哪里？", "predict": "select?x where { <逃学威龙2> <主演>?y.?y <出生地>?x. }"}
+{"label": "逃学威龙2的主演的身高多少？", "predict": "select?x where { <逃学威龙2> <主演>?y.?y <身高>?x. }"}
+{"label": "黑暗精灵米莉雅出自哪一部神奇的动漫？", "predict": "select?x where { <黑暗精灵米莉雅> <登场作品>?x. }"}
+{"label": "妮娜的创作者村上老师都有哪些作品？", "predict": "select?y where {?x <代表作品>?x.?x <作者> <村上春树>. }"}
+{"label": "日本哪个城市的市花是百合？", "predict": "select?x where {?x <所属洲> <日本_（日本国）>.?x <市树> <百合_（草本植物）>. }"}
+{"label": "你竟然连sos团团长的声优都认识，太厉害了，那你知道她的身材如何吗？", "predict": "select?y where {?x <主要作品> <团团团长>.?x <声优>?y.?x <性别> <美女_（女性美称）>. }"}
+{"label": "你知道王者荣耀里的英雄娜可露露本来是出自哪里的吗？", "predict": "select?x where { <娜可露露_（王者荣耀角色）> <出处>?x. }"}
+{"label": "战国四大名将之首有哪些成就？", "predict": "select?y where {?x <地位> \"战国四大名将之首\".?x <主要成就>?y. }"}
+{"label": "闪电是怎么形成的？", "predict": "select?x where { <闪电> <形成原因>?x. }"}
+{"label": "嘟嘟和黄海波合作演过哪些电视？", "predict": "select?x where {?x <主演> <嘟嘟>.?x <主演> <黄海波>. }"}
+{"label": "毕业于北大的李文杰写过哪些书？", "predict": "select?y where {?x <毕业院校> <北京大学>.?x <代表作品>?y. }"}
+{"label": "岩永琴子在哪部漫画中出场？", "predict": "select?x where { <岩永琴子> <出场作品>?x. }"}
+{"label": "老子提出的“道”又可以分成哪三种？", "predict": "select?x where { <道_（老子哲学概念）> <道分三种>?x. }"}
+{"label": "炮姐的母上大人是谁？", "predict": "select?x where { <炮姐_（日本轻小说《中二病也要谈恋爱!》女主角）> <母亲>?x. }"}
+{"label": "御坂美琴有哪些同学？", "predict": "select?x where { <御坂美琴> <同学>?x. }"}
+{"label": "魔法禁书目录中桃花属性爆表的角色是谁？", "predict": "select?x where {?x <登场作品> <魔法禁书目录_（A Certain Magical Index的续作）>.?x <属性> <桃花>. }"}
+{"label": "一拳超人中的吹雪酱多高？", "predict": "select?x where { <吹雪酱> <身高的_（程度）>?x. }"}
+{"label": "一拳超人中秃头披风侠的喜欢和谁一起玩游戏？", "predict": "select?x where { <一拳超人_（石头门（团）主角）> <喜爱>?x. }"}
+{"label": "琦玉老师今年多大？", "predict": "select?x where { <辰巳真拳> <大小王>?x. }"}
+{"label": "梅花主要受哪些灾害？", "predict": "select?x where { <梅花_（蔷薇科梅属植物）> <灾害信息>?x. }"}
+{"label": "清华大学的李翔宇获得过哪些奖项？", "predict": "SELECT?x WHERE {?y <主要成就> \"李翔宇\".?y <所属院校> <清华大学>.?y <所属运动项目> <举重>.?y <所属运动项目> <乒乓球>.?y <所属运动项目> <跳水>.?y <所属运动项目> <短道速滑>.?y <所属运动项目> <足球>.?y <主要奖项>?x. }"}
+{"label": "哪位俄罗斯硬汉单骑横跨了欧亚大陆？", "predict": "select?x where {?x <国籍> <俄罗斯_（俄罗斯联邦）>.?x <职业> <铁血战士_（军事术语）>.?x <主要成就> \"单骑横跨欧亚大陆、与美国并列成为世界超级大国\". }"}
+{"label": "语嫣姐的代表作是什么？", "predict": "select?y where { <胡舒婷_（音乐组合S.H.E成员）>?y <代表作品>?y. }"}
+{"label": "我最喜欢的RPG游戏幽城幻剑录是什么时候发布的？", "predict": "select?y where {?x <中文名> \"幽城幻剑录\".?x <发行时间>?y. }"}
+{"label": "在天地劫、神魔至尊传和幽城幻剑录都有登场的角色是哪一位？", "predict": "select?x where {?x <登场作品> <天地劫_（网易游戏出品的网游）>.?x <登场作品> <神魔至尊传>.?x <登场作品> <幽城幻剑录>. }"}
+{"label": "长方形如何计算面积？", "predict": "select?x where { <长方形_（几何图形）> <面积>?x. }"}
+{"label": "等边三角形的面积怎么算？", "predict": "select?x where { <等边三角形> <面积>?x. }"}
+{"label": "藏马的生日是？", "predict": "select?x where { <藏马> <出生日期>?x. }"}
+{"label": "飞影的妹妹由哪些人配过音？", "predict": "select?x where { <飞影_（《原神》系列游戏角色）> <妹妹>?y.?y <配演>?x. }"}
+{"label": "里番指什么？", "predict": "select?x where { <里番> <定义>?x. }"}
+{"label": "无限流的开山鼻祖真名叫什么？", "predict": "select?x where { <无限流> <开山鼻祖>?x. }"}
+{"label": "你听说过腐女吗，这类女性有什么特征？", "predict": "select?x where { <腐女> <定义>?x. }"}
+{"label": "最近一次埃博拉疫情死了多少人？", "predict": "select?x where { <埃博拉病毒疫情> <死亡人数>?x. }"}
+{"label": "世界上每年大约多少人死于流感？", "predict": "select?x where { <流感> <死亡人数>?x. }"}
+{"label": "烦躁不安是由什么原因引起的？", "predict": "select?x where { <烦躁不安> <解释>?x. }"}
+{"label": "表现为\"多尿、夜尿增多\"的疾病通常由什么引起？", "predict": "select?x where {?x <表现> \"多尿、夜尿增多\". }"}
+{"label": "人为什么会发炎？", "predict": "select?x where { <发炎> <原因>?x. }"}
+{"label": "怎样才能不打呼噜？", "predict": "select?x where { <不打呼噜> <识读>?x. }"}
+{"label": "牛屎牙膏是啥，能吃吗？", "predict": "select?x where { <牛屎牙膏> <是否可食用>?x. }"}
+{"label": "哪些疾病既涉及面色青紫又涉及间歇性血尿？", "predict": "select?x where {?x <涉及症状> <面色青紫>.?x <涉及症状> <间歇性血尿>. }"}
+{"label": "真命天女症有何表现？", "predict": "select?x where {?y <代表> <真命天女症>.?y <病状>?x. }"}
+{"label": "世界艾滋病日的标志是什么？", "predict": "select?x where { <世界艾滋病日> <节日标志>?x. }"}
+{"label": "世界艾滋病日是什么机构发起的？", "predict": "select?x where {?x <事件> <世界艾滋病日>.?x <类别> <协会>. }"}
+{"label": "我总流鼻血应该挂号哪个科？", "predict": "select?x where { <总流鼻血> <科室>?x. }"}
+{"label": "T病毒又叫什么？", "predict": "select?x where {?x <外文名> \"T-virus\". }"}
+{"label": "暴君病毒有什么危害？", "predict": "select?x where { <暴君病毒> <释义>?y.?y <危害>?x. }"}
+{"label": "RNA病毒如何繁殖？", "predict": "select?x where { <RNA病毒> <繁殖>?x. }"}
+{"label": "T病毒的病原由什么组成？", "predict": "select?x where {?y <标签> \"T病毒\".?y <主要组成部分>?x. }"}
+{"label": "手足口病如何传播？", "predict": "select?x where { <手足口病> <传播途径>?x. }"}
+{"label": "多发群体为幼儿的疾病通常如何传播？", "predict": "select?x where {?y <多发群体> <幼儿>.?y <传播途径>?x. }"}
+{"label": "哪些疾病常在15～40岁女性？", "predict": "select?x where {?x <涉及年龄段> <15～40岁>.?x <涉及性别> <女性>. }"}
+{"label": "华为公司的经营范围主要包括哪些？", "predict": "select?x where { <华为_（中国华为技术有限公司）> <经营范围>?x. }"}
+{"label": "日本的资生堂公司官网是什么？", "predict": "select?x where { <资生堂> <官网>?x. }"}
+{"label": "在霍格沃茨的四个学院中，格兰芬多的象征元素是什么？", "predict": "select?x where {?y <代表元素>?x.?y <所属学院> <霍格沃茨四大学院> \"格兰芬多\". }"}
+{"label": "将粉丝称为鲸鱼的中国内地男歌手是谁？", "predict": "select?x where {?x <别名> \"粉丝被称为鲸鱼\".?x <职业> <歌手_（职业名称）>. }"}
+{"label": "很受大家欢迎的牛油果都有哪些别称呢？", "predict": "select?x where { <牛油果> <口碑> \"很好\". <牛油果> <别称>?x. }"}
+{"label": "丹麦的著名地标小美人鱼铜像是由谁创作的？", "predict": "select?x where { <小美人鱼铜像_（丹麦首都哥本哈根的标志性建筑）> <创作者>?x. }"}
+{"label": "著名作家路遥毕业于哪里？", "predict": "select?x where { <路遥_（中国现代作家）> <毕业院校>?x. }"}
+{"label": "安卓系统是由哪个公司开发的？", "predict": "select?x where { <安卓_安卓操作系统> <开发公司>?x. }"}
+{"label": "加减消元法是一种非常常用的数学技巧，这种方法最早出现于哪部著作?", "predict": "select?x where { <加减消元法> <出自>?x. }"}
+{"label": "九章算术中的勾股容方表示哪一数学公式？", "predict": "select?x where {?x <发明> <勾股容方>. }"}
+{"label": "国际货币基金组织的总部在哪里？", "predict": "SELECT?x WHERE { <国际货币基金组织> <总部>?x. }"}
+{"label": "国际货币基金组织是由哪些机构设立的？", "predict": "select?x where { <国际货币基金组织> <子机构>?x. }"}
+{"label": "世界无烟日是由哪个机构设立的？", "predict": "select?x where {?x <成立意义> \"世界无烟日\". }"}
+{"label": "世界卫生组织这一国际性大机构它的组织架构是什么样的？", "predict": "SELECT?x WHERE { <世界卫生组织> <组织结构>?x }"}
+{"label": "规定了临床用血手册等相关标准的机构它的官网是什么？", "predict": "select?z where {?x <其他名称> \"临床用血手册\".?x <官方网站>?z. }"}
+{"label": "孔刘主演的韩国著名灾难片是哪部？", "predict": "select?x where {?x <主演> <孔刘>.?x <外文名> \"韩国\".?x <类型> <灾难>. }"}
+{"label": "出生于蚌埠的著名男歌手都有哪些？", "predict": "select?y where {?x <出生地> <蚌埠>.?x <职业> <歌手_（职业名称）>.?y <职业> <歌手_（职业名称）>. }"}
+{"label": "我们经常浏览的网站知乎的几位创始人中，哪一位毕业于东南大学？", "predict": "select?x where { <知乎> <恶行多端>?x. <知乎> <创始人>?x. }"}
+{"label": "被誉为中国古典小说的最高峰的著作，有哪些广为流传的别名？", "predict": "select?x where {?y <文学地位> \"中国古典小说的最高峰，古典小说的巅峰之作\".?y <别名>?x. }"}
+{"label": "中文名为魅可的彩妆品牌隶属于世界某顶尖化妆品集团，这家集团是？还有其他哪些知名品牌呢？", "predict": "select?x where {?y <中文名> \"魅可\".?y <隶属公司>?x.?x <其他知名品牌>?y. }"}
+{"label": "生产蒙牛纯甄的企业上市了吗？", "predict": "select?x where { <蒙牛纯甄> <上市>?x. }"}
+{"label": "主办了菠萝科学奖的机构，其愿景是什么？", "predict": "select?y where { <菠萝科学奖> <主办>?x.?x <愿景>?y. }"}
+{"label": "被元世祖封为海蟾明悟弘道真君的民间传说人物，他的主要成就是什么？", "predict": "select?y where {?x <封号> <海蟾明悟弘道真君>.?x <主要成就>?y. }"}
+{"label": "神话传说中，嫦娥的配偶主要成就是什么？", "predict": "select?x where { <嫦娥_（中国神话传说人物）> <配偶>?y.?y <主要成就>?x. }"}
+{"label": "同时参演热门电视剧天外飞仙和伪装者的著名演员是谁？", "predict": "select?x where {?x <职业> <演员_（职业）>.?x <代表作品> <天外飞仙>.?x <代表作品> <伪装者_（2015年林玉芬执导电视剧）>. }"}
+{"label": "在神话故事八仙过海中骑着毛驴的是哪位神仙？", "predict": "select?x where {?x <主要成就> \"八仙过海\".?x <骑的动物> <毛驴>. }"}
+{"label": "张翠山的儿子拥有哪些非常厉害的武器？", "predict": "select?y where {?x <儿子> <张翠山>.?x <武器>?y. }"}
+{"label": "谁的徒弟自创了太极拳？", "predict": "select?y where {?y <师傅> <陈家沟>.?y <职业> <太极拳师_（太极拳教练）>.?y <太极拳> <太极拳_（太极拳）>. }"}
+{"label": "丐帮历届帮主中是谁驻守襄阳数十年？", "predict": "select?x where { <襄阳_（湖北省地级市）> <历史>?x.?x <丐帮帮主> <丐帮帮主>.?x <驻守地> <襄阳_（湖北省襄阳市）>. }"}
+{"label": "乙型肝炎病毒的常用检测手段是什么？", "predict": "select?x where { <乙型肝炎病毒> <常用检测手段>?x. }"}
+{"label": "乙肝疫苗注射后可能出现哪些不良反应？", "predict": "select?x where { <乙肝疫苗> <不良反应>?x. }"}
+{"label": "哪种化合物的分子式为C143H230N42O37S7？", "predict": "select?x where {?x <分子式> \"C143H230N42O37S7\". }"}
+{"label": "二分裂这种方式主要存在于哪里？", "predict": "select?x where {?x <主要存在方式> <二分裂_（细胞分裂方式）>. }"}
+{"label": "二氨基庚二酸是由谁发明的？", "predict": "select?x where { <二氨基庚二酸> <发明人>?x. }"}
+{"label": "伞菌主要分布于哪些区域？", "predict": "select?x where { <伞菌> <分布区域>?x. }"}
+{"label": "伤寒杂病论的作者是谁？", "predict": "select?x where { <伤寒杂病论> <作者>?x. }"}
+{"label": "医学上伴随免疫这个词怎么解释？", "predict": "select?x where { <免疫> <释义>?x. }"}
+{"label": "激发体液免疫反应的因素是什么？", "predict": "select?x where {?y <主要效应> \"激发体液免疫反应\".?y <涉及因素>?x. }"}
+{"label": "免疫共沉淀有什么缺点？", "predict": "select?x where { <免疫共沉淀> <缺点>?x. }"}
+{"label": "外文名为\"satellite virus\"的病毒形状是怎么样的？", "predict": "SELECT?x WHERE {?y <外文名> \"satellite virus\".?y <形状>?x. }"}
+{"label": "以有氧呼吸为呼吸方式的无核膜生物是什么？", "predict": "select?x where {?x <细胞呼吸> \"有氧呼吸\".?x <细胞类型> <无核膜生物>. }"}
+{"label": "从葡萄籽中提取的棕红色粉末是什么？", "predict": "select?x where { <葡萄籽_（葡萄科葡萄属植物）> <提取物>?x. }"}
+{"label": "有四个亚群并且以二分裂、芽殖等为增殖方式的菌种是哪个？", "predict": "select?x where {?x <属类> <细菌>.?x <分生方式> <二分裂>.?x <分生方式> <芽殖>.?x <属类> <细菌> }"}
+{"label": "人体中分布于舌的背面、特别是舌尖和侧缘的用于味觉的感受器的是哪一器官？", "predict": "select?x where {?x <外部特征> \"位于舌的背面、特别是舌尖和侧缘的用于味觉的感受器\".?x <外部特征>?ay. }"}
+{"label": "外文名为extremophile的微生物，其生存环境是怎样的？", "predict": "select?x where {?y <外文名> \"extremophile\".?y <生存环境>?x. }"}
+{"label": "分子量为444.45的物质，其主要有哪些应用？", "predict": "select?y where {?x <分子量> \"444.45\".?x <应用>?y. }"}
+{"label": "感染天花病毒后的常见症状有哪些？", "predict": "select?x where { <天花病毒> <常见症状>?x. }"}
+{"label": "又被称为肉灵芝的物种其成分有哪些？", "predict": "select?x where {?y <别称> <肉灵芝>.?y <成分>?x. }"}
+{"label": "2019-nCoV是在什么时候被命名的？", "predict": "select?x where {?y <外文名> \"2019-nCoV\".?y <命名时间>?x. }"}
+{"label": "2019新冠病毒是由哪里命名的？", "predict": "select?x where { <2019冠状病毒综合症> <命名地点>?x. }"}
+{"label": "Coronavirus有什么特点？", "predict": "select?x where { <新型冠状病毒> <特点>?x. }"}
+{"label": "\"非典\"的形状是？", "predict": "select?x where {?y <不良影响> \"非典，2003年5月1日爆发\"。?y <形状>?x。 }"}
+{"label": "KN95口罩和FFP2口罩是哪种口罩的替代？", "predict": "select?x where {?x <类别> <口罩>.?x <替代品> <KN95口罩>.?x <类别> <FFP2口罩>. }"}
+{"label": "消毒是为了？", "predict": "select?x where { <消毒> <目的>?x. }"}
+{"label": "人类疱疹病毒的发病部位是？", "predict": "select?x where { <人类疱疹病毒> <发病部位>?x. }"}
+{"label": "\"A型流感病毒的亚型病毒\"有什么特点？", "predict": "select?x where {?y <主要症状>.?y <亚型> <A型流感病毒亚型病毒>.?y <类型> <亚型病毒>.?y <主要症状>?x. }"}
+{"label": "己糖磷酸途径有什么作用？", "predict": "select?x where { <己糖磷酸途径> <作用>?x. }"}
+{"label": "生物界RNA合成的催化剂是什么？", "predict": "select?x where {?y <名称> \"生物界RNA合成的催化剂\".?y <类别> <催化剂>.?x <类别> <催化剂>. }"}
+{"label": "RNAvirus是怎样繁殖的？", "predict": "select?x where {?y <标签> \"RNAvirus\".?y <繁殖>?x. }"}
+{"label": "烟草花叶病毒是几级病毒？", "predict": "SELECT? level WHERE { <烟草花叶病毒> <级>?level. }"}
+{"label": "T2phage头部是什么形状的？", "predict": "select?x where { <T2phage> <头形状>?x. }"}
+{"label": "T-lymphocyte的来源是什么？", "predict": "select?x where {?y <外文名> \"T-lymphocyte\".?y <来源>?x. }"}
+{"label": "T淋巴细胞分布在哪里？", "predict": "select?x where { <T细胞> <分布>?x. }"}
+{"label": "C40H56的溶解度是？", "predict": "select?x where { <C40H56> <溶解度>?x. }"}
+{"label": "迟发型超敏反应的本质是？", "predict": "select?x where { <迟发型超敏反应> <本质>?x. }"}
+{"label": "primary syphilis有什么症状？", "predict": "select?x where { <主语> <主症>?x. }"}
+{"label": "由梅毒螺旋体（TP）引起的病毒有传染性吗？", "predict": "select?x where {?y <涉及病毒> <梅毒螺旋体（TP）>.?y <是否传染>?x. }"}
+{"label": "丁型病毒性肝炎多发于什么群体？", "predict": "select?x where { <丁型病毒性肝炎> <多发群体>?x. }"}
+{"label": "Peking University哪一天校庆？", "predict": "select?y where { <北京大学_（北京大学）> <校庆日>?y. }"}
+{"label": "海淀区清华园的大学校长是谁？", "predict": "select?y where {?x <地区> <海淀区>.?x <校园内景点> <清华园>.?x <校长>?y. }"}
+{"label": "骆驼牌香烟是在什么时候推出的？", "predict": "select?x where { <骆驼_（中国香烟品牌）> <推出时间>?x. }"}
+{"label": "羊驼的英文名是？", "predict": "select?x where { <羊驼_（哺乳纲动物）> <外文名>?x. }"}
+{"label": "玫瑰三红汤的原料拉丁学名是什么？", "predict": "select?x where { <玫瑰三红汤> <原料>?x. }"}
+{"label": "第27届 台湾电影金马奖最佳女主角又被叫做什么？", "predict": "select?x where {?y <主要奖项> \"第27届 台湾电影金马奖最佳 女主角\".?y <别名>?x. }"}
+{"label": "写《窗里窗外》的作者是什么星座？", "predict": "select?y where {?x <代表作品> <窗里窗外_（林清玄著作散文）>.?x <星座>?y. }"}
+{"label": "New Dragon Gate Inn是什么语言？", "predict": "select?x where { <新龙珠·异次元世界(游戏)> <类型>?x. }"}
+{"label": "梁家辉出生在什么时候？", "predict": "select?x where { <梁家辉> <出生日期>?x. }"}
+{"label": "Tony Leung Ka Fai出生在什么时候？", "predict": "select?x where { <Tony_ka_fai> <出生日期>?x. }"}
+{"label": "生物界什么可以做为RNA合成的催化剂？", "predict": "select?x where {?y <领域> <RNA合成>.?y <催化剂>?x. }"}
+{"label": "江嘉年的丈夫的外文名是？", "predict": "select?x where {?y <妻子> <江金星>.?y <外文名>?x. }"}
+{"label": "张曼玉和梁家辉合作的彩色电影是？", "predict": "select?x where {?x <主演> <张曼玉>.?x <主演> <梁家辉>.?x <类型> <彩色>. }"}
+{"label": "Tony Leung Ka Fai的妻子是？", "predict": "select?y where { <Tony_ka_fai> <配偶>?y. }"}
+{"label": "刘嘉玲、许志豪和梁家辉合作的电影是？", "predict": "select?x where {?x <主演> <刘嘉玲_（新加坡籍女演员）>.?x <主演> <许志豪>.?x <主演> <梁家辉>. }"}
+{"label": "《我对你说》的作者是？", "predict": "select?x where { <我对你说_（安宁著小说）> <作者>?x. }"}
+{"label": "《我对你说》的出版时间是？", "predict": "select?x where { <我对你说_（毕淑敏著小说）> <出版时间>?x. }"}
+{"label": "《寒战》的内地票房有多少呀？", "predict": "select?x where { <寒战_（2012年动作电影）> <内地票房>?x. }"}
+{"label": "陈奕迅、吴君如和梁家辉合作的电影是？", "predict": "select?x where {?x <主演> <陈奕迅>.?x <主演> <吴君如>.?x <主演> <梁家辉>. }"}
+{"label": "《江湖告急》又被叫做什么？", "predict": "select?x where { <江湖告急> <别名>?x. }"}
+{"label": "《江湖告急》的英文名是什么？", "predict": "select?x where { <江湖告急> <外文名>?x. }"}
+{"label": "\"第18届香港电影金像奖最佳女主角\"是谁？", "predict": "select?x where {?x <主要成就> \"第18届香港电影金像奖最佳女主角\". }"}
+{"label": "三姑的丈夫是谁？", "predict": "select?x where {?x <妻子> <三姑>.?x <夫妻关系> <三姑_（汉语词语）>. }"}
+{"label": "同时出演了大内密探零零狗、专钓大鳄和天下第一媒婆的是哪位演员？", "predict": "select?x where {?x <代表作品> <大内密探零零狗>.?x <代表作品> <专钓大鳄>.?x <代表作品> <天下第一媒婆>. }"}
+{"label": "谁获得了第40届台湾电影金马奖最佳女主角？", "predict": "select?x where {?x <主要成就> \"第40届台湾电影金马奖最佳女主角\". }"}
+{"label": "北平的面积是？", "predict": "select?x where { <北京_（中华人民共和国首都）> <面积>?x. }"}
+{"label": "洛阳的电话区号是？", "predict": "select?x where { <洛阳_（中国河南省省辖地级市）> <电话区号>?x. }"}
+{"label": "洛阳的别名是？", "predict": "select?x where { <洛阳_（河南省省辖市）> <别名>?x. }"}
+{"label": "苹果的成立时间？", "predict": "select?x where { <苹果_（苹果产品公司）> <成立时间>?x. }"}
+{"label": "单侧鼻塞有什么症状？", "predict": "select?x where { <单侧鼻塞> <症状>?x. }"}
+{"label": "赫伯特·威廉·康是做什么的？", "predict": "select?x where {?x <主要成就> \"赫伯特·威廉·康\". }"}
+{"label": "和吴军伟一起战斗的有谁？", "predict": "select?x where { <吴军伟> <战斗成员>?x. }"}
+{"label": "三公仔小儿七星茶应该怎么服用？", "predict": "select?x where { <三公仔小儿七星茶> <用法>?x. }"}
+{"label": "海晏县人民医院在什么地方？", "predict": "select?x where { <海晏县人民医院> <地址>?x. }"}
+{"label": "盛田昭夫是谁？", "predict": "select?x where {?x <外姓> <昭夫_（日本企业家）>. }"}
+{"label": "胸水往往与哪些症结有关？", "predict": "select?x where { <胸水> <涉及症状>?x. }"}
+{"label": "放线菌病一般是什么导致的？", "predict": "select?x where { <放线菌病> <常见病因>?x. }"}
+{"label": "昌乐县人民医院红河分院在哪？", "predict": "select?x where { <昌乐县人民医院红河分院> <地址>?x. }"}
+{"label": "临沂市妇幼保健院附院在哪？", "predict": "select?x where { <临沂市妇幼保健院附院> <城市> <临沂>. <临沂市妇幼保健院附院> <地址>?x. }"}
+{"label": "紫烬灰链霉菌属于哪个界？", "predict": "select?x where { <紫烬灰链霉菌> <界>?x. }"}
+{"label": "朝阳二三四医院在哪？", "predict": "select?x where { <朝阳二三四医院> <地址>?x. }"}
+{"label": "岑巩县人民医院在什么地方？", "predict": "select?x where { <岑巩县人民医院> <地址>?x. }"}
+{"label": "惠来县第三人民医院在什么位置？", "predict": "select?x where { <惠来县第三人民医院> <地址>?x. }"}
+{"label": "白化病一般是什么导致的？", "predict": "select?x where { <白化病> <常见病因>?x. }"}
+{"label": "肛肠外科一般处理哪些疾病？", "predict": "select?x where { <肛肠外科> <涉及疾病>?x. }"}
+{"label": "室颤有什么表现？", "predict": "select?x where { <室颤> <表现>?x. }"}
+{"label": "肛乳头肥大会影响哪些部位？", "predict": "select?x where { <肛乳头肥大> <影响部位>?x. }"}
+{"label": "大连妇女儿童医疗中心在哪里？", "predict": "select?x where { <大连妇女儿童医疗中心> <地址>?x. }"}
+{"label": "口臭是什么？", "predict": "select?x where { <口臭> <类型>?x. }"}
+{"label": "曹操有哪些代表作？", "predict": "select?x where { <曹操_（东汉末年著名政治家、军事家、文学家）> <代表作品>?x. }"}
+{"label": "曹操死后葬在哪里？", "predict": "select?x where { <曹操_（东汉末年政治家、军事家）> <墓地>?x. }"}
+{"label": "曹操有哪些历史功绩？", "predict": "select?x where { <曹操_（东汉末年人物）> <功绩>?x. }"}
+{"label": "司马懿什么时候死的？", "predict": "select?x where { <司马懿_（三国时期魏国重臣、将领）> <逝世日期>?x. }"}
+{"label": "《上官剑南》的作者毕业于哪所院校？", "predict": "select?x where { <上官剑南> <作者>?y.?y <毕业院校>?x. }"}
+{"label": "曾获得法国政府荣誉军团骑士头衔、香港大紫荆勋章的汉族作家的英文名是？", "predict": "select?x where {?x <民族> <汉族>.?x <主要成就> \"曾获得法国政府荣誉军团骑士头衔\".?x <主要成就> \"香港大紫荆勋章\".?x <外文名>?x. }"}
+{"label": "射雕三部曲的作者出生于何时？", "predict": "select?x where { <射雕英雄传> <出生日期>?x. }"}
+{"label": "京东创始人毕业于哪所院校？", "predict": "select?x where { <京东> <创始人>?y.?y <毕业院校>?x. }"}
+{"label": "众创学院的校长是哪个品牌的代言人？", "predict": "select?x where { <众创学院> <校长>?y.?y <代言品牌>?x. }"}
+{"label": "曾被评为2015年全球50位最伟大领导者之一的人大校友的出生日期是？", "predict": "select?x where {?y <毕业院校> <北京大学_（中国著名高等学府，简称北大，北大校友）>.?y <主要成就> \"2015年全球50位最伟大领导者之一\".  } ?y <出生日期>?x. }"}
+{"label": "毕业于宿迁市钟吾初级中学的知名中国企业家是谁？", "predict": "select?x where {?x <毕业院校> <宿迁市钟吾初级中学>.?x <职业> <企业家_（词语）>. }"}
+{"label": "京东的CEO是谁的女婿？", "predict": "select?y where { <京东> <CEO>?x.?x <丈夫>?y. }"}
+{"label": "广州垂直马拉松系列赛的决赛是在高度为多少的建筑上举行的？", "predict": "select?x where { <广州垂直马拉松系列赛> <决赛地点>?y.?y <高度>?x. }"}
+{"label": "《朗文外研社新概念英语1》的出版社成立于何时？", "predict": "select?y where { <朗文外研社新概念英语1> <出版社>?x.?x <成立时间>?y. }"}
+{"label": "以“为教学科研服务”为宗旨、位于北京的出版社叫什么名字？", "predict": "select?x where {?x <宗旨> <为教学科研服务>.?x <城市> <北京>.?x <出版范围>?p. }"}
+{"label": "道布森式望远镜的发明者是哪国人？", "predict": "select?x where { <道布森式望远镜> <发明人>?x. }"}
+{"label": "道布森式望远镜的发明者出生在哪里？", "predict": "select?y where { <道布森式望远镜> <发明>?x.?x <国籍>?y. }"}
+{"label": "1915年9月14日出生于北京、毕业于UC Berkeley的知名美国籍天文学家的主要成就是？", "predict": "SELECT?x WHERE {?y <出生地> <北京_（北京市）>.?y <毕业院校> <UC_ Berkeley>.?y <国籍> <美国_（美利坚合众国）>.?z <职业> <天文学家_（系列）>.?z <主要成就>?x. }"}
+{"label": "道布森式望远镜的发明者的大学母校官网地址是？", "predict": "select?x where { <道布森式望远镜> <发明者>?y.?y <毕业院校>?x. }"}
+{"label": "二沙岛是某条江沿岸的著名景点，这条江的流域面积有多大？", "predict": "select?x where { <二沙岛> <流域>?y.?y <流域面积>?x. }"}
+{"label": "别称“面鱼”、在珠江有分布的一种鱼的拉丁学名是？", "predict": "select?x where {?y <别名> \"面鱼\".?y <分布区域> <珠江>.?y <拉丁学名>?x. }"}
+{"label": "在长江、珠江、澜沧江、伊洛瓦底江均有分布，属于裂腹鱼属的物种是？", "predict": "select?x where {?x <属> <裂腹鱼属>.?x <监测河段> <长江>.?x <监测河段> <珠江>.?x <监测河段> <澜沧江>.?x <属> <裂腹鱼属>. }"}
+{"label": "由李慧珠执导、2014年12月3日在湖南卫视首播的电视剧是？", "predict": "select?x where {?x <首播时间> \"2014-12-31\".?x <导演> \"李慧珠\".?x <制片地区> <中国_（中华人民共和国）>. }"}
+{"label": "由金庸的代表作改编、于正工作室与华夏视听环球传媒集团有限公司共同出品的电视剧是何时上映的？", "predict": "select?x where {?y <改编出自名导演、编剧> <金庸_（金庸一人）>.?z <制片公司> <华夏视听环球传媒集团有限公司>.?y <上映时间>?x. }"}
+{"label": "毕业于迦密中学、曾获评万千星辉颁奖典礼最佳男主角的演员出生于何时？", "predict": "select?y where {?x <毕业院校> <迦密中学>.?x <主要成就> \"万千星辉颁奖典礼最佳男主角\".?x <出生日期>?y. }"}
+{"label": "电视剧《保持通话》的主演中籍贯广东中山的一位有多高？", "predict": "select?x where { <保持通话> <主演>?y.?y <身高>?x.?y <籍贯> <广东省_（中国广东省的简称）>. }"}
+{"label": "主演了《保持通话》、《反贪风暴2014》、《人间小团圆》等多部影视作品的演员的英文名是？", "predict": "select?y where {?x <代表作品> <保持通话> [?x <代表作品> <人间小团圆>.?x <代表作品> <反贪风暴2014>.?x <英文名>?y. }"}
+{"label": "绰号为“古仔”的香港男演员是哪所中学的校友？", "predict": "select?y where {?x <别名> \"古仔、仔仔\".?x <毕业院校>?y. }"}
+{"label": "由古天乐、刘德华、袁咏仪等主演、陈可辛监制的剧情片上映于何时？", "predict": "select?x where {?y <主演> <古天乐_（香港演员）>.?y <导演> <陈可辛>.?y <主演> <刘德华_（中国香港男演员）>.?y <主演> <袁咏仪>.?y <上映时间>?x. }"}
+{"label": "曾经获得香港小姐冠军、国际华裔小姐亚军的女性毕业于哪所大学？", "predict": "select?y where {?x <主要成就> \"香港小姐冠军\".?x <主要成就> \"国际华裔小姐亚军\".?x <毕业院校>?y. }"}
+{"label": "别名“靓靓”的香港演员和谁结婚了？", "predict": "select?x where {?x <别名> \"靓靓\".?x <妻子>?y.?y <职业> <演员_（职业）>. }"}
+{"label": "在《乱世艳阳天》和《龙门镖局》中均为主演的演员的属相是？", "predict": "select?x where {?y <代表作品> <乱世艳阳天_（2012年张永新执导电视剧）>.?y <代表作品> <龙门镖局_（2013年钱雁秋执导电视剧）>.?y <属相>?x. }"}
+{"label": "电影《中国合伙人》的导演是在哪里出生的？", "predict": "select?x where { <中国合伙人_（2013年陈可辛执导电影）> <导演>?y.?y <出生地>?x. }"}
+{"label": "吴君如的丈夫的英文名叫什么？", "predict": "select?z where {?x <中文名> \"吴君如\".?x <丈夫>?y.?y <英文名>?z. }"}
+{"label": "缩写为HBV的病毒一般用什么检测手段来检测？", "predict": "select?x where {?y <全称> <HBV_（肝炎病毒）>.?y <缩写> <HBV>.?x <检测项目>?y. }"}
+{"label": "禽流感多发于什么人群？", "predict": "select?x where { <禽流感> <多发>?x. }"}
+{"label": "1969年在美国加州被发现的肠道病毒多发于什么群体？", "predict": "SELECT?x WHERE {?y <发现时间> \"1969\".?y <发生地点> <美国加州>.?y <群体>?x. }"}
+{"label": "atelectasis的临床表现是怎样的？", "predict": "select?x where { <atelectasis> <临床表现>?x. }"}
+{"label": "非特异性间质性肺炎会不会传染？", "predict": "select?x where { <非特异性间质性肺炎> <传染性>?x. }"}
+{"label": "若患韦格纳肉芽肿，应忌食什么？", "predict": "select?x where {?x <类型> <美食>.?x <能引起> <韦格纳肉芽肿>. }"}
+{"label": "CAS注册号为59870的药物的化学式是？", "predict": "select?x where {?y <CNG> <CAS> \"59870\".?y <化学式>?x. }"}
+{"label": "化学式为C10H15N5O3的药物应该如何给药？", "predict": "select?x where {?y <化学式> <C10H15N5O3>.?y <给药方式>?x. }"}
+{"label": "孔雀石绿的摩尔质量是多少？", "predict": "select?x where { <孔雀石绿> <摩尔质量>?x. }"}
+{"label": "慢性阻塞性肺病可能由哪些原因造成？", "predict": "select?x where { <慢性阻塞性肺病> <常见病因>?x. }"}
+{"label": "如何预防沙门氏菌感染症？", "predict": "select?x where { <沙门氏菌感染症> <预防>?x. }"}
+{"label": "可能造成腹泻或腹痛、呕吐、胸痛，并可通过微生物培养诊断的传染性疾病是？", "predict": "select?x where {?x <涉及症状> <腹泻或腹痛、呕吐、胸痛>.?x <诊断> <微生物培养>. }"}
+{"label": "肺炎每年会造成多少人死亡？", "predict": "select?x where { <肺炎> <死亡人数>?x. }"}
+{"label": "可通过腰椎穿刺诊断的神经内科疾病是什么？", "predict": "select?x where {?x <诊断> <腰椎穿刺>.?x <科室> <神经内科>. }"}
+{"label": "可能与癫痫、脑水肿、听觉障碍并发的是什么疾病？", "predict": "select?x where {?x <涉及症状> <癫痫>.?x <涉及症状> <脑水肿>.?x <涉及症状> <听觉障碍>. }"}
+{"label": "脑膜炎可以用什么药治疗？", "predict": "select?x where { <脑膜炎> <治疗方法>?x. }"}
+{"label": "蜂窝组织炎属于哪个专科？", "predict": "select?x where { <蜂窝组织炎> <专科>?x. }"}
+{"label": "小儿乳蛾的发病部位是？", "predict": "select?x where { <小儿乳蛾> <发病部位>?x. }"}
+{"label": "临床表现为系统性红斑狼疮与多发性肌炎重叠的疾病一般是由什么因素造成？", "predict": "select?x where {?y <涉及疾病> <系统性红斑狼疮>.?y <涉及疾病> <多发性肌炎>.?y <造成原因>?x. }"}
+{"label": "2019-nCov的病例最早在哪里被发现？", "predict": "SELECT?y WHERE {?x<标签> <2019-nCov. }<?x<最早发现地>?y>"}
+{"label": "2019-nCov的病例最早何时出现？", "predict": "select?x where {?y <病程> <2019-nCov_（2019-nCov疾病）>.?y <最早发病时间>?x. }"}
+{"label": "2019新型冠状病毒是由哪个组织命名的？", "predict": "SELECT?x WHERE { <2019新型冠状病毒> <命名组织>?x. }"}
+{"label": "2018年的埃博拉疫情发生在哪里？", "predict": "SELECT?x WHERE { <2018年埃博拉疫情> <发生地点>?x. }"}
+{"label": "2019年的埃博拉疫情导致了多少人的死亡？", "predict": "SELECT?x WHERE { <2019年埃博拉疫情> <死亡人数>?x. }"}
+{"label": "Coronavirus的特点是什么？", "predict": "select?x where { <新型冠状病毒> <特点>?x. }"}
+{"label": "Coronavirus属于哪个病毒科？", "predict": "select?x where { <新型冠状病毒> <科>?x. }"}
+{"label": "Coronavirus的平均直径是多少？", "predict": "select?x where { <新型冠状病毒> <平均直径>?x. }"}
+{"label": "非典属于什么种类的病毒？", "predict": "select?x where { <非典> <类型>?x. }"}
+{"label": "SARS的主要病症是什么？", "predict": "select?x where { <SARS> <主要病症>?x. }"}
+{"label": "SARS病毒的形状有什么特点？", "predict": "select?x where { <SARS病毒> <形状>?x. }"}
+{"label": "RNA病毒的繁殖方式是什么？", "predict": "select?x where {?y <标签>?x.?y <繁殖方式>?x. }"}
+{"label": "RNA病毒的营养类型是什么？", "predict": "select?x where {?y <标签> \"RNA病毒\".?y <营养类型>?x. }"}
+{"label": "DNA病毒又被称为？", "predict": "select?x where {?x <标签> <DNA病毒>. }"}
+{"label": "C2HCl3的相对分子质量是多少？", "predict": "select?x where { <C2HCl3> <相对分子质量>?x. }"}
+{"label": "C2HCl3需要如何储存？", "predict": "select?x where { <C2HCl3> <储存方法>?x. }"}
+{"label": "bt毒蛋白有什么功用？", "predict": "select?x where {?y <中文名> \"bt毒蛋白\".?y <功效>?x. }"}
+{"label": "过敏常常是由什么引起的？", "predict": "select?x where { <过敏> <常见原因>?x. }"}
+{"label": "禽流感的传播途径？", "predict": "select?x where { <禽流感> <传播途径>?x. }"}
+{"label": "卢浮宫所在地属于什么气候类型？", "predict": "select?y where { <卢浮宫_（法国巴黎国家博物馆艺术品馆）> <所在城市>?x.?x <气候条件>?y. }"}
+{"label": "都有谁扮演过三圣母？", "predict": "select?x where {?x <扮演角色> <三圣母_（宗教故事《圣母院》中的人物）>. }"}
+{"label": "汉寿亭侯关羽的主要成就？", "predict": "select?x where { <关羽_（三国时期蜀汉将领）> <主要成就>?x. }"}
+{"label": "《马可·波罗游记》的作者是哪国人？", "predict": "select?y where { <马可·波罗游记_（马可·波罗口述、鲁思吉诺·班底马克编写游记）> <作者>?y. }"}
+{"label": "宋朝女词人李清照的主要作品有哪些？", "predict": "select?y where {?x <本名> \"李清照\".?x <主要作品>?y. }"}
+{"label": "嫦娥的丈夫是哪里人？", "predict": "select?y where {?x <配偶> <嫦娥_（神话人物）>.?x <出生地>?y. }"}
+{"label": "书圣的主要成就有哪些", "predict": "select?y where {?x <别称> <书圣_（杜甫）>.?x <主要成就>?y. }"}
+{"label": "刘彻死后被埋在哪里？", "predict": "select?x where { <汉武帝_（汉朝皇帝）> <陵墓>?x. }"}
+{"label": "\"成败一知己，生死两妇人\"所说的人物曾任什么官职？", "predict": "select?y where {?x <经典名句> <成败一知己，生死两妇人>.?x <曾担任>?y. }"}
+{"label": "葬于端陵的皇帝在位于哪段时间？", "predict": "select?y where {?x <陵墓> <端陵_（汉光武帝子刘充陵墓）>.?x <在位时间>?y. }"}
+{"label": "《红楼梦》中紫鹃的主子住在大观园的哪里？", "predict": "select?x where { <紫鹃_（古典名著《红楼梦》中贾政王夫人的陪房周瑞家的小女）> <居住>?x. ?x <古典名著《红楼梦》标签> <大观园>. }"}
+{"label": "留声机是哪国人发明的？", "predict": "select?x where { <留声机_（放音装置）> <发明人>?x. }"}
+{"label": "薛宝钗的哥哥外号叫什么？", "predict": "select?y where {?x <妹妹> <薛宝钗>.?x <别名>?y. }"}
+{"label": "《本草纲目》的作者是哪个朝代的人？", "predict": "select?x where {?y <代表作品> <本草纲目_（李时珍著药物学著作）>.?y <国籍>?x. }"}
+{"label": "严嵩的儿子人称？", "predict": "select?y where { <严嵩> <儿子>?x.?x <别称>?y. }"}
+{"label": "包子的发明者的主要成就？", "predict": "select?y where { <包子_（传统的中国小吃）> <创造者>?x.?x <主要成就>?y. }"}
+{"label": "《红楼梦》中贾琏妻子的丫鬟是谁？", "predict": "select?y where {?x <丈夫> <贾琏_（小说《红楼梦》人物）>.?x <丫鬟>?y. }"}
+{"label": "出现下肢水肿以及胸水是什么疾病？", "predict": "select?x where {?x <涉及症状> <下肢水肿>.?x <涉及症状> <胸水>. }"}
+{"label": "哪种病会与胸水以及肝积水症状有关？", "predict": "select?x where {?x <涉及症状> <胸水>.?x <涉及症状> <肝积水>. }"}
+{"label": "涉及到肝积水以及胸腔积液是什么疾病？", "predict": "select?x where {?x <涉及症状> <肝积水>.?x <涉及症状> <胸腔积液>. }"}
+{"label": "对于出现胸腔积液和肝源性水肿症状可能是什么病？", "predict": "select?x where {?x <涉及症状> <胸腔积液>.?x <涉及症状> <肝源性水肿>. }"}
+{"label": "与肝源性水肿以及肾损害相关的疾病是什么？", "predict": "select?x where {?x <涉及症状> <肝源性水肿>.?x <涉及症状> <肾损害>. }"}
+{"label": "哪些病会涉及到斑疹以及淋巴结肿大的症状？", "predict": "select?x where {?x <涉及症状> <斑疹>.?x <涉及症状> <淋巴结肿大>. }"}
+{"label": "患者出现淋巴结肿大以及疱疹可能与哪种病有关？", "predict": "select?x where {?x <涉及症状> <淋巴结肿大>.?x <涉及症状> <疱疹>. }"}
+{"label": "什么病与淋巴结肿大以及疱疹有关联？", "predict": "select?x where {?x <涉及症状> <淋巴结肿大>.?x <涉及症状> <疱疹>. }"}
+{"label": "哪种病会涉及到鼻粘膜肿胀以及单侧鼻腔阻塞这些症状？", "predict": "select?x where {?x <涉及症状> <鼻粘膜肿胀>.?x <涉及症状> <单侧鼻腔阻塞>. }"}
+{"label": "与单侧鼻腔阻塞以及阵发性鼻塞有关的疾病是什么？", "predict": "select?x where {?x <涉及症状> <单侧鼻腔阻塞>.?x <涉及症状> <阵发性鼻塞>. }"}
+{"label": "下肢肿胀和乏力以及下肢浅静脉曲张可能与什么病有关？", "predict": "select?x where {?x <涉及症状> <下肢肿胀>.?x <涉及症状> <乏力>.?x <涉及症状> <下肢浅静脉曲张>. }"}
+{"label": "哪种病会与下肢浅静脉曲张以及下肢或周身软瘫有关联？", "predict": "select?x where {?x <涉及症状> <下肢浅静脉曲张>.?x <涉及症状> <下肢或周身软瘫>. }"}
+{"label": "什么疾病有咽喉痛病症病情需要注射季节性流感疫苗？", "predict": "select?x where {?x <涉及症状> <咽喉痛>.?x <涉及疫苗>?y. FILTER REGEX(?y, \"季节性流感\"). }"}
+{"label": "出现咽喉痛还伴随咳嗽可能是什么病？", "predict": "select?x where {?x <涉及症状> <咽喉疼痛>.?x <涉及症状> <咳嗽>. }"}
+{"label": "得了哪种感染科的病还会出现咳嗽病症？", "predict": "select?x where {?x <科室> <感染科>.?x <症状> <咳嗽>. }"}
+{"label": "与支气管痉挛以及畏寒有关的疾病是什么？", "predict": "select?x where {?x <涉及症状> <支气管痉挛>.?x <涉及症状> <畏寒>. }"}
+{"label": "哪种疾病会涉及到畏寒以及阵发性鼻塞的症状？", "predict": "select?x where {?x <涉及症状> <畏寒>.?x <涉及症状> <阵发性鼻塞>. }"}
+{"label": "出现阵发性鼻塞以及浑身忽冷忽热可能是哪种病？", "predict": "select?x where {?x <涉及症状> <阵发性鼻塞>.?x <涉及症状> <浑身忽冷忽热>. }"}
+{"label": "患有什么病会出现浑身忽冷忽热以及咽痛？", "predict": "select?x where {?x <涉及症状> <浑身忽冷忽热>.?x <涉及症状> <咽痛>. }"}
+{"label": "怎样的病会涉及到咽痛和咽部充血的症状？", "predict": "select?x where {?x <涉及症状> <咽痛>.?x <涉及症状> <咽部充血>. }"}
+{"label": "出现咽部充血以及打喷嚏是与什么病有关？", "predict": "select?x where {?x <涉及症状> <咽部充血>.?x <涉及症状> <打喷嚏>. }"}
+{"label": "哪种病会出现打喷嚏以及发热伴咳嗽、咯痰、胸痛病症表现？", "predict": "select?x where {?x <涉及症状> <打喷嚏>.?x <涉及症状> <发热伴咳嗽、咯痰、胸痛>. }"}
+{"label": "得了什么病会有感染性发热以及伤口感染的症状？", "predict": "select?x where {?x <涉及症状> <感染性发热>.?x <涉及症状> <伤口感染>. }"}
+{"label": "与鼻塞以及流鼻涕相关的症状是什么？", "predict": "select?x where {?x <涉及症状> <鼻塞>.?x <涉及症状> <流鼻涕>. }"}
+{"label": "哪种症状会与流鼻涕以及瘙痒有关联？", "predict": "select?x where {?x <涉及症状> <流鼻涕>.?x <涉及症状> <瘙痒>. }"}
+{"label": "涉及到瘙痒和咽喉炎的相关症状是什么？", "predict": "select?x where {?x <涉及症状> <瘙痒>.?x <涉及症状> <咽喉炎>. }"}
+{"label": "哪种症状会涉及到咽喉炎以及声音嘶哑？", "predict": "select?x where {?x <涉及疾病> <咽喉炎>.?x <涉及疾病> <声音嘶哑>. }"}
+{"label": "出现声音嘶哑和失音可能与哪种症状有关？", "predict": "select?x where {?x <涉及症状> <声音嘶哑>.?x <涉及症状> <失音>. }"}
+{"label": "什么症状会与失音以及咽部充血有联系？", "predict": "select?x where { <失音> <涉及症状>?x. <咽部充血> <涉及症状>?x. }"}
+{"label": "出现打喷嚏以及过度通气与哪种症状有关？", "predict": "select?x where {?x <涉及症状> <打喷嚏>.?x <涉及症状> <过度通气>. }"}
+{"label": "与过度通气以及干性咳嗽相关的症状是什么？", "predict": "select?x where {?x <涉及症状> <过度通气>.?x <涉及症状> <干性咳嗽>. }"}
+{"label": "什么样的症状与呼吸浅慢以及充血有关？", "predict": "select?x where {?x <涉及症状> <呼吸浅慢>.?x <涉及症状> <充血>. }"}
+{"label": "哪种症状会与充血以及哮鸣音症状相关？", "predict": "select?x where {?x <涉及症状> <充血>.?x <涉及症状> <哮鸣音>. }"}
+{"label": "与哮鸣音以及肺源性呼吸困难有关系的症状是什么？", "predict": "select?x where {?x <涉及症状> <哮鸣音>.?x <涉及症状> <肺源性呼吸困难>. }"}
+{"label": "涉及到肺源性呼吸困难以及中性粒细胞增高的相关症状有什么？", "predict": "select?x where {?x <涉及症状> <肺源性呼吸困难>.?x <涉及症状> <中性粒细胞升高>. }"}
+{"label": "怎样的症状会与中性粒细胞增高和呼吸抑制有联系？", "predict": "select?x where {?x <涉及指标> <中性粒细胞增高>.?x <涉及指标> <呼吸抑制>. }"}
+{"label": "出现呼吸抑制以及心源性呼吸困难与哪种症状相关？", "predict": "select?x where {?x <涉及症状> <呼吸抑制>.?x <涉及症状> <心源性呼吸困难>. }"}
+{"label": "什么样的症状会涉及到心源性呼吸困难以及口唇发绀？", "predict": "select?x where {?x <涉及症状> <心源性呼吸困难>.?x <涉及症状> <口唇发绀>. }"}
+{"label": "涉及到口唇发绀和三凹征的相关症状是什么？", "predict": "select?x where {?x <涉及症状> <口唇发绀>.?x <涉及症状> <三凹征>. }"}
+{"label": "怎样的症状会与三凹征以及腹式反常呼吸有干系？", "predict": "select?x where {?x <涉及症状> <三凹征>.?x <涉及症状> <腹式反常呼吸>. }"}
+{"label": "与腹式反常呼吸和支气管哮喘相关的症状有哪些？", "predict": "select?x where {?x <涉及症状> <腹式反常呼吸>.?x <涉及症状> <支气管哮喘>. }"}
+{"label": "得了支气管哮喘和特发性肺纤维化会与什么症状？", "predict": "select?x where {?x <涉及疾病> <支气管哮喘>.?x <涉及疾病> <特发性肺纤维化>. }"}
+{"label": "患有特发性肺纤维化以及尿毒症性肺炎会有怎样的症状？", "predict": "select?x where {?x <涉及疾病> <特发性肺纤维化>.?x <涉及疾病> <尿毒症性肺炎>. }"}
+{"label": "哪种症状会涉及到尿毒症性肺炎以及癔症性躯体障碍？", "predict": "select?x where {?x <涉及疾病> <尿毒症性肺炎>.?x <涉及疾病> <癔症性躯体障碍>. }"}
+{"label": "在出现低热发炎症状时会与什么症状有关？", "predict": "select?x where {?x <涉及症状> <低热发炎>.?x <涉及症状>. }"}
+{"label": "哪种症状会与发炎以及畏寒有关系？", "predict": "select?x where {?x <涉及症状> <发炎>.?x <涉及症状> <畏寒>. }"}
+{"label": "涉及到畏寒以及利尿的症状是什么？", "predict": "select?x where {?x <涉及症状> <畏寒>.?x <涉及症状> <利尿>. }"}
+{"label": "什么症状会涉及到利尿和胀痛这些相关症状？", "predict": "select?x where {?x <涉及症状> <利尿>.?x <涉及症状> <胀痛>. }"}
+{"label": "与胀痛和鼻痒相关的症状是什么？", "predict": "select?x where {?x <涉及症状> <胀痛>.?x <涉及症状> <鼻痒>. }"}
+{"label": "怎样的症状会与打喷嚏和张口呼吸有干系？", "predict": "select?x where {?x <涉及症状> <打喷嚏>.?x <涉及症状> <张口呼吸>. }"}
+{"label": "哪种症状与张口呼吸以及局部压痛相关？", "predict": "select?x where {?x <涉及症状> <张口呼吸>.?x <涉及症状> <局部压痛>. }"}
+{"label": "出现局部压痛以及结痂的症状会与哪种症状有关？", "predict": "select?x where {?x <涉及症状> <局部压痛>.?x <涉及症状> <结痂>. }"}
+{"label": "什么样的症状与结痂以及白喉有关？", "predict": "select?x where {?x <涉及疾病> <结痂>.?x <涉及疾病> <白喉>. }"}
+{"label": "得了白喉和慢性鼻窦炎会与什么症状有关？", "predict": "select?x where {?y <涉及疾病> <白喉>.?y <涉及疾病> <慢性鼻窦炎>.?x <涉及疾病>?y. }"}
+{"label": "哪种症状会与气短以及恶心相关？", "predict": "select?x where {?x <涉及症状> <气短>.?x <涉及症状> <恶心>. }"}
+{"label": "与恶心以及牛奶色或米汤样便相关的症状是什么？", "predict": "select?x where {?x <涉及食物> <恶心>.?x <涉及食物> <牛奶色>.?x <涉及食物> <米汤>. }"}
+{"label": "哪种症状与牛奶色或米汤样便以及里急后重有一定的联系？", "predict": "select?x where {?x <涉及症状> <牛奶色或米汤样便>.?x <涉及症状> <里急后重>. }"}
+{"label": "与里急后重以及病毒性腹泻有关联的症状是什么？", "predict": "select?x where {?x <同义词> <病毒性腹泻>.?x <涉及症状> <里急后重>. }"}
+{"label": "患者出现病毒性腹泻以及胸闷会与什么症状相关？", "predict": "select?x where {?y <涉及症状> <病毒性腹泻>.?y <涉及症状> <胸闷>.?y <类型> <症状>.?x <关联症状>?y. }"}
+{"label": "哪种症状会与胸闷和食欲减退相关？", "predict": "select?x where {?x <涉及症状> <胸闷>.?x <涉及症状> <食欲减退>. }"}
+{"label": "怎样的症状与食欲减退以及水泻伴低血钾有关？", "predict": "select?x where {?x <涉及症状> <食欲减退>.?x <涉及症状> <水泻伴低血钾>. }"}
+{"label": "哪种症状会涉及到水泻伴低血钾以及腹泻为水样带黏液恶臭无脓血病症？", "predict": "select?x where {?x <涉及症状> <水泻伴低血钾>.?x <涉及症状> <腹泻为水样带黏液恶臭无脓血>. }"}
+{"label": "什么症状会涉及到腹泻为水样带黏液恶臭无脓血以及粪便量少？", "predict": "select?x where { <腹泻为水样带黏液恶臭无脓血> <涉及>?x. <粪便量少> <涉及>?x. }"}
+{"label": "与口炎相关且涉及到耳、鼻、咽拭子细菌培养检查的症状有什么？", "predict": "select?x where {?x <涉及症状> <口炎>.?x <涉及检查> <耳、鼻、咽拭子细菌培养>. }"}
+{"label": "哪种症状会涉及到疱疹和呼吸困难的病症？", "predict": "select?x where {?x <涉及疾病> <疱疹>.?x <涉及疾病> <呼吸困难>. }"}
+{"label": "与呼吸困难和吞咽痛相关的症状是什么？", "predict": "select?x where {?x <涉及症状> <呼吸困难>.?x <涉及症状> <吞咽痛>. }"}
+{"label": "哪种症状与吞咽痛以及吞咽痛病症相关？", "predict": "select?x where {?x <涉及症状> <吞咽痛>.?x <涉及症状> <吞咽痛>. }"}
+{"label": "涉及到充血以及声音嘶哑等症状的相关症状有什么？", "predict": "select?x where {?x <涉及症状> <充血>.?x <涉及症状> <声音嘶哑>. }"}
+{"label": "什么症状会与声音嘶哑以及溃疡有关？", "predict": "select?x where {?x <涉及症状> <声音嘶哑>.?x <涉及症状> <溃疡>. }"}
+{"label": "患有弓形虫病以及感染了流行性感冒会与怎样的症状？", "predict": "select?x where {?y <涉及症状>?x.?y <感染疾病> <流行性感冒>.?y <感染疾病> <弓形虫病_（原发性杀灭螺旋体）>. }"}
+{"label": "与弓形虫病以及肺炎支原体肺炎相关的症状是什么？", "predict": "select?x where {?x <涉及疾病> <弓形虫病>.?x <涉及疾病> <肺炎支原体肺炎>. }"}
+{"label": "怎样的症状会涉及到肺炎支原体肺炎和急性喉气管支气管炎这些疾病？", "predict": "select?x where {?x <涉及疾病> <肺炎支原体肺炎>.?x <涉及疾病> <急性喉气管支气管炎>. }"}
+{"label": "哪种症状会与急性喉气管支气管炎以及血栓性静脉炎有关联？", "predict": "select?x where {?x <涉及疾病> <急性喉气管支气管炎>.?x <涉及疾病> <血栓性静脉炎>. }"}
+{"label": "患有血栓性静脉炎和砷中毒会涉及怎样的症状？", "predict": "select?x where {?x <涉及症状> <血栓性静脉炎>.?x <涉及症状> <砷中毒>. }"}
+{"label": "与呼吸困难以及恶心相关的症状有什么？", "predict": "select?x where {?x <涉及症状> <呼吸困难>.?x <涉及症状> <恶心>. }"}
+{"label": "哪种症状会与恶心和高碳酸血症有关？", "predict": "select?x where { <恶心和高碳酸血症> <相关症状>?x. }"}
+{"label": "高碳酸血症以及血压下降会与什么症状相关？", "predict": "select?x where {?x <涉及疾病> <高碳酸血症>.?x <涉及疾病> <血压下降>. }"}
+{"label": "与血压下降以及震颤相关的症状是什么？", "predict": "select?x where {?x <涉及症状> <血压下降>.?x <涉及症状> <震颤>. }"}
+{"label": "哪种症状会涉及到震颤和酮症酸中毒？", "predict": "select?x where {?x <涉及症状> <震颤>.?x <涉及症状> <酮症酸中毒>. }"}
+{"label": "出现酮症酸中毒以及甲状旁腺功能亢进会与什么症状有关？", "predict": "select?x where {?x <涉及疾病> <酮症酸中毒>.?x <涉及疾病> <甲状旁腺功能亢进>. }"}
+{"label": "什么症状会涉及到甲状旁腺功能亢进和高血钾这些症状？", "predict": "select?x where {?x <涉及症状> <甲状旁腺功能亢进>.?x <涉及症状> <高血钾>. }"}
+{"label": "涉及到高血钾和呼吸急促的症状有什么？", "predict": "select?x where {?x <涉及症状> <高血钾>.?x <涉及症状> <呼吸急促>. }"}
+{"label": "哪种症状会与呼吸急促和脂肪代谢障碍有关联？", "predict": "select?x where {?x <涉及症状> <呼吸急促>.?x <涉及代谢障碍> <脂肪代谢障碍>. }"}
+{"label": "与脂肪代谢障碍症状相关且涉及急性肾上腺皮质功能不全疾病的症状有什么？", "predict": "select?x where {?x <涉及疾病> <脂肪代谢障碍>.?x <涉及疾病> <急性肾上腺皮质功能不全>. }"}
+{"label": "哪种症状会涉及到急性肾上腺皮质功能不全以及肾小管酸中毒这些疾病？", "predict": "select?x where {?x <涉及疾病> <急性肾上腺皮质功能不全>.?x <涉及疾病> <肾小管酸中毒>. }"}
+{"label": "与支气管痉挛和心动过速相关的症状是什么？", "predict": "select?x where {?x <涉及症状> <支气管痉挛>.?x <涉及症状> <心动过速>. }"}
+{"label": "什么样的症状会与心动过速以及紫绀有关？", "predict": "select?x where {?x <涉及症状> <心动过速>.?x <涉及症状> <紫绀>. }"}
+{"label": "涉及到紫绀和高碳酸血症的症状有什么？", "predict": "select?x where {?x <涉及症状> <紫绀>.?x <涉及症状> <高碳酸血症>. }"}
+{"label": "患者出现高碳酸血症和低血容量休克可能与什么症状有联系？", "predict": "select?x where {?x <涉及症状> <高碳酸血症>.?x <涉及症状> <低血容量休克>. }"}
+{"label": "什么症状会涉及到低血容量休克和麻痹病症反应？", "predict": "select?x where {?x <涉及症状> <低血容量休克>.?x <涉及症状> <麻痹病症反应>. }"}
+{"label": "哪种症状与支气管哮喘和胎粪吸入综合征有关？", "predict": "select?x where {?x <涉及疾病> <支气管哮喘>.?x <涉及疾病> <胎粪吸入综合征>. }"}
+{"label": "与凝血因子功能的障碍以及胎盘早剥相关的症状是什么？", "predict": "select?x where {?y <涉及症状> <凝血因子功能障碍>.?y <涉及症状> <胎盘早剥>.?y <涉及症状>?x. }"}
+{"label": "回归热和败血症会涉及到什么症状？", "predict": "select?x where {?x <涉及疾病> <回归热>.?x <涉及疾病> <败血症>. }"}
+{"label": "肺脓肿和衣原体肺炎患者会有什么症状？", "predict": "select?x where {?x <涉及疾病> <肺脓肿>.?x <涉及疾病> <衣原体肺炎>. }"}
+{"label": "哪种症状会与衣原体肺炎和细菌感染有关联？", "predict": "select?x where {?x <涉及疾病> <衣原体肺炎>.?x <涉及疾病> <细菌感染>. }"}
+{"label": "关于细菌感染和肺炎球菌脑膜炎疾病会涉及怎样的症状？", "predict": "select?x where { <细菌感染> <常见症状>?x. <肺炎球菌脑膜炎> <常见症状>?x. }"}
+{"label": "什么症状与HIV感染有关而且出现时需要进行体温的测量？", "predict": "select?x where {?x <类型> <疾病>.?x <涉及症状> <HIV感染>.?x <需要测量项目> <体温>. }"}
+{"label": "哪种症状会与HIV感染以及低热有关？", "predict": "select?x where {?x <涉及疾病> <HIV>.?x <涉及疾病> <低热>. }"}
+{"label": "可能与低热以及无力>相关的症状是什么？", "predict": "select?x where { <低热及无力> <相关症状>?x. }"}
+{"label": "与无力以及脓毒性血栓相关的病症有什么？", "predict": "select?x where {?x <涉及症状> <无力>.?x <涉及症状> <脓毒性血栓>. }"}
+{"label": "哪项尿液检查能对患者出现腿脚浮肿以及儿童偏食症状做出检测？", "predict": "select?x where {?x <类型> <尿液>.?x <涉及症状> <腿脚浮肿>.?x <涉及症状> <儿童偏食>. }"}
+{"label": "在血气测定中，哪一项能有效检测呼吸窘迫综合症和面色苍白这些症状？", "predict": "select?x where {?x <涉及症状> <呼吸窘迫综合症>.?x <涉及症状> <面色苍白>. }"}
+{"label": "患有病毒性心肌炎以及眼外肌麻痹、急性心房心肌梗塞时，哪种检查对检测病情有效？", "predict": "select?x where {?x <涉及疾病> <病毒性心肌炎>.?x <涉及疾病> <眼外肌麻痹>.?x <涉及疾病> <急性心房心肌梗塞>. }"}
+{"label": "哪项医学检查可以检测眼外肌麻痹、急性心房心肌梗塞以及甲状腺功能减退？", "predict": "select?x where {?x <涉及疾病> <眼外肌麻痹>.?x <涉及疾病> <急性心房心肌梗塞>.?x <涉及疾病> <甲状腺功能减退>. }"}
+{"label": "什么检查能对急性心房心肌梗塞、甲状腺功能减退以及进行性肌萎缩做出检测？", "predict": "select?x where {?x <涉及疾病> <急性心房心肌梗塞>.?x <涉及疾病> <甲状腺功能减退>.?x <涉及疾病> <进行性肌萎缩>. }"}
+{"label": "对于甲状腺功能减退、进行性肌萎缩以及慢性进行性眼外肌瘫痪患者来讲，应该做哪一项检测比较有效？", "predict": "select?x where {?x <涉及疾病> <甲状腺功能减退>.?x <涉及疾病> <进行性肌萎缩>.?x <涉及疾病> <慢性进行性眼外肌瘫痪>. }"}
+{"label": "得了进行性肌萎缩、慢性进行性眼外肌瘫痪以及眼肌营养不良，适合做哪种检查？", "predict": "select?x where {?x <涉及疾病> <进行性肌萎缩>.?x <涉及疾病> <慢性进行性眼外肌瘫痪>.?x <涉及疾病> <眼肌营养不良>. }"}
+{"label": "哪一种检查能检测出慢性进行性眼外肌瘫痪、眼肌营养不良以及甲状腺功能减退伴发的精神障碍？", "predict": "select?x where {?x <涉及疾病> <慢性进行性眼外肌瘫痪>.?x <涉及疾病> <眼肌营养不良>.?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>. }"}
+{"label": "哪项检查对检测眼肌营养不良、甲状腺功能减退伴发的精神障碍以及眼外肌肌病有效？", "predict": "select?x where {?x <涉及疾病> <眼肌营养不良>.?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>.?x <涉及疾病> <眼外肌肌病>. }"}
+{"label": "可以检测出甲状腺功能减退伴发的精神障碍、眼外肌肌病以及嗜酸性粒细胞增多-肌痛综合征等疾病？", "predict": "select?x where {?x <涉及疾病> <甲状腺功能减退伴发的精神障碍>.?x <涉及疾病> <眼外肌肌病>.?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>. }"}
+{"label": "通过哪项检查能对眼外肌肌病、嗜酸性粒细胞增多-肌痛综合征以及小儿预激综合征做出检测？", "predict": "select?x where {?x <涉及疾病> <眼外肌肌病>.?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>.?x <涉及疾病> <小儿预激综合征>. }"}
+{"label": "与嗜酸性粒细胞增多-肌痛综合征、小儿预激综合征以及高嗜酸粒细胞综合征有关的检查项目是什么？", "predict": "select?x where {?x <涉及疾病> <嗜酸性粒细胞增多-肌痛综合征>.?x <涉及疾病> <小儿预激综合征>.?x <涉及疾病> <高嗜酸粒细胞综合征>. }"}
+{"label": "什么检查对检测小儿预激综合征、高嗜酸粒细胞综合征以及非阵发性交接区性心动过速比较有效？", "predict": "select?x where {?x <涉及疾病> <小儿预激综合征>.?x <涉及疾病> <高嗜酸粒细胞综合征>.?x <涉及疾病> <非阵发性交接区性心动过速>. }"}
+{"label": "检查项目中哪一种可以检测出高嗜酸粒细胞综合征、非阵发性交接区性心动过速以及嗜酸细胞增多性肌痛综合征？", "predict": "select?x where {?x <涉及疾病> <高嗜酸粒细胞综合征>.?x <涉及疾病> <非阵发性交接区性心动过速>.?x <涉及疾病> <嗜酸细胞增多性肌痛综合征>. }"}
+{"label": "怎样的检查对检测非阵发性交接区性心动过速、嗜酸细胞增多性肌痛综合征以及进行性肌营养不良症有帮助？", "predict": "select?x where {?x <涉及疾病> <非阵发性交接区性心动过速>.?x <涉及疾病> <嗜酸细胞增多性肌痛综合征>.?x <涉及疾病> <进行性肌营养不良症>. }"}
+{"label": "患有嗜酸细胞增多性肌痛综合征、进行性肌营养不良症以及小儿良性先天性肌弛缓综合征时，应该去做哪一项检查？", "predict": "select?x where {?x <涉及疾病> <嗜酸细胞增多性肌痛综合征>.?x <涉及疾病> <进行性肌营养不良症>.?x <涉及疾病> <小儿良性先天性肌弛缓综合征>. }"}
+{"label": "哪种检查可以检测进行性肌营养不良症、小儿良性先天性肌弛缓综合征以及肌萎缩侧索硬化症的病情？", "predict": "select?x where {?x <涉及疾病> <进行性肌营养不良症>.?x <涉及疾病> <小儿良性先天性肌弛缓综合征>.?x <涉及疾病> <肌萎缩侧索硬化症>. }"}
+{"label": "得了小儿良性先天性肌弛缓综合征、肌萎缩侧索硬化症和冠状动脉异位起源，应该做什么检查？", "predict": "select?x where {?x <涉及疾病> <小儿良性先天性肌弛缓综合征>.?x <涉及疾病> <肌萎缩侧索硬化症>.?x <涉及疾病> <冠状动脉异位起源>. }"}
+{"label": "对于检测肌萎缩侧索硬化症、冠状动脉异位起源以及慢性进行性眼外肌麻痹，哪一项检查比较有效？", "predict": "select?x where {?x <涉及疾病> <肌萎缩侧索硬化症>.?x <涉及疾病> <冠状动脉异位起源>.?x <涉及疾病> <慢性进行性眼外肌麻痹>. }"}
+{"label": "在医学检查中，哪一项可以检测冠状动脉异位起源、慢性进行性眼外肌麻痹和小儿先天性肌强直综合征？", "predict": "select?x where {?x <涉及疾病> <冠状动脉异位起源>.?x <涉及疾病> <慢性进行性眼外肌麻痹>.?x <涉及疾病> <小儿先天性肌强直综合征>. }"}
+{"label": "慢性进行性眼外肌麻痹、小儿先天性肌强直综合和嗜酸粒细胞增多性肌痛综合征患者需要做哪一项检查？", "predict": "select?x where {?x <涉及疾病> <慢性进行性眼外肌麻痹>.?x <涉及疾病> <小儿先天性肌强直综合>.?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>. }"}
+{"label": "与小儿先天性肌强直综合征、嗜酸粒细胞增多性肌痛综合征以及脂质沉积性肌病有关的检查是什么？", "predict": "select?x where {?x <涉及疾病> <小儿先天性肌强直综合征>.?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>.?x <涉及疾病> <脂质沉积性肌病>. }"}
+{"label": "哪种检查对检测嗜酸粒细胞增多性肌痛综合征、脂质沉积性肌病以及小儿克山病有效？", "predict": "select?x where {?x <涉及疾病> <嗜酸粒细胞增多性肌痛综合征>.?x <涉及疾病> <脂质沉积性肌病>.?x <涉及疾病> <小儿克山病>. }"}
+{"label": "通过哪项检查可以检测出脂质沉积性肌病、小儿克山病以及老年甲状腺功能减退症老年甲状腺功能减退症？", "predict": "select?x where {?x <涉及疾病> <脂质沉积性肌病>.?x <涉及疾病> <小儿克山病>.?x <涉及疾病> <老年甲状腺功能减退症>. }"}
+{"label": "怎样的检查对检测小儿克山病、老年甲状腺功能减退症和肌萎缩侧索硬化有效？", "predict": "select?x where {?x <涉及疾病> <小儿克山病>.?x <涉及疾病> <老年甲状腺功能减退症>.?x <涉及疾病> <肌萎缩侧索硬化>. }"}
+{"label": "可以检测老年甲状腺功能减退症、肌萎缩侧索硬化以及脂质贮积性肌病的检查是什么？", "predict": "select?x where {?x <涉及疾病> <老年甲状腺功能减退症>.?x <涉及疾病> <肌萎缩侧索硬化>.?x <涉及疾病> <脂质贮积性肌病>. }"}
+{"label": "哪项检查可以对肌萎缩侧索硬化、脂质贮积性肌病以及脂肪贮积肌病等疾病做出检测？", "predict": "select?x where {?x <涉及疾病> <肌萎缩侧索硬化>.?x <涉及疾病> <脂质贮积性肌病>.?x <涉及疾病> <脂肪贮积肌病>. }"}
+{"label": "能有效检查脂质贮积性肌病、脂肪贮积肌病以及肌营养不良的检查有什么？", "predict": "select?x where {?x <涉及疾病> <脂质贮积性肌病>.?x <涉及疾病> <脂肪贮积肌病>.?x <涉及疾病> <肌营养不良>. }"}
+{"label": "出现全身过敏和发热皮疹关节痛、非感染性发热或手足湿冷等症状时，应该做哪项检查？", "predict": "select?x where {?x <涉及症状> <全身过敏和发热皮疹关节痛、非感染性发热或手足湿冷>. }"}
+{"label": "哪项检查可以测定热病汗不出、足心发热以及面红升火的症状？", "predict": "select?x where {?x <涉及症状> <热病>.?x <涉及症状> <足心发热>.?x <涉及症状> <面红升火>. }"}
+{"label": "在医学检查中，通过哪一项能检测面红升火、迫血妄行和潮热颧红等症状？", "predict": "select?x where {?x <涉及症状> <面红升火>.?x <涉及症状> <迫血妄行>.?x <涉及症状> <潮热颧红>. }"}
+{"label": "与迫血妄行、潮热颧红和持续性发热有关的检查是什么？", "predict": "select?x where {?x <涉及症状> <迫血妄行>.?x <涉及症状> <潮热颧红>.?x <涉及症状> <持续性发热>. }"}
+{"label": "当出现潮热颧红、持续性发热以及中枢性发热症状时需要测量什么？", "predict": "select?x where {?x <涉及症状> <潮热颧红>.?x <涉及症状> <持续性发热>.?x <涉及症状> <中枢性发热>. }"}
+{"label": "关于持续性发热、中枢性发热以及舌嫩苔厚的症状，应该去做哪一项检查？", "predict": "select?x where {?x <涉及症状> <持续性发热>.?x <涉及症状> <中枢性发热>.?x <涉及症状> <舌嫩苔厚>. }"}
+{"label": "哪一项检查能对中枢性发热、舌嫩苔厚以及体温调节紊乱做出检测？", "predict": "select?x where {?x <涉及症状> <中枢性发热>.?x <涉及症状> <舌嫩苔厚>.?x <涉及症状> <体温调节紊乱>. }"}
+{"label": "涉及到舌嫩苔厚、体温调节紊乱以及温毒厥脱症状时，需要做哪一项检查？", "predict": "select?x where {?x <涉及症状> <舌嫩苔厚>.?x <涉及症状> <体温调节紊乱>.?x <涉及症状> <温毒厥脱>. }"}
+{"label": "能对症状包括体温调节紊乱、温毒厥脱以及内热哺热做出检测的检查是哪一项？", "predict": "select?x where {?x <涉及症状> <体温调节紊乱>.?x <涉及症状> <温毒厥脱>.?x <涉及症状> <内热哺热>. }"}
+{"label": "哪种医学检查可以测定温毒厥脱、内热哺热和坠胀拒按的症状？", "predict": "select?x where {?x <涉及症状> <温毒厥脱>.?x <涉及症状> <内热哺热>.?x <涉及症状> <坠胀拒按>. }"}
+{"label": "患者出现内热哺热、坠胀拒按以及涕唾稠粘等症状时，能去做哪一项检查？", "predict": "select?x where {?x <涉及症状> <内热哺热>.?x <涉及症状> <坠胀拒按>.?x <涉及症状> <涕唾稠粘>. }"}
+{"label": "通过测量什么能对检测坠胀拒按、涕唾稠粘以及苔白而润有帮助？", "predict": "select?x where {?x <涉及症状> <坠胀拒按、涕唾稠粘>.?x <涉及症状> <苔白而润>. }"}
+{"label": "哪种检查项目能检测涕唾稠粘、苔白而润和夜啼饶哭的症状？", "predict": "select?x where {?x <涉及症状> <涕唾稠粘、苔白而润和夜啼饶哭>. }"}
+{"label": "出现苔白而润、夜啼饶哭以及五心烦热时要测量什么？", "predict": "select?x where {?x <涉及内容> <苔白而润>.?x <涉及内容> <夜啼饶哭>.?x <涉及内容> <五心烦热>. }"}
+{"label": "什么病隶属于呼吸内科，与成人呼吸窘迫综合征相近且会出现高碳酸血症？", "predict": "select?x where {?x <科室> <呼吸内科>.?x <同义词> <成人呼吸窘迫综合征>.?x <临床表现> <高碳酸血症>. }"}
+{"label": "哪种病会涉及到高碳酸血症、急性呼吸困难以及CO2潴留等症状？", "predict": "select?x where {?x <涉及症状> <高碳酸血症>.?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <CO2潴留>. }"}
+{"label": "患者出现急性呼吸困难、CO2潴留以及口唇发绀可能与什么疾病有关？", "predict": "select?x where {?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <CO2潴留>.?x <涉及症状> <口唇发绀>. }"}
+{"label": "与CO2潴留、口唇发绀和低氧血症相关的疾病有什么？", "predict": "select?x where {?x <涉及症状> <CO2潴留>.?x <涉及症状> <口唇发绀>.?x <涉及症状> <低氧血症>. }"}
+{"label": "哪些病会出现口唇发绀和低氧血症等伴随症状？", "predict": "select?x where {?x <涉及症状> <口唇发绀>.?x <涉及症状> <低氧血症>. }"}
+{"label": "属于急诊科，出现创伤需要做动脉血气分析检查的是什么疾病？", "predict": "select?x where {?x <科室> <急诊科>.?x <涉及症状> <创伤需要动脉血气分析>. }"}
+{"label": "什么病会涉及创伤以及低血容量休克症状，要通过动脉血气分析进行检测？", "predict": "select?x where {?x <涉及症状> <创伤>.?x <涉及症状> <低血容量休克>.?x <检测> <动脉血气分析>. }"}
+{"label": "哪种疾病会与心悸、白细胞增多以及暴饮暴食症状有关？", "predict": "select?x where {?x <涉及症状> <心悸>.?x <涉及症状> <白细胞增多>.?x <涉及症状> <暴饮暴食>. }"}
+{"label": "与白细胞增多、暴饮暴食以及紧张这些症状表现相关的是什么病？", "predict": "select?x where {?x <涉及症状> <白细胞增多>.?x <涉及症状> <暴饮暴食>.?x <涉及症状> <紧张>. }"}
+{"label": "什么病会有暴饮暴食、紧张以及胸痛等症状表现？", "predict": "select?x where {?x <涉及症状> <暴饮暴食>.?x <涉及症状> <紧张>.?x <涉及症状> <胸痛>. }"}
+{"label": "与紧张、胸痛且利尿症状相关的疾病是哪种？", "predict": "select?x where {?x <涉及症状> <紧张>.?x <涉及症状> <胸痛>.?x <涉及症状> <利尿>. }"}
+{"label": "怎样的病与胸痛、利尿以及胸水有关？", "predict": "select?x where {?x <涉及症状> <胸痛>.?x <涉及症状> <利尿>.?x <涉及症状> <胸水>. }"}
+{"label": "会涉及到利尿、胸水以及气管移位等症状的是什么病？", "predict": "select?x where {?x <涉及症状> <利尿>.?x <涉及症状> <胸水>.?x <涉及症状> <气管移位>. }"}
+{"label": "哪种病会与胸水、气管移位以及液气胸等症状有关联？", "predict": "select?x where {?x <涉及症状> <胸水>.?x <涉及症状> <气管移位>.?x <涉及症状> <液气胸>. }"}
+{"label": "患者出现气管移位、液气胸以及低蛋白血症等症状时可能是什么病？", "predict": "select?x where {?x <涉及症状> <气管移位>.?x <涉及症状> <液气胸>.?x <涉及症状> <低蛋白血症>. }"}
+{"label": "与液气胸、低蛋白血症以及肝硬化相关的疾病属于什么病？", "predict": "select?x where {?x <涉及症状> <液气胸>.?x <涉及症状> <低蛋白血症>.?x <涉及症状> <肝硬化>. }"}
+{"label": "涉及到低蛋白血症、肝硬化以及链球菌感染的疾病有什么？", "predict": "select?x where {?x <涉及疾病> <低蛋白血症>.?x <涉及疾病> <肝硬化>.?x <涉及疾病> <链球菌感染>. }"}
+{"label": "与肝硬化、链球菌感染以及胸膜间皮瘤有关的疾病是什么？", "predict": "select?x where {?x <涉及疾病> <肝硬化>.?x <涉及疾病> <链球菌感染>.?x <涉及疾病> <胸膜间皮瘤>. }"}
+{"label": "属于血液科，涉及到肺实变和发热症状的疾病是什么？", "predict": "select?x where {?x <科室> <血液科>.?x <涉及症状> <肺实变>.?x <涉及症状> <发热>. }"}
+{"label": "哪种病会出现肺实变、发热以及紫绀等症状？", "predict": "select?x where {?x <涉及症状> <肺实变>.?x <涉及症状> <发热>.?x <涉及症状> <紫绀>. }"}
+{"label": "出现发热、紫绀以及急性病容症状属于哪种病？", "predict": "select?x where {?x <涉及症状> <发热>.?x <涉及症状> <紫绀>.?x <涉及症状> <急性病容>. }"}
+{"label": "什么病可能与紫绀、急性病容以及高热相关？", "predict": "select?x where {?x <涉及症状> <紫绀>.?x <涉及症状> <急性病容>.?x <涉及症状> <高热>. }"}
+{"label": "哪些症状会涉及到急性病容、高热以及脓性分泌物等症状？", "predict": "select?x where {?x <涉及症状> <急性病容>.?x <涉及症状> <脓性分泌物>. }"}
+{"label": "与高热、脓性分泌物以及血压下降相关的疾病是什么？", "predict": "select?x where {?x <涉及症状> <高热>.?x <涉及症状> <脓性分泌物>.?x <涉及症状> <血压下降>. }"}
+{"label": "哪种病会与脓性分泌物、血压下降和尿急有关联？", "predict": "select?x where {?x <涉及症状> <脓性分泌物>.?x <涉及症状> <血压下降>.?x <涉及症状> <尿急>. }"}
+{"label": "涉及到血压下降、尿急和寒战这些症状是怎样的病？", "predict": "select?x where {?x <涉及症状> <血压下降>.?x <涉及症状> <尿急>.?x <涉及症状> <寒战>. }"}
+{"label": "患者出现尿急、寒战和肝脾肿大症状时属于哪种病？", "predict": "select?x where {?x <涉及症状> <尿急>.?x <涉及症状> <寒战>.?x <涉及症状> <肝脾肿大>. }"}
+{"label": "与慢性前列腺炎相关，还会涉及到寒战和肝脾肿大症状的疾病是什么？", "predict": "select?x where {?x <涉及症状> <寒战>.?x <涉及症状> <肝脾肿大>.?x <主要症状> <慢性前列腺炎>. }"}
+{"label": "哪种病与肝脾肿大症状、慢性前列腺炎和肝脓肿有联系？", "predict": "select?x where {?x <涉及症状> <肝脾肿大>.?x <涉及疾病> <慢性前列腺炎>.?x <涉及疾病> <肝脓肿>. }"}
+{"label": "什么病会涉及到慢性前列腺炎、肝脓肿以及急性喉气管支气管炎？", "predict": "select?x where {?x <涉及疾病> <慢性前列腺炎>.?x <涉及疾病> <肝脓肿>.?x <涉及疾病> <急性喉气管支气管炎>. }"}
+{"label": "与肝脓肿、急性喉气管支气管炎以及肝片形吸虫病相关的病是什么？", "predict": "select?x where {?x <涉及疾病> <肝脓肿>.?x <涉及疾病> <急性喉气管支气管炎>.?x <涉及疾病> <肝片形吸虫病>. }"}
+{"label": "哪种病会与肺淤血、端坐呼吸以及哮鸣音有瓜葛？", "predict": "select?x where {?x <涉及症状> <肺淤血>.?x <涉及症状> <端坐呼吸>.?x <涉及症状> <哮鸣音>. }"}
+{"label": "出现端坐呼吸、哮鸣音以及声音嘶哑时，是什么病？", "predict": "select?x where {?x <涉及症状> <端坐呼吸>.?x <涉及症状> <哮鸣音>.?x <涉及症状> <声音嘶哑>. }"}
+{"label": "与肺动脉栓塞相关，还会出现哮鸣音和声音嘶哑的症状，可能是哪种病？", "predict": "select?x where {?x <涉及症状> <肺动脉栓塞>.?x <涉及症状> <哮鸣音>.?x <涉及症状> <声音嘶哑>. }"}
+{"label": "什么病与肺动脉栓塞以及不稳定型心绞痛相关，还会涉及到声音嘶哑的病症？", "predict": "select?x where {?x <涉及症状> <肺动脉栓塞>.?x <涉及症状> <不稳定型心绞痛>.?x <涉及症状> <声音嘶哑>. }"}
+{"label": "哪种病会需要做耳、鼻、咽拭子细菌培养，而且还与低热和流鼻涕症状有关？", "predict": "select?x where {?x <涉及检查> <耳、鼻、咽拭子细菌培养>.?x <涉及症状> <低热>. }"}
+{"label": "怎样的病会涉及到低热、流鼻涕以及干咳的症状？", "predict": "select?x where {?x <涉及症状> <低热>.?x <涉及症状> <流鼻涕>.?x <涉及症状> <干咳>. }"}
+{"label": "哪种病与口炎、疱疹以及肌肉萎缩有关？", "predict": "select?x where {?x <涉及症状> <口炎>. <口炎> <涉及症状> <疱疹>. <口炎> <涉及症状> <肌肉萎缩>. }"}
+{"label": "哪些疾病会伴随疱疹、肌肉萎缩或水肿伴呼吸困难、紫绀等症状？", "predict": "select?x where {?x <涉及症状> <疱疹>.?x <涉及症状> <肌肉萎缩或水肿伴呼吸困难、紫绀>. }"}
+{"label": "患者出现肌肉萎缩、水肿伴呼吸困难、紫绀和腿脚浮肿等症状时，会与哪种病有关？", "predict": "select?x where {?x <涉及症状> <肌肉萎缩、水肿伴呼吸困难、紫绀>.?x <涉及症状> <腿脚浮肿>. }"}
+{"label": "哪些疾病会出现水肿伴呼吸困难、紫绀、以及腿脚浮肿和端坐呼吸等症状？", "predict": "select?x where {?x <涉及症状> <水肿伴呼吸困难、紫绀>.?x <涉及症状> <腿脚浮肿>.?x <涉及症状> <端坐呼吸>. }"}
+{"label": "什么病会与腿脚浮肿、端坐呼吸以及下肢水肿有关系？", "predict": "select?x where {?x <涉及症状> <腿脚浮肿>.?x <涉及症状> <端坐呼吸>.?x <涉及症状> <下肢水肿>. }"}
+{"label": "出现端坐呼吸、下肢水肿和急性呼吸困属于哪种疾病？", "predict": "select?x where {?x <涉及症状> <端坐呼吸>.?x <涉及症状> <下肢水肿>.?x <涉及症状> <急性呼吸困>. }"}
+{"label": "哪种疾病会出现下肢水肿、急性呼吸困难和浑身忽冷忽热这些症状？", "predict": "select?x where {?x <涉及症状> <下肢水肿>.?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <浑身忽冷忽热>. }"}
+{"label": "急性呼吸困难、浑身忽冷忽热和少尿这些症状可能与什么病有关？", "predict": "select?x where {?x <涉及症状> <急性呼吸困难>.?x <涉及症状> <浑身忽冷忽热>.?x <涉及症状> <少尿>. }"}
+{"label": "患者出现浑身忽冷忽热、少尿和消瘦等症状时，会是哪种病引起的？", "predict": "select?x where {?x <涉及症状> <浑身忽冷忽热>.?x <涉及症状> <少尿>.?x <涉及症状> <消瘦>. }"}
+{"label": "得了什么病能出现少尿、消瘦和声门水肿等症状？", "predict": "select?x where {?x <涉及症状> <少尿>.?x <涉及症状> <消瘦>.?x <涉及症状> <声门水肿>. }"}
+{"label": "哪种病会涉及到症状包括消瘦、声门水肿以及蠕动感？", "predict": "select?x where {?x <涉及症状> <消瘦>.?x <涉及症状> <声门水肿>.?x <涉及症状> <蠕动感>. }"}
+{"label": "与声门水肿、蠕动感以及肝肿大症状相关的疾病有什么？", "predict": "select?x where {?x <涉及症状> <声门水肿>.?x <涉及症状> <蠕动感>.?x <涉及症状> <肝肿大>. }"}
+{"label": "哪些疾病会与蠕动感、肝肿大和低蛋白血症等症状有关？", "predict": "select?x where {?x <涉及症状> <蠕动感、肝肿大、低蛋白血症>. }"}
+{"label": "怎样的疾病会有肝肿大、低蛋白血症和溃疡等症状？", "predict": "select?x where {?x <涉及症状> <肝肿大>.?x <涉及症状> <低蛋白血症>.?x <涉及症状> <溃疡>. }"}
+{"label": "涉及到低蛋白血症、溃疡以及耳内流脓等症状时，大概属于哪种疾病？", "predict": "select?x where {?x <涉及症状> <低蛋白血症>.?x <涉及症状> <溃疡>.?x <涉及症状> <耳内流脓>. }"}
+{"label": "与溃疡、耳内流脓和听力减退相关的病是哪些？", "predict": "select?x where {?x <涉及症状> <溃疡>.?x <涉及症状> <耳内流脓>.?x <涉及症状> <听力减退>. }"}
+{"label": "得了哪些病会涉及到耳内流脓、听力减退和氮质血症等症状？", "predict": "select?x where {?x <涉及症状> <耳内流脓>.?x <涉及症状> <听力减退>.?x <涉及症状> <氮质血症>. }"}
+{"label": "在医学专科中横纹肌肉瘤属于哪个科？", "predict": "select?x where { <横纹肌肉瘤> <医学专科>?x. }"}
+{"label": "梅毒有没有传染性？", "predict": "select?x where { <梅毒> <传染性>?x. }"}
+{"label": "梅毒的MeSH编号是多少？", "predict": "select?x where { <梅毒> <MeSH>?x. }"}
+{"label": "梅毒的ICD10编号是什么？", "predict": "select?x where { <梅毒> <ICD10>?x. }"}
+{"label": "梅毒的ICD9CM编号是多少？", "predict": "select?x where { <梅毒> <ICD9CM>?x. }"}
+{"label": "梅毒的eMedicine是什么？", "predict": "select?x where { <梅毒> <eMedicine>?x. }"}
+{"label": "在医学专科中梅毒属于哪个科？", "predict": "select?x where { <梅毒> <医学专科>?x. }"}
+{"label": "梅毒的DiseasesDB编号是什么？", "predict": "select?x where { <梅毒的DiseasesDB> <编号>?x. }"}
+{"label": "贫血有没有传染性？", "predict": "select?x where { <贫血> <传染性>?x. }"}
+{"label": "灭菌注射用水的用途标签是什么？", "predict": "select?x where { <灭菌注射用水> <用途标签>?x. }"}
+{"label": "防风通圣丸的用途标签是什么？", "predict": "select?x where { <防风通圣丸> <用途>?x. }"}
+{"label": "藿香正气胶囊的用途标签是什么？", "predict": "select?x where { <藿香正气胶囊> <用途>?x. }"}
