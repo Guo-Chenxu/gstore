@@ -244,6 +244,8 @@ make # 若编译顺利完成，最后会出现 Compilation ends successfully! �
 
 ### 创建数据库
 
+数据集从[这里](http://nextcloud.nginx.show/index.php/s/d5Pc4xBsk4a4WjQ)下载
+
 在 gstore 根目录下执行
 
 ```shell
