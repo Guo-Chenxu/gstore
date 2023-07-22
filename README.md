@@ -10,6 +10,7 @@
 │  README.md
 │
 ├─src
+│  │  
 │  ├─main
 │     ├─java
 │     │  └─com
@@ -45,6 +46,8 @@
 │         │
 │         ├─static
 │         └─templates
+│   
+├─test_scripts   // 测试脚本文件
 ```
 
 ## 启动
@@ -57,7 +60,7 @@
     ```shell
     g++ --version
     ```
-    需要版本大于 5.4, 否则需要安装
+   需要版本大于 5.4, 否则需要安装
     ```shell
     wget http://ftp.tsukuba.wide.ad.jp/software/gcc/releases/gcc-5.4.0/gcc-5.4.0.tar.gz
     tar xvf gcc-5.4.0.tar.gz
@@ -100,7 +103,7 @@
     ```shell
     cmake --version
     ```
-    若没有则需要安装
+   若没有则需要安装
     ```shell
     wget https://cmake.org/files/v3.6/cmake-3.6.2.tar.gz
     tar -xvf cmake-3.6.2.tar.gz && cd cmake-3.6.2/
@@ -113,7 +116,7 @@
     ```shell
     pkg-config --version
     ```
-    这个系统应该都有安装
+   这个系统应该都有安装
 7. 安装 uuid
    从[这里](http://www.mirrorservice.org/sites/ftp.ossp.org/pkg/lib/uuid/)下载压缩包
 
@@ -154,7 +157,8 @@
     make
     make install
     ```
-    ncurses 装完之后可能会缺一些动态编译文件, 需要从[这里](https://pan.baidu.com/s/1UR5bopukSXSQRSFHIQiwMg?pwd=3419)下载后复制到`/prefix/lib`目录下
+    ncurses 装完之后可能会缺一些动态编译文件, 需要从[这里](https://pan.baidu.com/s/1UR5bopukSXSQRSFHIQiwMg?pwd=3419)
+    下载后复制到`/prefix/lib`目录下
 
 全部安装完后需要配置环境变量, 打开 `~/.bashrc`, 添加以下环境变量配置 (路径要改成自己安装的路径)
 
@@ -288,10 +292,10 @@ java -jar ./target/gstore-0.0.1-SNAPSHOT.jar
 
 ## 返回状态码
 
-| 状态码 | 含义                     |
-| ------ | ------------------------ |
-| 200    | 查询正常                 |
-| 500    | 数据库连接错误或查询出错 |
-| 1001   | 查询结果为空             |
+| 状态码  | 含义           |
+|------|--------------|
+| 200  | 查询正常         |
+| 500  | 数据库连接错误或查询出错 |
+| 1001 | 查询结果为空       |
 
 接口文档可以查看[这里](https://apifox.com/apidoc/shared-45a359ee-2428-4504-b9b7-3d20f3f71a20)
