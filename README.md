@@ -287,6 +287,8 @@ nohup ./bin/ghttp -p 9030 > ghttp.log & #启动 ghttp 服务, 端口号为9030, 
 |USER|用户名, 默认为 `root`|
 |PASSWORD|密码, 默认为 `123456`|
 
+**打包并启动**:
+
 ```shell
 mvn package
 java -jar ./target/gstore-0.0.1-RELEASE.jar
