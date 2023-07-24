@@ -16,7 +16,7 @@ import java.util.Map;
 public class GstoreConnector {
 
     public static final String defaultServerIP = "127.0.0.1";
-    public static final int defaultServerPort = 9020;
+    public static final int defaultServerPort = 9030;
 
     private String serverIP;
     private int serverPort;

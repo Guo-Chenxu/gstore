@@ -271,7 +271,7 @@ filename：数据集文件名称
 
 ```shell
 ./bin/gserver -s
-nohup ./bin/ghttp -p 9020 > ghttp.log & #启动 ghttp 服务, 端口号为9020, 并将日志输出到 ghttp.log
+nohup ./bin/ghttp -p 9030 > ghttp.log & #启动 ghttp 服务, 端口号为9030, 并将日志输出到 ghttp.log
 ```
 
 ### 启动 java 程序
@@ -279,10 +279,17 @@ nohup ./bin/ghttp -p 9020 > ghttp.log & #启动 ghttp 服务, 端口号为9020, 
 **环境配置**: java 1.8
 
 **数据库配置**: GstoreConfiuration 中的配置信息
+|||
+|---|---|
+|IP|服务器的ip|
+|PORT|ghttp启动的端口号|
+|HTTP_TYPE|连接方式, 此处为`ghttp`|
+|USER|用户名, 默认为 `root`|
+|PASSWORD|密码, 默认为 `123456`|
 
 ```shell
 mvn package
-java -jar ./target/gstore-0.0.1-SNAPSHOT.jar
+java -jar ./target/gstore-0.0.1-RELEASE.jar
 ```
 
 ## 程序执行流程

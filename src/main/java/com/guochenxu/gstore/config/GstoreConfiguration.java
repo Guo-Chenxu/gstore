@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Configuration;
 public class GstoreConfiguration {
 
     private static final String IP = "10.112.41.37";
-    private static final Integer PORT = 9020;
+    private static final Integer PORT = 9030;
     private static final String HTTP_TYPE = "ghttp";
     private static final String USER = "root";
     private static final String PASSWORD = "123456";
