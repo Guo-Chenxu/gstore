@@ -274,6 +274,8 @@ filename：数据集文件名称
 nohup ./bin/ghttp -p 9030 > ghttp.log & #启动 ghttp 服务, 端口号为9030, 并将日志输出到 ghttp.log
 ```
 
+> 启动之后注意看一下日志文件是否启动成功
+
 ### 启动 java 程序
 
 **环境配置**: java 1.8
