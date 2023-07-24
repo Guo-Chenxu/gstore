@@ -279,7 +279,7 @@ nohup ./bin/ghttp -p 9030 > ghttp.log & #启动 ghttp 服务, 端口号为9030, 
 **环境配置**: java 1.8
 
 **数据库配置**: GstoreConfiuration 中的配置信息
-|||
+|字段名|含义|
 |---|---|
 |IP|服务器的ip|
 |PORT|ghttp启动的端口号|
